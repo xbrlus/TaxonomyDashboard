@@ -1,0 +1,227 @@
+/** PRONOUNS **/
+constant $personel_pronouns = set(
+    "I", "Me", "We", "Us", "You", "She", "Her", "He", "Him", "It", "They", "Them"
+)
+
+constant $relative_pronouns = set(
+    "That", "Which", "Who", "Whom", "Whose", "Whichever", "Whoever", "Whomever"
+)
+
+constant $demonstrative_pronouns = set(
+    "This", "These", "That", "Those"
+)
+
+constant $indefinite_pronouns = set(
+    "Anybody", "Anyone", "Anything", "Each", "Either", "Everybody", "Everyone", "Everything", "Neither", "Nobody", "Nothing", "One", "Somebody", "Someone", "Something", "Both", "Many", "Several", "All", "Any", "Most", "None", "Some"
+)
+
+constant $reflexive_pronouns = set(
+    "Myself", "Ourselves", "Yourself", "Yourselves", "Himself", "Herself", "Itself", "Themselves"
+)
+
+constant $interrogative_pronouns = set(
+    "What", "Who", "Which", "Whom", "Whose"
+)
+
+constant $possessive_pronouns = set("My", "Our", "Your", "His", "Her", "Its", "Their", "Mine", "Ours", "Yours", "Hers", "Theirs"
+)
+
+/** ARTICLES **/
+
+constant $articles = set(
+    "A", "The"
+)
+
+/** Invalid Characters **/
+
+constant $invalid_chars = set("!","#","&","*","+","-") + set("/","<","=",">","?","@","^","_","`","\{","|","}","~","%")
+
+/** Use of Total **/
+
+constant $invalid_total = set("Total", "Totals", "Total,")
+
+/** Double spaces **/
+
+constant $double_space = set("  ")
+
+/** STANDARD LABELS **/
+constant $exception_pronouns = set("That", "One", "All", "Any", "Which", "Most")
+
+constant $pronouns_Articles_Chars = $personel_pronouns + $relative_pronouns + $demonstrative_pronouns + $demonstrative_pronouns + $indefinite_pronouns + $reflexive_pronouns + $interrogative_pronouns + $possessive_pronouns + $articles  + $invalid_chars + $invalid_total - $exception_pronouns
+
+constant $pronouns_in_sentence = filter $pronouns_Articles_Chars returns " " + lower-case($item) + " "
+
+constant $pronouns_start_sentence = filter $pronouns_Articles_Chars returns $item + " "
+
+
+constant $pronouns_in_string = $pronouns_start_sentence + $pronouns_in_sentence + $double_space
+
+constant $standard_labels = (filter taxonomy().concepts returns list($item, $item.label.text))
+
+
+/** DOCUMENTATION PRONOUNS **/
+constant $doc_labels = (filter taxonomy().concepts where not $item.is-abstract returns list($item, $item.label("http://www.xbrl.org/2003/role/documentation").text))
+
+constant $doc_exception_pronouns = set("It", "Its")
+
+constant $doc_pronouns = $personel_pronouns + $possessive_pronouns - $doc_exception_pronouns
+
+constant $doc_pronouns_in_sentence = filter $doc_pronouns returns " " + lower-case($item) + " "
+
+constant $doc_pronouns_start_sentence = filter $doc_pronouns returns $item + " "
+
+constant $doc_pronouns_in_string = $doc_pronouns_start_sentence + $doc_pronouns_in_sentence
+
+
+
+/**{T1009} ERROR: Use of Article (3.1)**/
+
+/**{T1010} ERROR: Use of Pronoun (3.3) **/
+
+assert l0002 satisfied
+$pronoun_used = filter (
+                    filter $standard_labels 
+                        returns
+                                    list($item[1], 
+                                    $label = $item[2];
+                                    filter $pronouns_in_string 
+                                        where $label.contains($item) returns list($label,$item)
+                                    )
+                    ) where $item[2].length > 0;
+
+$pronoun_used.length > 0
+
+message
+"The following strings  were used in the standard labels of the following concepts.  Standard labels cannot contain pronouns, articles the word total, double spaces and special characters:
+{list(for $x in $pronoun_used
+    $concept = $x[1]
+    for $y in $x[2]
+        "Concept: " + $concept.name.local-name + ", Label: " + $y[1] + ", BadWord: " + $y[2] + "
+").join("")
+}"
+
+
+assert l0003 satisfied
+$pronoun_used = filter (
+                    filter $doc_labels 
+                        returns
+                                    list($item[1], 
+                                    $label = $item[2];
+                                    filter ($doc_pronouns_in_string)
+                                        where $label.contains($item) returns list($label,$item)
+                                    )
+                    ) where $item[2].length > 0;
+
+$pronoun_used.length > 0
+
+message
+"The following pronouns were used in elements:
+{list(for $x in $pronoun_used
+    $concept = $x[1]
+    for $y in $x[2]
+        "Concept: " + $concept.name.local-name + ", Label: " + $y[1] + ", BadWord: " + $y[2] + "
+").join("")
+}"
+
+/**{T1021} ERROR: Concept Missing Definition (3.3.1)**/
+
+assert l0004 satisfied
+$test_items =  filter  $valid-concepts where not $item.is-abstract;
+
+$missing_doc = filter $test_items where $item.label("http://www.xbrl.org/2003/role/documentation").text == none;
+if $missing_doc  == none
+    skip
+else
+    $missing_doc.length > 0
+
+message
+"The following non abstract concepts do not have documentation labels associated with them.
+The items are as follows:
+{$missing_doc.join(",
+")}"
+
+/**{T1126} ERROR: The documentation of a concept MUST end with a period.**/
+assert l0005 satisfied
+$test_items =  filter  $valid-concepts where not $item.is-abstract;
+
+$pronoun_used = filter (
+                    filter $doc_labels 
+                        returns
+                                    list($item[1], 
+                                    $label = $item[2];
+                                    $labelLength = $label.length;
+                                    $lastChar = $label.substring($labelLength);
+                                    filter (set("."))
+                                        where $lastChar != $item and $lastChar != ")" returns list($label,$lastChar)
+                                    )
+                    ) where $item[2].length > 0 ;
+
+$pronoun_used.length > 0
+
+
+message
+"The following documentation labels do not end with a period:
+{list(for $x in $pronoun_used
+    $concept = $x[1]
+    for $y in $x[2]
+        "Concept: " + $concept.name.local-name + ", Label: " + $y[1] + ", BadWord: " + $y[2] + "
+").join("")
+}"
+
+assert l0006 satisfied
+
+$all_tables = filter $valid-concepts where $item.substitution.local-name == "hypercubeItem";
+
+for $t in $all_tables
+   $label = $t.label.text
+   if $label.contains("[Table]")
+        false
+    else
+        true
+
+message
+"The table {$t.name} does not contain the text [Table] in the label {$label}."
+
+assert l0007 satisfied
+
+$all_axis = filter $valid-concepts where $item.substitution.local-name == "dimensionItem";
+
+for $a in $all_axis
+   $label = $a.label.text
+   if $label.contains("[Axis]")
+        false
+    else
+        true
+
+message
+"The dimension {$a.name} does not contain the text [Axis] in the label {$label}."
+
+assert l0008 satisfied
+
+$all_members= filter $valid-concepts where $item.data-type.name.local-name == "domainItemType" and $item.name.local-name.contains("Member");
+
+for $m in $all_members
+   $label = $m.label.text
+   if $label.contains("[Member]")
+        false
+    else
+        true
+
+message
+"The member {$m.name} does not contain the text [Member] in the label {$label}."
+
+
+assert l0009 satisfied
+
+$all_members= filter $valid-concepts where $item.data-type.name.local-name == "domainItemType" and $item.name.local-name.contains("Domain");
+
+for $m in $all_members
+   $label = $m.label.text
+   if $label.contains("[Domain]")
+        false
+    else
+        true
+
+message
+"The domain member {$m.name} does not contain the text [Domain] in the label {$label}."
+

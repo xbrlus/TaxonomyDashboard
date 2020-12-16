@@ -1,0 +1,9 @@
+{
+    "xule.autoImports": [
+        "namespace.xule",
+        "constant.xule"  
+    ],
+    "xule.namespaces.definitions": [
+    
+    ]
+}

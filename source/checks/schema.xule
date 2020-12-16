@@ -1,0 +1,91 @@
+/**ERROR: Abstract concepts periodType MUST be duration (PAT 1.3)(SGS 3.5.3)**/
+
+
+
+assert s0001 satisfied
+$invalid_items =  filter  $valid-concepts where $item.is-abstract and $item.period-type != duration;
+
+if $invalid_items  == none
+    skip
+else
+    $invalid_items.length > 0
+
+message
+"The following items are abstract items but do not have a period-type of duration.
+The items are as follows:
+{$invalid_items.join(",
+")}"
+
+/** {T1107} ERROR: Abstract concepts data type  MUST be a string **/
+
+assert s0002 satisfied
+$invalid_items2 = filter  $valid-concepts where $item.is-abstract and $item.base-type.name != xbrli:stringItemType;
+
+if $invalid_items2.length  == none
+    skip
+else
+    $invalid_items2.length > 0
+
+message
+"The following items are abstract items but do not have a string item type.
+The items are as follows:
+{$invalid_items2.join(",
+")}"
+
+
+/** {T1108} ERROR: Monetary concept MUST have a balance attribute  **/
+assert s0003 satisfied
+$invalid_items3 =  filter  $valid-concepts where $item.balance == none and $item.data-type ==  xbrli:monetaryItemType;
+
+if $invalid_items3.length == none
+    skip
+else
+    $invalid_items3.length > 0
+
+message
+"The following items are monetary items but do not have a balance type.
+The items are as follows:
+{$invalid_items3.join(",
+")}"
+
+/** {T1125} ERROR: Concepts that are strings MUST have a duration period type.  **/
+
+assert s0004 satisfied
+$invalid_items4 = filter  $valid-concepts where $item.period-type != duration and $item.base-type.name == xbrli:stringItemType;
+
+if $invalid_items4.length == none
+    skip
+else
+    $invalid_items4.length > 0
+
+message
+"The following items are string items but do not have a duration period type.
+The items are as follows:
+{$invalid_items4.join(",
+")}"
+
+/** {T1109} ERROR:  [Axis] MUST be abstract (PAT 3.2) **/
+
+assert s0005 satisfied
+$invalid_items = filter $valid-concepts where not $item.is-abstract and $item.substitution.local-name == "dimensionItem";
+
+$invalid_items.length > 0
+
+message
+"The following items are axis items but are not abstracts.
+The items are as follows:
+{$invalid_items.join(",
+")}"
+
+/** {T1070} ERROR:  [Table] MUST be abstract (Table Style 1A)**/
+
+assert s0006 satisfied
+$invalid_items = filter $valid-concepts where not $item.is-abstract and $item.substitution.local-name == "hypercubeItem";
+
+$invalid_items.length > 0
+
+message
+"The following items are table items but are not abstracts.
+The items are as follows:
+{$invalid_items.join(",
+")}"

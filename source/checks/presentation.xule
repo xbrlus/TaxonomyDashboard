@@ -1,0 +1,49 @@
+/**{T1057} ERROR: [Table] MUST NOT have children other than [Axis] or [Line Items] (Table Style 8)**/
+
+
+assert p0001 satisfied
+
+$all_tables = filter $valid-concepts where $item.substitution.local-name == "hypercubeItem";
+
+for $t in $all_tables
+    $childrenOfTable = navigate parent-child children from $t returns target;
+    $invalidConcept = (filter $childrenOfTable where $item.substitution.local-name != "dimensionItem" and not $item.name.local-name.contains("LineItems")).to-set;
+    $invalidConcept.length > 0
+
+message
+"The table concept {$t.name} has child elements that are not LineItems or Dimensions. A table should only have these two concept types. The following concepts were identified:
+{$invalidConcept.join(",")}."
+
+
+
+
+/**{T1096} ERROR:  An [Axis] MUST NOT appear except as a child of a [Table]**/
+
+assert p0002 satisfied
+
+$all_axis = filter $valid-concepts where $item.substitution.local-name == "dimensionItem";
+
+for $t in $all_axis
+    $parentOfAxis = navigate parent-child parents from $t returns target;
+    $invalidTable = (filter $parentOfAxis where $item.substitution.local-name != "hypercubeItem").to-set;
+    $invalidTable.length > 0
+
+message
+"The axis concept {$t.name} has a parent element that is not a table. A dimension should only have a table as a parent. The following concepts were identified as inappropriate:
+{$invalidTable.join(",")}."
+
+
+/** {T1097} ERROR:  All descendants of an [Axis] MUST have a datatype of 'us-types:domainItemType'  **/
+
+assert p0003 satisfied
+
+$all_axis = filter $valid-concepts where $item.substitution.local-name == "dimensionItem";
+
+for $a in $all_axis
+    $descendantsOfAxis = navigate parent-child descendants from $a returns target;
+    $invalidmember = (filter $descendantsOfAxis where $item.data-type.name.local-name != "domainItemType").to-set;
+    $invalidmember.length > 0
+
+message
+"The axis concept {$a.name} has a descendant element that is not a member. A dimension should only have a member as a descendant. The following concepts were identified as inappropriate:
+{$invalidmember.join(",")}."

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<log>
+<entry code="info" level="info">
+ <message>[info] Activation of plug-in XBRL rule processor (xule) successful, version Check version using Tools->Xule->Version on the GUI or --xule-version on the command line. - xule </message>
+ <ref href="xule"/></entry>
+<entry code="info" level="info">
+ <message>[info] Xule version: 3.0.23068 - </message>
+ <ref href=""/></entry>
+<entry code="info" level="info">
+ <message>[info] loaded in 4.44 secs at 2020-12-15T21:54:55 - /Users/campbellpryde/Documents/GitHub/FERC-TaggingGuidance/Instance/Sample_Form_1-Small.xbrl </message>
+ <ref href="/Users/campbellpryde/Documents/GitHub/FERC-TaggingGuidance/Instance/Sample_Form_1-Small.xbrl"/></entry>
+<entry code="info" level="info">
+ <message>[info] validated in 2.82 secs - /Users/campbellpryde/Documents/GitHub/FERC-TaggingGuidance/Instance/Sample_Form_1-Small.xbrl </message>
+ <ref href="/Users/campbellpryde/Documents/GitHub/FERC-TaggingGuidance/Instance/Sample_Form_1-Small.xbrl"/></entry>
+</log>
+<?xml version="1.0" encoding="utf-8"?>
+<log>
+<entry code="info" level="info">
+ <message>[info] Activation of plug-in XBRL rule processor (xule) successful, version Check version using Tools->Xule->Version on the GUI or --xule-version on the command line. - xule </message>
+ <ref href="xule"/></entry>
+<entry code="info" level="info">
+ <message>[info] Xule version: 3.0.23068 - </message>
+ <ref href=""/></entry>
+<entry code="info" level="info">
+ <message>[info] loaded in 4.24 secs at 2020-12-15T21:56:03 - /Users/campbellpryde/Documents/GitHub/FERC-TaggingGuidance/Instance/Sample_Form_1-Small.xbrl </message>
+ <ref href="/Users/campbellpryde/Documents/GitHub/FERC-TaggingGuidance/Instance/Sample_Form_1-Small.xbrl"/></entry>
+<entry code="info" level="info">
+ <message>[info] validated in 2.68 secs - /Users/campbellpryde/Documents/GitHub/FERC-TaggingGuidance/Instance/Sample_Form_1-Small.xbrl </message>
+ <ref href="/Users/campbellpryde/Documents/GitHub/FERC-TaggingGuidance/Instance/Sample_Form_1-Small.xbrl"/></entry>
+</log>

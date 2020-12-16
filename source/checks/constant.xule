@@ -1,0 +1,1 @@
+constant $valid-concepts = filter taxonomy().concepts where $item.name not in list(xbrli:tuple, xbrli:item)
