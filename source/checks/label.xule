@@ -225,3 +225,17 @@ for $m in $all_members
 message
 "The domain member {$m.name} does not contain the text [Domain] in the label {$label}."
 
+assert l0010 satisfied
+$test_items =  filter  $valid-concepts where not $item.is-abstract;
+
+$missing_doc = filter $test_items where $item.label("http://www.xbrl.org/2003/role/label").text == none;
+if $missing_doc  == none
+    skip
+else
+    $missing_doc.length > 0
+
+message
+"The following non abstract concepts do not have standrd labels associated with them.
+The items are as follows:
+{$missing_doc.join(",
+")}"
