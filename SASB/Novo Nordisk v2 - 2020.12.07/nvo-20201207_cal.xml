@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--XBRL Document Created with Wdesk from Workiva-->
+<!--Copyright 2020 Workiva-->
+<!--r:4dc17fff-a4b5-4990-a199-6cec09c385d3,g:616d6790-1169-4c4b-bc95-2884efae7446-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+  <link:roleRef roleURI="http://novonordisk.com/role/AccountingMetricsDetails" xlink:type="simple" xlink:href="nvo-20201207.xsd#AccountingMetricsDetails"/>
+  <link:calculationLink xlink:role="http://novonordisk.com/role/AccountingMetricsDetails" xlink:type="extended"/>
+  <link:roleRef roleURI="http://novonordisk.com/role/ActivityMetricsDetails" xlink:type="simple" xlink:href="nvo-20201207.xsd#ActivityMetricsDetails"/>
+  <link:calculationLink xlink:role="http://novonordisk.com/role/ActivityMetricsDetails" xlink:type="extended"/>
+  <link:roleRef roleURI="http://novonordisk.com/role/ConsumerGoodsECommerceCGECStatement" xlink:type="simple" xlink:href="nvo-20201207.xsd#ConsumerGoodsECommerceCGECStatement"/>
+  <link:calculationLink xlink:role="http://novonordisk.com/role/ConsumerGoodsECommerceCGECStatement" xlink:type="extended"/>
+</link:linkbase>

@@ -164,7 +164,7 @@ message
 {list(for $x in $pronoun_used
     $concept = $x[1]
     for $y in $x[2]
-        "Concept: " + $concept.name.local-name + ", Label: " + $y[1] + ", BadWord: " + $y[2] + "
+        "Concept: " + $concept.name.local-name + ", Label: " + $y[1] + ", LastChracter: " + $y[2] + "
 ").join("")
 }"
 

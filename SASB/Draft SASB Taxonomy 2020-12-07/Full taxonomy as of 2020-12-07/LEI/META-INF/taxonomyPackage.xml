@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tp:taxonomyPackage xml:lang="en" xmlns:tp="http://xbrl.org/2016/taxonomy-package"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xbrl.org/2016/taxonomy-package http://www.xbrl.org/2016/taxonomy-package.xsd">
+  <tp:identifier>http://www.xbrl.org/taxonomy/int/lei/2020-07-02</tp:identifier> 
+  <tp:name>Legal Entity Identifier Taxonomy</tp:name>
+  <tp:description>This taxonomy provides a standard concept and datatype for including Legal Entity Identifiers in XBRL Reports.  Formula validation ensures that the identifiers have a valid checksum.  In additional, formula validation will ensure that any entity identifiers defined using a scheme of "http://standards.iso.org/iso/17442" are in the correct format, and pass checksum validation. </tp:description>
+  <tp:version>2020-07-02 (REC)</tp:version>
+  <tp:publisher>XBRL International Inc.</tp:publisher>
+  <tp:publisherURL>https://www.xbrl.org/</tp:publisherURL>
+  <tp:publisherCountry>US</tp:publisherCountry>
+  <tp:publicationDate>2020-07-02</tp:publicationDate>
+  <tp:entryPoints>
+    <tp:entryPoint>
+      <tp:name>Legal Entity Identifier</tp:name>
+      <tp:description>Element, item type and associated formula rules for enforcing format and checksum of Legal Entity Identifiers.</tp:description>
+      <tp:entryPointDocument href="https://www.xbrl.org/taxonomy/int/lei/2020-07-02/lei.xsd"/>
+    </tp:entryPoint>
+    <tp:entryPoint>
+      <tp:name>Legal Entity Identifier (required primary identifier)</tp:name>
+      <tp:description>Referencing this entry point will enforce that all facts in the instance are reported using an LEI with the correct scheme ("http://standards.iso.org/iso/17442").</tp:description>
+      <tp:entryPointDocument href="https://www.xbrl.org/taxonomy/int/lei/2020-07-02/lei-required.xsd"/>
+    </tp:entryPoint>
+    <tp:entryPoint>
+      <tp:name>LEI formula functions</tp:name>
+      <tp:description>Entry point providing LEI formula functions only.  These can be used to check the LEI format and checksum.  Implementers will need to incorporate these into their own formula assertions.</tp:description>
+      <tp:entryPointDocument href="https://www.xbrl.org/taxonomy/int/lei/2020-07-02/lei-formula-functions.xsd"/>
+    </tp:entryPoint>
+  </tp:entryPoints>
+</tp:taxonomyPackage>
