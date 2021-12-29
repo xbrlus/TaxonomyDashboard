@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--XBRL Document Created with Wdesk from Workiva-->
+<!--Copyright 2020 Workiva-->
+<!--r:4dc17fff-a4b5-4990-a199-6cec09c385d3,g:616d6790-1169-4c4b-bc95-2884efae7446-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:nvo="http://novonordisk.com/20201207" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://novonordisk.com/20201207">
+  <xs:import namespace="http://www.sasb.org/xbrl/taxonomy/cor" schemaLocation="http://www.sasb.org/xbrl/taxonomy/cor/sasb.xsd"/>
+  <xs:import namespace="http://www.w3.org/1999/xlink" schemaLocation="http://www.xbrl.org/2003/xlink-2003-12-31.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xs:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+
+</xs:schema>

@@ -2,6 +2,9 @@
 	"folders": [
 		{
 			"path": "source/checks"
+		},
+		{
+			"path": "SASB"
 		}
 	],
 	"settings": {}

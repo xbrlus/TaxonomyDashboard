@@ -84,7 +84,7 @@ $pronoun_used = filter (
                         returns
                                     list($item[1], 
                                     $label = $item[2];
-                                    filter $pronouns_in_string 
+                                    filter ($pronouns_in_string)
                                         where $label.contains($item) returns list($label,$item)
                                     )
                     ) where $item[2].length > 0;
@@ -141,6 +141,8 @@ The items are as follows:
 ")}"
 
 /**{T1126} ERROR: The documentation of a concept MUST end with a period.**/
+
+
 assert l0005 satisfied
 $test_items =  filter  $valid-concepts where not $item.is-abstract;
 
@@ -164,9 +166,11 @@ message
 {list(for $x in $pronoun_used
     $concept = $x[1]
     for $y in $x[2]
-        "Concept: " + $concept.name.local-name + ", Label: " + $y[1] + ", LastChracter: " + $y[2] + "
+        "Concept: " + $concept.namespace-uri + ":" + $concept.name.local-name + ", Label: " + $y[1] + ", LastCharacter: " + $y[2] + "
 ").join("")
 }"
+
+
 
 assert l0006 satisfied
 
@@ -239,3 +243,4 @@ message
 The items are as follows:
 {$missing_doc.join(",
 ")}"
+

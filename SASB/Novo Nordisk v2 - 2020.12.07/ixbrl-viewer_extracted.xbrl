@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xbrl
+  xml:lang="en-US"
+  xmlns="http://www.xbrl.org/2003/instance"
+  xmlns:link="http://www.xbrl.org/2003/linkbase"
+  xmlns:nvo="http://novonordisk.com/20201207"
+  xmlns:sasb="http://www.sasb.org/xbrl/taxonomy/cor"
+  xmlns:xbrldi="http://xbrl.org/2006/xbrldi"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+    <link:schemaRef xlink:href="nvo-20201207.xsd" xlink:type="simple"/>
+    <context id="i71c8f613116f4f1b89f6987eeccc967d_D20190101-20191231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000353278</identifier>
+        </entity>
+        <period>
+            <startDate>2019-01-01</startDate>
+            <endDate>2019-12-31</endDate>
+        </period>
+    </context>
+    <context id="ie3ec6a66056b4493bc812c7350e06fef_I20191231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000353278</identifier>
+        </entity>
+        <period>
+            <instant>2019-12-31</instant>
+        </period>
+    </context>
+    <context id="i968c0a667b554e33907874bc453b509b_I20181231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000353278</identifier>
+        </entity>
+        <period>
+            <instant>2018-12-31</instant>
+        </period>
+    </context>
+    <context id="id31b12b8986f4a30b2de9a172edade10_I20171231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000353278</identifier>
+        </entity>
+        <period>
+            <instant>2017-12-31</instant>
+        </period>
+    </context>
+    <context id="i790d2f1d13374a9e847a599fe7feb055_D20180101-20181231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000353278</identifier>
+        </entity>
+        <period>
+            <startDate>2018-01-01</startDate>
+            <endDate>2018-12-31</endDate>
+        </period>
+    </context>
+    <context id="i5e8e6691e0bb4986b05e5d580c556b8d_D20170101-20171231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000353278</identifier>
+        </entity>
+        <period>
+            <startDate>2017-01-01</startDate>
+            <endDate>2017-12-31</endDate>
+        </period>
+    </context>
+    <context id="idcd955891bc144b3867af2266060a575_D20190101-20191231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000353278</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="sasb:GenderAxis">sasb:MaleMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2019-01-01</startDate>
+            <endDate>2019-12-31</endDate>
+        </period>
+    </context>
+    <context id="ia949065de7884a4580429c89c08cba34_D20190101-20191231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000353278</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="sasb:GenderAxis">sasb:FemaleMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2019-01-01</startDate>
+            <endDate>2019-12-31</endDate>
+        </period>
+    </context>
+    <context id="iec4dd41003604a1591ba67856008d094_D20180101-20181231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000353278</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="sasb:GenderAxis">sasb:MaleMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2018-01-01</startDate>
+            <endDate>2018-12-31</endDate>
+        </period>
+    </context>
+    <context id="iab97778641ff426ba5a33ab7f5dec6a6_D20180101-20181231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000353278</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="sasb:GenderAxis">sasb:FemaleMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2018-01-01</startDate>
+            <endDate>2018-12-31</endDate>
+        </period>
+    </context>
+    <context id="ie28c4b855a9e4071a39ca9c237eb15da_D20170101-20171231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000353278</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="sasb:GenderAxis">sasb:MaleMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2017-01-01</startDate>
+            <endDate>2017-12-31</endDate>
+        </period>
+    </context>
+    <context id="i5dd526452a3049e5bc94803580ecf1b8_D20170101-20171231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000353278</identifier>
+            <segment>
+                <xbrldi:explicitMember dimension="sasb:GenderAxis">sasb:FemaleMember</xbrldi:explicitMember>
+            </segment>
+        </entity>
+        <period>
+            <startDate>2017-01-01</startDate>
+            <endDate>2017-12-31</endDate>
+        </period>
+    </context>
+    <unit id="inspection">
+        <measure>nvo:inspection</measure>
+    </unit>
+    <unit id="recall">
+        <measure>nvo:recall</measure>
+    </unit>
+    <unit id="action">
+        <measure>nvo:action</measure>
+    </unit>
+    <unit id="patient">
+        <measure>nvo:patient</measure>
+    </unit>
+    <unit id="drug">
+        <measure>nvo:drug</measure>
+    </unit>
+    <unit id="employee">
+        <measure>nvo:employee</measure>
+    </unit>
+    <unit id="number">
+        <measure>pure</measure>
+    </unit>
+    <sasb:ProcessesForObtainingInformedConsentOfIncentivesOfferedToParticipantsAndOfAnyClinicalTrialsTerminatedDueToFailureToFollowGoodClinicalPracticeStandardsTextBlock
+      contextRef="i71c8f613116f4f1b89f6987eeccc967d_D20190101-20191231"
+      id="id3VybDovL2RvY3MudjEvZG9jOjNmYWY3MmFjZGJkZTQ3MGQ4NmMyZmI5ZjA3NmRkOGRiL3NlYzozZmFmNzJhY2RiZGU0NzBkODZjMmZiOWYwNzZkZDhkYl8zMi9mcmFnOjhkMmFlNjNlMGUwMjQ0MTdiZDUwYzVhMmZmNTA4NGI2L3RhYmxlOjI1NTg1ZTg5ODEzOTRmZmM5MjhmZWRmMmM1OTYzNGIwL3RhYmxlcmFuZ2U6MjU1ODVlODk4MTM5NGZmYzkyOGZlZGYyYzU5NjM0YjBfMS01LTEtMS0xMTY_6dd17574-7378-47e5-802f-db3a3696c9cb">&lt;div&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:7pt;font-weight:400;line-height:100%"&gt;Every day, millions of people rely on the quality and safety of our products.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;br/&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style="margin-bottom:9pt"&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:7pt;font-weight:400;line-height:100%"&gt;All medicines have potential side effects as well as benefits. We routinely monitor the safety and quality of all our products. This includes review of safety data from clinical studies and review of side effects and technical complaints received on marketed products. By monitoring quality and safety information on our products we can take due and appropriate actions to safeguard patient safety if needed.&lt;/span&gt;&lt;/div&gt;&lt;div style="margin-bottom:9pt"&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:7pt;font-weight:400;line-height:100%"&gt;We have in place a Quality Management System to ensure that we adhere to international and local legislation and that safety information is handled in the same way no matter in which country the patient lives. &lt;/span&gt;&lt;/div&gt;&lt;div style="margin-bottom:9pt"&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:7pt;font-weight:400;line-height:100%"&gt;Our Global Safety team has a pharmacovigilance system in place ensuring that the necessary means for collection and notification of any safety data are in place.&lt;/span&gt;&lt;/div&gt;&lt;div style="margin-bottom:9pt"&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:7pt;font-weight:400;line-height:100%"&gt;Prior to any clinical investigation of a new pharmaceutical product or medical device, a safety committee with members from all relevant functional areas is established. This committee will exist throughout the product or device’s life-cycle. It is a multi-disciplinary team providing assessments of safety data, for a pharmaceutical product or medical device in development or on the market.&lt;/span&gt;&lt;/div&gt;&lt;div style="margin-bottom:9pt"&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:7pt;font-weight:400;line-height:100%"&gt;Our Quality Management System includes the following process to ensure we continuously assess risks and act upon findings in a timely manner:  &lt;/span&gt;&lt;/div&gt;&lt;div style="margin-bottom:9pt;padding-left:36pt;text-indent:-18pt"&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:7pt;font-weight:400;line-height:100%"&gt;•&lt;/span&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:7pt;font-weight:400;line-height:100%;padding-left:15.55pt"&gt;Information about side effects, technical complaints and counterfeits are received from multiple sources, for example clinical trial participants, patients, healthcare professionals, partner companies, health authorities and literature&lt;/span&gt;&lt;/div&gt;&lt;div style="margin-bottom:9pt;padding-left:36pt;text-indent:-18pt"&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:7pt;font-weight:400;line-height:100%"&gt;•&lt;/span&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:7pt;font-weight:400;line-height:100%;padding-left:15.55pt"&gt;This information is entered into our complaint database, and side effects are also transferred and evaluated in the Novo Nordisk safety database&lt;/span&gt;&lt;/div&gt;&lt;div style="margin-bottom:9pt;padding-left:36pt;text-indent:-18pt"&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:7pt;font-weight:400;line-height:100%"&gt;•&lt;/span&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:7pt;font-weight:400;line-height:100%;padding-left:15.55pt"&gt;Regular analysis of data in the safety database is done to look for patterns associated with complaints, including side effects, such as new types or higher frequency of side effects.&lt;/span&gt;&lt;/div&gt;&lt;div style="margin-bottom:9pt;padding-left:36pt;text-indent:-18pt"&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:7pt;font-weight:400;line-height:100%"&gt;•&lt;/span&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:7pt;font-weight:400;line-height:100%;padding-left:15.55pt"&gt;In parallel, the health authorities independently review the information. This dual system for surveillance of data ensures optimal patient safety.&lt;/span&gt;&lt;/div&gt;&lt;div style="margin-bottom:9pt;padding-left:36pt;text-indent:-18pt"&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:7pt;font-weight:400;line-height:100%"&gt;•&lt;/span&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:7pt;font-weight:400;line-height:100%;padding-left:15.55pt"&gt;All relevant safety data from clinical trials, as well as safety data on marketed products, is presented to the safety committee on a regular basis. &lt;/span&gt;&lt;/div&gt;&lt;div style="margin-bottom:9pt;padding-left:36pt;text-indent:-18pt"&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:7pt;font-weight:400;line-height:100%"&gt;•&lt;/span&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:7pt;font-weight:400;line-height:100%;padding-left:15.55pt"&gt;The safety committee decides on any necessary actions and the safety committee chairperson ensures actions are communicated to the relevant Novo Nordisk business area(s) for implementation. Actions could include advice on how the medicine should be used, inclusion of new warnings in the package leaflet, or ultimately stopping the use of the product.&lt;/span&gt;&lt;/div&gt;&lt;div style="margin-bottom:9pt"&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:7pt;font-weight:400;line-height:100%"&gt;Further procedures ensure we can react promptly and adequately if one of our products on the market, or used in clinical trials, is suspected of being affected by a significant product defect, such as recalling affected products.&lt;/span&gt;&lt;/div&gt;&lt;div style="margin-bottom:9pt"&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:7pt;font-weight:400;line-height:100%"&gt;We are committed to patient safety and want to make it easy for patients to get in contact with us, if they have a complaint or want to report a side effect. Therefore, we have established easily accessible online complaint reporting directions with contact information in local language.&lt;/span&gt;&lt;/div&gt;</sasb:ProcessesForObtainingInformedConsentOfIncentivesOfferedToParticipantsAndOfAnyClinicalTrialsTerminatedDueToFailureToFollowGoodClinicalPracticeStandardsTextBlock>
+    <sasb:ManagementProcessForEnsuringQualityAndPatientSafetyDuringClinicalTrialsTextBlock
+      contextRef="i71c8f613116f4f1b89f6987eeccc967d_D20190101-20191231"
+      id="id3VybDovL2RvY3MudjEvZG9jOjNmYWY3MmFjZGJkZTQ3MGQ4NmMyZmI5ZjA3NmRkOGRiL3NlYzozZmFmNzJhY2RiZGU0NzBkODZjMmZiOWYwNzZkZDhkYl8zMi9mcmFnOjhkMmFlNjNlMGUwMjQ0MTdiZDUwYzVhMmZmNTA4NGI2L3RhYmxlOjI1NTg1ZTg5ODEzOTRmZmM5MjhmZWRmMmM1OTYzNGIwL3RhYmxlcmFuZ2U6MjU1ODVlODk4MTM5NGZmYzkyOGZlZGYyYzU5NjM0YjBfMS01LTEtMS0xMTY_8bb69854-886c-4269-9ba0-e6dedb55b787">&lt;div&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:7pt;font-weight:400;line-height:100%"&gt;Every day, millions of people rely on the quality and safety of our products.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;br/&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style="margin-bottom:9pt"&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:7pt;font-weight:400;line-height:100%"&gt;All medicines have potential side effects as well as benefits. We routinely monitor the safety and quality of all our products. This includes review of safety data from clinical studies and review of side effects and technical complaints received on marketed products. By monitoring quality and safety information on our products we can take due and appropriate actions to safeguard patient safety if needed.&lt;/span&gt;&lt;/div&gt;&lt;div style="margin-bottom:9pt"&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:7pt;font-weight:400;line-height:100%"&gt;We have in place a Quality Management System to ensure that we adhere to international and local legislation and that safety information is handled in the same way no matter in which country the patient lives. &lt;/span&gt;&lt;/div&gt;&lt;div style="margin-bottom:9pt"&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:7pt;font-weight:400;line-height:100%"&gt;Our Global Safety team has a pharmacovigilance system in place ensuring that the necessary means for collection and notification of any safety data are in place.&lt;/span&gt;&lt;/div&gt;&lt;div style="margin-bottom:9pt"&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:7pt;font-weight:400;line-height:100%"&gt;Prior to any clinical investigation of a new pharmaceutical product or medical device, a safety committee with members from all relevant functional areas is established. This committee will exist throughout the product or device’s life-cycle. It is a multi-disciplinary team providing assessments of safety data, for a pharmaceutical product or medical device in development or on the market.&lt;/span&gt;&lt;/div&gt;&lt;div style="margin-bottom:9pt"&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:7pt;font-weight:400;line-height:100%"&gt;Our Quality Management System includes the following process to ensure we continuously assess risks and act upon findings in a timely manner:  &lt;/span&gt;&lt;/div&gt;&lt;div style="margin-bottom:9pt;padding-left:36pt;text-indent:-18pt"&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:7pt;font-weight:400;line-height:100%"&gt;•&lt;/span&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:7pt;font-weight:400;line-height:100%;padding-left:15.55pt"&gt;Information about side effects, technical complaints and counterfeits are received from multiple sources, for example clinical trial participants, patients, healthcare professionals, partner companies, health authorities and literature&lt;/span&gt;&lt;/div&gt;&lt;div style="margin-bottom:9pt;padding-left:36pt;text-indent:-18pt"&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:7pt;font-weight:400;line-height:100%"&gt;•&lt;/span&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:7pt;font-weight:400;line-height:100%;padding-left:15.55pt"&gt;This information is entered into our complaint database, and side effects are also transferred and evaluated in the Novo Nordisk safety database&lt;/span&gt;&lt;/div&gt;&lt;div style="margin-bottom:9pt;padding-left:36pt;text-indent:-18pt"&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:7pt;font-weight:400;line-height:100%"&gt;•&lt;/span&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:7pt;font-weight:400;line-height:100%;padding-left:15.55pt"&gt;Regular analysis of data in the safety database is done to look for patterns associated with complaints, including side effects, such as new types or higher frequency of side effects.&lt;/span&gt;&lt;/div&gt;&lt;div style="margin-bottom:9pt;padding-left:36pt;text-indent:-18pt"&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:7pt;font-weight:400;line-height:100%"&gt;•&lt;/span&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:7pt;font-weight:400;line-height:100%;padding-left:15.55pt"&gt;In parallel, the health authorities independently review the information. This dual system for surveillance of data ensures optimal patient safety.&lt;/span&gt;&lt;/div&gt;&lt;div style="margin-bottom:9pt;padding-left:36pt;text-indent:-18pt"&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:7pt;font-weight:400;line-height:100%"&gt;•&lt;/span&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:7pt;font-weight:400;line-height:100%;padding-left:15.55pt"&gt;All relevant safety data from clinical trials, as well as safety data on marketed products, is presented to the safety committee on a regular basis. &lt;/span&gt;&lt;/div&gt;&lt;div style="margin-bottom:9pt;padding-left:36pt;text-indent:-18pt"&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:7pt;font-weight:400;line-height:100%"&gt;•&lt;/span&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:7pt;font-weight:400;line-height:100%;padding-left:15.55pt"&gt;The safety committee decides on any necessary actions and the safety committee chairperson ensures actions are communicated to the relevant Novo Nordisk business area(s) for implementation. Actions could include advice on how the medicine should be used, inclusion of new warnings in the package leaflet, or ultimately stopping the use of the product.&lt;/span&gt;&lt;/div&gt;&lt;div style="margin-bottom:9pt"&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:7pt;font-weight:400;line-height:100%"&gt;Further procedures ensure we can react promptly and adequately if one of our products on the market, or used in clinical trials, is suspected of being affected by a significant product defect, such as recalling affected products.&lt;/span&gt;&lt;/div&gt;&lt;div style="margin-bottom:9pt"&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:7pt;font-weight:400;line-height:100%"&gt;We are committed to patient safety and want to make it easy for patients to get in contact with us, if they have a complaint or want to report a side effect. Therefore, we have established easily accessible online complaint reporting directions with contact information in local language.&lt;/span&gt;&lt;/div&gt;</sasb:ManagementProcessForEnsuringQualityAndPatientSafetyDuringClinicalTrialsTextBlock>
+    <sasb:FdaInspectionsRelatedToClinicalTrialManagementAndPharmacovigilance
+      contextRef="i71c8f613116f4f1b89f6987eeccc967d_D20190101-20191231"
+      decimals="INF"
+      id="id3VybDovL2RvY3MudjEvZG9jOjNmYWY3MmFjZGJkZTQ3MGQ4NmMyZmI5ZjA3NmRkOGRiL3NlYzozZmFmNzJhY2RiZGU0NzBkODZjMmZiOWYwNzZkZDhkYl8zMi9mcmFnOjhkMmFlNjNlMGUwMjQ0MTdiZDUwYzVhMmZmNTA4NGI2L3RhYmxlOjI1NTg1ZTg5ODEzOTRmZmM5MjhmZWRmMmM1OTYzNGIwL3RhYmxlcmFuZ2U6MjU1ODVlODk4MTM5NGZmYzkyOGZlZGYyYzU5NjM0YjBfMi01LTEtMS02Ng_bc9dd992-3d8b-4bd3-b980-6211d7c119af"
+      unitRef="inspection">0</sasb:FdaInspectionsRelatedToClinicalTrialManagementAndPharmacovigilance>
+    <sasb:ActionsAndInitiativesToPromoteAccessToHealthCareProductsForPriorityDiseasesAndInPriorityCountriesAsDefinedByTheAccessToMedicineIndexTextBlock
+      contextRef="i71c8f613116f4f1b89f6987eeccc967d_D20190101-20191231"
+      id="id3VybDovL2RvY3MudjEvZG9jOjNmYWY3MmFjZGJkZTQ3MGQ4NmMyZmI5ZjA3NmRkOGRiL3NlYzozZmFmNzJhY2RiZGU0NzBkODZjMmZiOWYwNzZkZDhkYl8zMi9mcmFnOjhkMmFlNjNlMGUwMjQ0MTdiZDUwYzVhMmZmNTA4NGI2L3RhYmxlOjI1NTg1ZTg5ODEzOTRmZmM5MjhmZWRmMmM1OTYzNGIwL3RhYmxlcmFuZ2U6MjU1ODVlODk4MTM5NGZmYzkyOGZlZGYyYzU5NjM0YjBfNC01LTEtMS0xNTQ_a2b6c713-c257-42bd-bb35-951cd3838202">Our Access to Insulin Commitment&lt;br/&gt;Through our Access to Insulin Commitment we have set a ceiling price of USD 4.00 per 10 ml vial of human insulin offered to governments in 76 low - and middle-income countries and to humanitarian organisations.  &lt;br/&gt;&lt;br/&gt;In 2019, the average price the insulin was sold at under the commitment was USD 2.9 per vial, equalling 12 cents per patient per day.1 An estimated 2.9 million people were treated with insulin under this commitment in 2019, of which approximately 200,000 people were reached through sales to humanitarian organisations.  &lt;br/&gt;&lt;br/&gt;Beyond this commitment, Novo Nordisk sold human insulin at or below the ceiling price in other countries, reaching an estimated additional 2.2 million people in 2019. From August 2020, we have set a new ceiling price of USD 3.00 per 10 ml vial of human insulin. &lt;br/&gt;&lt;br/&gt;Changing Diabetes® in Children&lt;br/&gt;Established in 2009, our Changing Diabetes® in Children programme provides insulin free of charge to clinics caring for children with type 1 diabetes. The programme also supports healthcare capacity building in 14 of the world’s poorest countries.  &lt;br/&gt;&lt;br/&gt;In 2019, we enrolled 2,819 additional children, and currently the programme has resulted in:  &lt;br/&gt;&lt;br/&gt;-26, 500+ children and adolescents enrolled in the programme.&lt;br/&gt;-208 clinics established across Bangladesh, Cambodia, Cameroon, Democratic Republic of Congo, Ethiopia, Guinea, India, Ivory Coast, Kenya, Myanmar, Senegal, Sudan, Tanzania and Uganda.  &lt;br/&gt;-1,8+ million vials of insulin (100 units) donated to programme clinics. &lt;br/&gt;-15,121 healthcare professionals receiving diabetes care training.  &lt;br/&gt;-With the launch of our Defeat Diabetes strategy in 2020, we expanded the programme to reach 100,000 children by 2030.</sasb:ActionsAndInitiativesToPromoteAccessToHealthCareProductsForPriorityDiseasesAndInPriorityCountriesAsDefinedByTheAccessToMedicineIndexTextBlock>
+    <sasb:ProductRecalls
+      contextRef="i71c8f613116f4f1b89f6987eeccc967d_D20190101-20191231"
+      decimals="INF"
+      id="id3VybDovL2RvY3MudjEvZG9jOjNmYWY3MmFjZGJkZTQ3MGQ4NmMyZmI5ZjA3NmRkOGRiL3NlYzozZmFmNzJhY2RiZGU0NzBkODZjMmZiOWYwNzZkZDhkYl8zMi9mcmFnOjhkMmFlNjNlMGUwMjQ0MTdiZDUwYzVhMmZmNTA4NGI2L3RhYmxlOjI1NTg1ZTg5ODEzOTRmZmM5MjhmZWRmMmM1OTYzNGIwL3RhYmxlcmFuZ2U6MjU1ODVlODk4MTM5NGZmYzkyOGZlZGYyYzU5NjM0YjBfMTEtNS0xLTEtNjY_f8ec8701-681b-4955-ab28-af83ee27e0c2"
+      unitRef="recall">4</sasb:ProductRecalls>
+    <sasb:FdaEnforcementActionsTakenInResponseToViolationsOfCurrentGoodManufacturingPractices
+      contextRef="i71c8f613116f4f1b89f6987eeccc967d_D20190101-20191231"
+      decimals="INF"
+      id="id3VybDovL2RvY3MudjEvZG9jOjNmYWY3MmFjZGJkZTQ3MGQ4NmMyZmI5ZjA3NmRkOGRiL3NlYzozZmFmNzJhY2RiZGU0NzBkODZjMmZiOWYwNzZkZDhkYl8zMi9mcmFnOjhkMmFlNjNlMGUwMjQ0MTdiZDUwYzVhMmZmNTA4NGI2L3RhYmxlOjI1NTg1ZTg5ODEzOTRmZmM5MjhmZWRmMmM1OTYzNGIwL3RhYmxlcmFuZ2U6MjU1ODVlODk4MTM5NGZmYzkyOGZlZGYyYzU5NjM0YjBfMTMtNS0xLTEtMTEx_9ae31787-5570-4265-91fa-fa767b3de69f"
+      unitRef="action">0</sasb:FdaEnforcementActionsTakenInResponseToViolationsOfCurrentGoodManufacturingPractices>
+    <sasb:MethodsAndTechnologiesUsedToMaintainTraceabilityOfProductsThroughoutTheDistributionChainTextBlock
+      contextRef="i71c8f613116f4f1b89f6987eeccc967d_D20190101-20191231"
+      id="id3VybDovL2RvY3MudjEvZG9jOjNmYWY3MmFjZGJkZTQ3MGQ4NmMyZmI5ZjA3NmRkOGRiL3NlYzozZmFmNzJhY2RiZGU0NzBkODZjMmZiOWYwNzZkZDhkYl8zMi9mcmFnOjhkMmFlNjNlMGUwMjQ0MTdiZDUwYzVhMmZmNTA4NGI2L3RhYmxlOjI1NTg1ZTg5ODEzOTRmZmM5MjhmZWRmMmM1OTYzNGIwL3RhYmxlcmFuZ2U6MjU1ODVlODk4MTM5NGZmYzkyOGZlZGYyYzU5NjM0YjBfMTQtNS0xLTEtMTUw_c8f82607-a7d0-4f42-b3d9-33be99e7a307">To ensure patient safety, we have been implementing a comprehensive anti-counterfeit programme. A cross functional Anti-Counterfeit Working Group, chaired by the head of our Customer Complaint Centre, ensures vigilant risk assessment and implementation of an Anti-Counterfeit Product strategy.   &lt;br/&gt;&lt;br/&gt;We have an ongoing international collaboration with regulatory bodies, scientific and trade organisations, law enforcement agencies and other stakeholders to investigate counterfeit products and to influence legislation regarding new anti-counterfeit measures. Those found guilty of producing or/and distributing counterfeit Novo Nordisk products are given fines and/or custodial sentences. China, as a result of lobbying and official intervention, has increased the length of sentences for counterfeiting.&lt;br/&gt;&lt;br/&gt;We are a member of the Pharmaceutical Security Institute (PSI), which on behalf of the approximately 30 largest pharmaceutical companies, collects information and coordinates investigations into counterfeit products worldwide.</sasb:MethodsAndTechnologiesUsedToMaintainTraceabilityOfProductsThroughoutTheDistributionChainTextBlock>
+    <sasb:CounterfeitProductsProcessForAlertingCustomersAndBusinessPartnersOfPotentialOrKnownRisksTextBlock
+      contextRef="i71c8f613116f4f1b89f6987eeccc967d_D20190101-20191231"
+      id="id3VybDovL2RvY3MudjEvZG9jOjNmYWY3MmFjZGJkZTQ3MGQ4NmMyZmI5ZjA3NmRkOGRiL3NlYzozZmFmNzJhY2RiZGU0NzBkODZjMmZiOWYwNzZkZDhkYl8zMi9mcmFnOjhkMmFlNjNlMGUwMjQ0MTdiZDUwYzVhMmZmNTA4NGI2L3RhYmxlOjI1NTg1ZTg5ODEzOTRmZmM5MjhmZWRmMmM1OTYzNGIwL3RhYmxlcmFuZ2U6MjU1ODVlODk4MTM5NGZmYzkyOGZlZGYyYzU5NjM0YjBfMTUtNS0xLTEtMTUw_7a4bbf45-e4f3-45b8-bec2-22f092d128b9">At Novo Nordisk, we conduct regular reviews of risks through information exchange with external collaborators. The investigation of suspected counterfeit cases is reported via our affiliates or authorities. Monthly internal counterfeit surveillance reports are reviewed by key specialists and management.&lt;br/&gt;&lt;br/&gt;Our Quality Management System identifies and investigates alleged occurrences of counterfeited Novo Nordisk products. In China, we work with local investigation firms to perform market searches to help health authorities track down and seize counterfeit products. Outside China, we conduct investigations of suspected counterfeit products based on risk analysis and take legal action against those involved in the counterfeiting of our products.  &lt;br/&gt;&lt;br/&gt;Recognising that low awareness and under-reporting are known issues in many countries, we provide internal video training for our affiliates globally. &lt;br/&gt;&lt;br/&gt;In China, our proactive approach including collaboration with and training of local authorities, and scouting for counterfeit products and reporting these to local authorities has enabled us to keep counterfeit products at a relatively lower level. Currently, the main products being counterfeited are NovoFine® in China and Norditropin® sold via the internet or in fitness centres.</sasb:CounterfeitProductsProcessForAlertingCustomersAndBusinessPartnersOfPotentialOrKnownRisksTextBlock>
+    <sasb:CodeOfEthicsGoverningInteractionsWithHealthCareProfessionalsTextBlock
+      contextRef="i71c8f613116f4f1b89f6987eeccc967d_D20190101-20191231"
+      id="id3VybDovL2RvY3MudjEvZG9jOjNmYWY3MmFjZGJkZTQ3MGQ4NmMyZmI5ZjA3NmRkOGRiL3NlYzozZmFmNzJhY2RiZGU0NzBkODZjMmZiOWYwNzZkZDhkYl8zMi9mcmFnOjhkMmFlNjNlMGUwMjQ0MTdiZDUwYzVhMmZmNTA4NGI2L3RhYmxlOjI1NTg1ZTg5ODEzOTRmZmM5MjhmZWRmMmM1OTYzNGIwL3RhYmxlcmFuZ2U6MjU1ODVlODk4MTM5NGZmYzkyOGZlZGYyYzU5NjM0YjBfMjMtNS0xLTEtNzI_f88b2e8a-2360-43f5-ab5e-910caeb8266d">Novo Nordisk’s responsibility to respect la- bour rights applies to our global operations as a global minimum standard of business conduct. In 2019, the Global Labour Code of Conduct was revitalised and reinforced to ensure alignment with Novo Nordisk’s Business Ethics Compliance Framework, which includes respect of human rights. The Code of Conduct describes expected global minimum labour rights requirements for Novo Nordisk employees including the principles concerning fundamental rights in the eight ILO Core Conventions and labour rights as stipulated in the International Bill of Human Rights. Minimum paid maternity leave is increased from 12 to 14 weeks globally and a right to paid paternity leave is introduced. Moreover, guidance to avoid forced and bonded labour/child labour and young workers is better described, the right to social security is affirmed, and life insurance for all employees is introduced. For more information see novonordisk.com.</sasb:CodeOfEthicsGoverningInteractionsWithHealthCareProfessionalsTextBlock>
+    <sasb:CodeOfEthicsGoverningInteractionsWithHealthCareProfessionalsTextBlock
+      contextRef="i71c8f613116f4f1b89f6987eeccc967d_D20190101-20191231"
+      id="id3VybDovL2RvY3MudjEvZG9jOjNmYWY3MmFjZGJkZTQ3MGQ4NmMyZmI5ZjA3NmRkOGRiL3NlYzozZmFmNzJhY2RiZGU0NzBkODZjMmZiOWYwNzZkZDhkYl8zMi9mcmFnOjhkMmFlNjNlMGUwMjQ0MTdiZDUwYzVhMmZmNTA4NGI2L3RhYmxlOjI1NTg1ZTg5ODEzOTRmZmM5MjhmZWRmMmM1OTYzNGIwL3RhYmxlcmFuZ2U6MjU1ODVlODk4MTM5NGZmYzkyOGZlZGYyYzU5NjM0YjBfMjQtNS0xLTEtNzI_8290e798-d2c7-417b-9cdd-a5f1004ee265">In Novo Nordisk Business Ethics, Data Privacy and Human Rights is about acting with integrity and in compliance with the Novo Nordisk Way, the Business Ethics Code of Conduct as well as international and local standards for responsible business conduct.&lt;br/&gt;Training in Business Ethics is mandatory and a high priority. Annual Business Ethics training is required for all employees, includ- ing new hires. Business Ethics training is therefore a key element of the onboarding programmes. In 2019, 99% of all relevant employees completed and documented their training. This high level is attributed to the constant focus on and communication by senior management of the importance of business ethics compliance. In 2019, 34 business ethics reviews were completed with 87 findings, compared with 33 re- views with 113 findings in 2018. Based on the completed business ethics reviews, it is Group Internal Audit's assessment that the business ethics compliance level is sound. Management action plans and closure of findings progressed as planned, and there were no overdue Management actions or findings at the end of the year.&lt;br/&gt;During 2019 Novo Nordisk developed and approved its internal corporate require- ments on Data Privacy and Human Rights which is operationalised in the Novo Nordisk’s Business Ethics Code of Conduct. The requirements set out guidance and expectations to all employees. Furthermore, Data Privacy and Human Rights risks (‘risks to people’) were integrated into the Busi- ness Ethics risk methodology, as the basis for risk management in the Novo Nordisk global organisation as of 2020.</sasb:CodeOfEthicsGoverningInteractionsWithHealthCareProfessionalsTextBlock>
+    <sasb:PatientsTreatedNumber
+      contextRef="i71c8f613116f4f1b89f6987eeccc967d_D20190101-20191231"
+      decimals="-5"
+      id="id3VybDovL2RvY3MudjEvZG9jOjNmYWY3MmFjZGJkZTQ3MGQ4NmMyZmI5ZjA3NmRkOGRiL3NlYzozZmFmNzJhY2RiZGU0NzBkODZjMmZiOWYwNzZkZDhkYl8zMi9mcmFnOjhkMmFlNjNlMGUwMjQ0MTdiZDUwYzVhMmZmNTA4NGI2L3RhYmxlOjNhMmMxNDA4NWFkODQ3ZTZhMjI3MmEzZDRmNTYxNTI4L3RhYmxlcmFuZ2U6M2EyYzE0MDg1YWQ4NDdlNmEyMjcyYTNkNGY1NjE1MjhfMS00LTEtMS05NA_b661576b-ede0-48bc-ab3f-3c78c9bb9b4e"
+      unitRef="patient">30000000</sasb:PatientsTreatedNumber>
+    <sasb:DrugsInPortfolioNumber
+      contextRef="ie3ec6a66056b4493bc812c7350e06fef_I20191231"
+      decimals="INF"
+      id="id3VybDovL2RvY3MudjEvZG9jOjNmYWY3MmFjZGJkZTQ3MGQ4NmMyZmI5ZjA3NmRkOGRiL3NlYzozZmFmNzJhY2RiZGU0NzBkODZjMmZiOWYwNzZkZDhkYl8zMi9mcmFnOjhkMmFlNjNlMGUwMjQ0MTdiZDUwYzVhMmZmNTA4NGI2L3RhYmxlOjNhMmMxNDA4NWFkODQ3ZTZhMjI3MmEzZDRmNTYxNTI4L3RhYmxlcmFuZ2U6M2EyYzE0MDg1YWQ4NDdlNmEyMjcyYTNkNGY1NjE1MjhfMi01LTEtMS05Mg_17a8b6f0-1f50-40c0-ba1d-5357dcc7c826"
+      unitRef="drug">2</sasb:DrugsInPortfolioNumber>
+    <sasb:DrugsInResearchAndDevelopmentNumber
+      contextRef="ie3ec6a66056b4493bc812c7350e06fef_I20191231"
+      decimals="INF"
+      id="id3VybDovL2RvY3MudjEvZG9jOjNmYWY3MmFjZGJkZTQ3MGQ4NmMyZmI5ZjA3NmRkOGRiL3NlYzozZmFmNzJhY2RiZGU0NzBkODZjMmZiOWYwNzZkZDhkYl8zMi9mcmFnOjhkMmFlNjNlMGUwMjQ0MTdiZDUwYzVhMmZmNTA4NGI2L3RhYmxlOjNhMmMxNDA4NWFkODQ3ZTZhMjI3MmEzZDRmNTYxNTI4L3RhYmxlcmFuZ2U6M2EyYzE0MDg1YWQ4NDdlNmEyMjcyYTNkNGY1NjE1MjhfMy01LTEtMS05Mg_89b18e05-5629-4124-a7ce-965d90c2670d"
+      unitRef="drug">18</sasb:DrugsInResearchAndDevelopmentNumber>
+    <sasb:ProcessesForObtainingInformedConsentOfIncentivesOfferedToParticipantsAndOfAnyClinicalTrialsTerminatedDueToFailureToFollowGoodClinicalPracticeStandardsTextBlock
+      contextRef="i71c8f613116f4f1b89f6987eeccc967d_D20190101-20191231"
+      id="id3VybDovL2RvY3MudjEvZG9jOjNmYWY3MmFjZGJkZTQ3MGQ4NmMyZmI5ZjA3NmRkOGRiL3NlYzozZmFmNzJhY2RiZGU0NzBkODZjMmZiOWYwNzZkZDhkYl85OS9mcmFnOmQ1ZWZhYzk1YTE5YjQxMzRiY2JjNjk0ZGI4NTQ1ZTI3L3RleHRyZWdpb246ZDVlZmFjOTVhMTliNDEzNGJjYmM2OTRkYjg1NDVlMjdfMjc0ODc3OTA3ODkwNw_6dd17574-7378-47e5-802f-db3a3696c9cb">&lt;div&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:12pt;font-weight:400;line-height:120%"&gt;Every day, millions of people rely on the quality and safety of our products.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;br/&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style="margin-bottom:9pt"&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:120%"&gt;All medicines have potential side effects as well as benefits. We routinely monitor the safety and quality of all our products. This includes review of safety data from clinical studies and review of side effects and technical complaints received on marketed products. By monitoring quality and safety information on our products we can take due and appropriate actions to safeguard patient safety if needed.&lt;/span&gt;&lt;/div&gt;&lt;div style="margin-bottom:9pt"&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:120%"&gt;We have in place a Quality Management System to ensure that we adhere to international and local legislation and that safety information is handled in the same way no matter in which country the patient lives. &lt;/span&gt;&lt;/div&gt;&lt;div style="margin-bottom:9pt"&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:120%"&gt;Our Global Safety team has a pharmacovigilance system in place ensuring that the necessary means for collection and notification of any safety data are in place.&lt;/span&gt;&lt;/div&gt;&lt;div style="margin-bottom:9pt"&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:120%"&gt;Prior to any clinical investigation of a new pharmaceutical product or medical device, a safety committee with members from all relevant functional areas is established. This committee will exist throughout the product or device’s life-cycle. It is a multi-disciplinary team providing assessments of safety data, for a pharmaceutical product or medical device in development or on the market.&lt;/span&gt;&lt;/div&gt;&lt;div style="margin-bottom:9pt"&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:120%"&gt;Our Quality Management System includes the following process to ensure we continuously assess risks and act upon findings in a timely manner:  &lt;/span&gt;&lt;/div&gt;&lt;div style="margin-bottom:9pt;padding-left:36pt;text-indent:-18pt"&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:120%"&gt;•&lt;/span&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:120%;padding-left:14.5pt"&gt;Information about side effects, technical complaints and counterfeits are received from multiple sources, for example clinical trial participants, patients, healthcare professionals, partner companies, health authorities and literature&lt;/span&gt;&lt;/div&gt;&lt;div style="margin-bottom:9pt;padding-left:36pt;text-indent:-18pt"&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:120%"&gt;•&lt;/span&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:120%;padding-left:14.5pt"&gt;This information is entered into our complaint database, and side effects are also transferred and evaluated in the Novo Nordisk safety database&lt;/span&gt;&lt;/div&gt;&lt;div style="margin-bottom:9pt;padding-left:36pt;text-indent:-18pt"&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:120%"&gt;•&lt;/span&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:120%;padding-left:14.5pt"&gt;Regular analysis of data in the safety database is done to look for patterns associated with complaints, including side effects, such as new types or higher frequency of side effects.&lt;/span&gt;&lt;/div&gt;&lt;div style="margin-bottom:9pt;padding-left:36pt;text-indent:-18pt"&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:120%"&gt;•&lt;/span&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:120%;padding-left:14.5pt"&gt;In parallel, the health authorities independently review the information. This dual system for surveillance of data ensures optimal patient safety.&lt;/span&gt;&lt;/div&gt;&lt;div style="margin-bottom:9pt;padding-left:36pt;text-indent:-18pt"&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:120%"&gt;•&lt;/span&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:120%;padding-left:14.5pt"&gt;All relevant safety data from clinical trials, as well as safety data on marketed products, is presented to the safety committee on a regular basis. &lt;/span&gt;&lt;/div&gt;&lt;div style="margin-bottom:9pt;padding-left:36pt;text-indent:-18pt"&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:120%"&gt;•&lt;/span&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:120%;padding-left:14.5pt"&gt;The safety committee decides on any necessary actions and the safety committee chairperson ensures actions are communicated to the relevant Novo Nordisk business area(s) for implementation. Actions could include advice on how the medicine should be used, inclusion of new warnings in the package leaflet, or ultimately stopping the use of the product.&lt;/span&gt;&lt;/div&gt;&lt;div style="margin-bottom:9pt"&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:120%"&gt;Further procedures ensure we can react promptly and adequately if one of our products on the market, or used in clinical trials, is suspected of being affected by a significant product defect, such as recalling affected products.&lt;/span&gt;&lt;/div&gt;&lt;div style="margin-bottom:9pt"&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:120%"&gt;We are committed to patient safety and want to make it easy for patients to get in contact with us, if they have a complaint or want to report a side effect. Therefore, we have established easily accessible online complaint reporting directions with contact information in local language.&lt;/span&gt;&lt;/div&gt;</sasb:ProcessesForObtainingInformedConsentOfIncentivesOfferedToParticipantsAndOfAnyClinicalTrialsTerminatedDueToFailureToFollowGoodClinicalPracticeStandardsTextBlock>
+    <sasb:ManagementProcessForEnsuringQualityAndPatientSafetyDuringClinicalTrialsTextBlock
+      contextRef="i71c8f613116f4f1b89f6987eeccc967d_D20190101-20191231"
+      id="id3VybDovL2RvY3MudjEvZG9jOjNmYWY3MmFjZGJkZTQ3MGQ4NmMyZmI5ZjA3NmRkOGRiL3NlYzozZmFmNzJhY2RiZGU0NzBkODZjMmZiOWYwNzZkZDhkYl85OS9mcmFnOmQ1ZWZhYzk1YTE5YjQxMzRiY2JjNjk0ZGI4NTQ1ZTI3L3RleHRyZWdpb246ZDVlZmFjOTVhMTliNDEzNGJjYmM2OTRkYjg1NDVlMjdfMjc0ODc3OTA3ODkwNw_8bb69854-886c-4269-9ba0-e6dedb55b787">&lt;div&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:12pt;font-weight:400;line-height:120%"&gt;Every day, millions of people rely on the quality and safety of our products.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;br/&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style="margin-bottom:9pt"&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:120%"&gt;All medicines have potential side effects as well as benefits. We routinely monitor the safety and quality of all our products. This includes review of safety data from clinical studies and review of side effects and technical complaints received on marketed products. By monitoring quality and safety information on our products we can take due and appropriate actions to safeguard patient safety if needed.&lt;/span&gt;&lt;/div&gt;&lt;div style="margin-bottom:9pt"&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:120%"&gt;We have in place a Quality Management System to ensure that we adhere to international and local legislation and that safety information is handled in the same way no matter in which country the patient lives. &lt;/span&gt;&lt;/div&gt;&lt;div style="margin-bottom:9pt"&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:120%"&gt;Our Global Safety team has a pharmacovigilance system in place ensuring that the necessary means for collection and notification of any safety data are in place.&lt;/span&gt;&lt;/div&gt;&lt;div style="margin-bottom:9pt"&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:120%"&gt;Prior to any clinical investigation of a new pharmaceutical product or medical device, a safety committee with members from all relevant functional areas is established. This committee will exist throughout the product or device’s life-cycle. It is a multi-disciplinary team providing assessments of safety data, for a pharmaceutical product or medical device in development or on the market.&lt;/span&gt;&lt;/div&gt;&lt;div style="margin-bottom:9pt"&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:120%"&gt;Our Quality Management System includes the following process to ensure we continuously assess risks and act upon findings in a timely manner:  &lt;/span&gt;&lt;/div&gt;&lt;div style="margin-bottom:9pt;padding-left:36pt;text-indent:-18pt"&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:120%"&gt;•&lt;/span&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:120%;padding-left:14.5pt"&gt;Information about side effects, technical complaints and counterfeits are received from multiple sources, for example clinical trial participants, patients, healthcare professionals, partner companies, health authorities and literature&lt;/span&gt;&lt;/div&gt;&lt;div style="margin-bottom:9pt;padding-left:36pt;text-indent:-18pt"&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:120%"&gt;•&lt;/span&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:120%;padding-left:14.5pt"&gt;This information is entered into our complaint database, and side effects are also transferred and evaluated in the Novo Nordisk safety database&lt;/span&gt;&lt;/div&gt;&lt;div style="margin-bottom:9pt;padding-left:36pt;text-indent:-18pt"&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:120%"&gt;•&lt;/span&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:120%;padding-left:14.5pt"&gt;Regular analysis of data in the safety database is done to look for patterns associated with complaints, including side effects, such as new types or higher frequency of side effects.&lt;/span&gt;&lt;/div&gt;&lt;div style="margin-bottom:9pt;padding-left:36pt;text-indent:-18pt"&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:120%"&gt;•&lt;/span&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:120%;padding-left:14.5pt"&gt;In parallel, the health authorities independently review the information. This dual system for surveillance of data ensures optimal patient safety.&lt;/span&gt;&lt;/div&gt;&lt;div style="margin-bottom:9pt;padding-left:36pt;text-indent:-18pt"&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:120%"&gt;•&lt;/span&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:120%;padding-left:14.5pt"&gt;All relevant safety data from clinical trials, as well as safety data on marketed products, is presented to the safety committee on a regular basis. &lt;/span&gt;&lt;/div&gt;&lt;div style="margin-bottom:9pt;padding-left:36pt;text-indent:-18pt"&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:120%"&gt;•&lt;/span&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:120%;padding-left:14.5pt"&gt;The safety committee decides on any necessary actions and the safety committee chairperson ensures actions are communicated to the relevant Novo Nordisk business area(s) for implementation. Actions could include advice on how the medicine should be used, inclusion of new warnings in the package leaflet, or ultimately stopping the use of the product.&lt;/span&gt;&lt;/div&gt;&lt;div style="margin-bottom:9pt"&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:120%"&gt;Further procedures ensure we can react promptly and adequately if one of our products on the market, or used in clinical trials, is suspected of being affected by a significant product defect, such as recalling affected products.&lt;/span&gt;&lt;/div&gt;&lt;div style="margin-bottom:9pt"&gt;&lt;span style="color:#061861;font-family:'Arial',sans-serif;font-size:10pt;font-weight:400;line-height:120%"&gt;We are committed to patient safety and want to make it easy for patients to get in contact with us, if they have a complaint or want to report a side effect. Therefore, we have established easily accessible online complaint reporting directions with contact information in local language.&lt;/span&gt;&lt;/div&gt;</sasb:ManagementProcessForEnsuringQualityAndPatientSafetyDuringClinicalTrialsTextBlock>
+    <sasb:EmployeesNumber
+      contextRef="ie3ec6a66056b4493bc812c7350e06fef_I20191231"
+      decimals="INF"
+      id="id3VybDovL2RvY3MudjEvZG9jOjNmYWY3MmFjZGJkZTQ3MGQ4NmMyZmI5ZjA3NmRkOGRiL3NlYzozZmFmNzJhY2RiZGU0NzBkODZjMmZiOWYwNzZkZDhkYl84MC9mcmFnOmY2Y2EyZjZjNWVkMTQ2NmVhYTYxNDhjMWZkZjVlZjkyL3RhYmxlOmNkNjJiNmE1ZTU2NTQ3ZGQ5MThlMGE1MDEyMWM1ODJmL3RhYmxlcmFuZ2U6Y2Q2MmI2YTVlNTY1NDdkZDkxOGUwYTUwMTIxYzU4MmZfNy0yLTEtMS02MDg_32d7a5e4-7070-446e-b125-e9ecb74d3364"
+      unitRef="employee">43258</sasb:EmployeesNumber>
+    <sasb:EmployeesNumber
+      contextRef="i968c0a667b554e33907874bc453b509b_I20181231"
+      decimals="INF"
+      id="id3VybDovL2RvY3MudjEvZG9jOjNmYWY3MmFjZGJkZTQ3MGQ4NmMyZmI5ZjA3NmRkOGRiL3NlYzozZmFmNzJhY2RiZGU0NzBkODZjMmZiOWYwNzZkZDhkYl84MC9mcmFnOmY2Y2EyZjZjNWVkMTQ2NmVhYTYxNDhjMWZkZjVlZjkyL3RhYmxlOmNkNjJiNmE1ZTU2NTQ3ZGQ5MThlMGE1MDEyMWM1ODJmL3RhYmxlcmFuZ2U6Y2Q2MmI2YTVlNTY1NDdkZDkxOGUwYTUwMTIxYzU4MmZfNy00LTEtMS02MTI_defac494-0328-4dc1-afe8-b8383e430247"
+      unitRef="employee">43202</sasb:EmployeesNumber>
+    <sasb:EmployeesNumber
+      contextRef="id31b12b8986f4a30b2de9a172edade10_I20171231"
+      decimals="INF"
+      id="id3VybDovL2RvY3MudjEvZG9jOjNmYWY3MmFjZGJkZTQ3MGQ4NmMyZmI5ZjA3NmRkOGRiL3NlYzozZmFmNzJhY2RiZGU0NzBkODZjMmZiOWYwNzZkZDhkYl84MC9mcmFnOmY2Y2EyZjZjNWVkMTQ2NmVhYTYxNDhjMWZkZjVlZjkyL3RhYmxlOmNkNjJiNmE1ZTU2NTQ3ZGQ5MThlMGE1MDEyMWM1ODJmL3RhYmxlcmFuZ2U6Y2Q2MmI2YTVlNTY1NDdkZDkxOGUwYTUwMTIxYzU4MmZfNy01LTEtMS02MTQ_1161a6a4-bcc5-412e-880d-f2d29aba618d"
+      unitRef="employee">42682</sasb:EmployeesNumber>
+    <sasb:EmployeeEngagementPercentage
+      contextRef="i71c8f613116f4f1b89f6987eeccc967d_D20190101-20191231"
+      decimals="2"
+      id="id3VybDovL2RvY3MudjEvZG9jOjNmYWY3MmFjZGJkZTQ3MGQ4NmMyZmI5ZjA3NmRkOGRiL3NlYzozZmFmNzJhY2RiZGU0NzBkODZjMmZiOWYwNzZkZDhkYl84MC9mcmFnOmY2Y2EyZjZjNWVkMTQ2NmVhYTYxNDhjMWZkZjVlZjkyL3RhYmxlOmNkNjJiNmE1ZTU2NTQ3ZGQ5MThlMGE1MDEyMWM1ODJmL3RhYmxlcmFuZ2U6Y2Q2MmI2YTVlNTY1NDdkZDkxOGUwYTUwMTIxYzU4MmZfOS0yLTEtMS02OTg_6ce7640c-5759-44fe-b9ee-f878e579cd21"
+      unitRef="number">0.91</sasb:EmployeeEngagementPercentage>
+    <sasb:EmployeeEngagementPercentage
+      contextRef="i790d2f1d13374a9e847a599fe7feb055_D20180101-20181231"
+      decimals="2"
+      id="id3VybDovL2RvY3MudjEvZG9jOjNmYWY3MmFjZGJkZTQ3MGQ4NmMyZmI5ZjA3NmRkOGRiL3NlYzozZmFmNzJhY2RiZGU0NzBkODZjMmZiOWYwNzZkZDhkYl84MC9mcmFnOmY2Y2EyZjZjNWVkMTQ2NmVhYTYxNDhjMWZkZjVlZjkyL3RhYmxlOmNkNjJiNmE1ZTU2NTQ3ZGQ5MThlMGE1MDEyMWM1ODJmL3RhYmxlcmFuZ2U6Y2Q2MmI2YTVlNTY1NDdkZDkxOGUwYTUwMTIxYzU4MmZfOS00LTEtMS03MDE_0e96be67-c961-4a7f-9440-31145dd82bb7"
+      unitRef="number">0.91</sasb:EmployeeEngagementPercentage>
+    <sasb:EmployeeEngagementPercentage
+      contextRef="i5e8e6691e0bb4986b05e5d580c556b8d_D20170101-20171231"
+      decimals="2"
+      id="id3VybDovL2RvY3MudjEvZG9jOjNmYWY3MmFjZGJkZTQ3MGQ4NmMyZmI5ZjA3NmRkOGRiL3NlYzozZmFmNzJhY2RiZGU0NzBkODZjMmZiOWYwNzZkZDhkYl84MC9mcmFnOmY2Y2EyZjZjNWVkMTQ2NmVhYTYxNDhjMWZkZjVlZjkyL3RhYmxlOmNkNjJiNmE1ZTU2NTQ3ZGQ5MThlMGE1MDEyMWM1ODJmL3RhYmxlcmFuZ2U6Y2Q2MmI2YTVlNTY1NDdkZDkxOGUwYTUwMTIxYzU4MmZfOS01LTEtMS03MDE_7019cc11-7285-411a-93f3-c068e27f53a4"
+      unitRef="number">0.90</sasb:EmployeeEngagementPercentage>
+    <sasb:EmployeesPercentageOfManagement
+      contextRef="idcd955891bc144b3867af2266060a575_D20190101-20191231"
+      decimals="2"
+      id="id3VybDovL2RvY3MudjEvZG9jOjNmYWY3MmFjZGJkZTQ3MGQ4NmMyZmI5ZjA3NmRkOGRiL3NlYzozZmFmNzJhY2RiZGU0NzBkODZjMmZiOWYwNzZkZDhkYl84MC9mcmFnOmY2Y2EyZjZjNWVkMTQ2NmVhYTYxNDhjMWZkZjVlZjkyL3RhYmxlOmNkNjJiNmE1ZTU2NTQ3ZGQ5MThlMGE1MDEyMWM1ODJmL3RhYmxlcmFuZ2U6Y2Q2MmI2YTVlNTY1NDdkZDkxOGUwYTUwMTIxYzU4MmZfMTAtMi0xLTEtNjE4L3RleHRyZWdpb246ZDBkYWRjMGZhMzkwNDQyOGEyNGE2YmJmN2M3MDY0M2ZfMjE5OTAyMzI1NTU2Mw_f002afd3-3593-4768-a930-78e7b34c48db"
+      unitRef="number">0.60</sasb:EmployeesPercentageOfManagement>
+    <sasb:EmployeesPercentageOfManagement
+      contextRef="ia949065de7884a4580429c89c08cba34_D20190101-20191231"
+      decimals="2"
+      id="id3VybDovL2RvY3MudjEvZG9jOjNmYWY3MmFjZGJkZTQ3MGQ4NmMyZmI5ZjA3NmRkOGRiL3NlYzozZmFmNzJhY2RiZGU0NzBkODZjMmZiOWYwNzZkZDhkYl84MC9mcmFnOmY2Y2EyZjZjNWVkMTQ2NmVhYTYxNDhjMWZkZjVlZjkyL3RhYmxlOmNkNjJiNmE1ZTU2NTQ3ZGQ5MThlMGE1MDEyMWM1ODJmL3RhYmxlcmFuZ2U6Y2Q2MmI2YTVlNTY1NDdkZDkxOGUwYTUwMTIxYzU4MmZfMTAtMi0xLTEtNjE4L3RleHRyZWdpb246ZDBkYWRjMGZhMzkwNDQyOGEyNGE2YmJmN2M3MDY0M2ZfMjE5OTAyMzI1NTU2OQ_05b03b4e-57bb-4ef3-bda6-5b2c92f729d1"
+      unitRef="number">0.40</sasb:EmployeesPercentageOfManagement>
+    <sasb:EmployeesPercentageOfManagement
+      contextRef="iec4dd41003604a1591ba67856008d094_D20180101-20181231"
+      decimals="2"
+      id="id3VybDovL2RvY3MudjEvZG9jOjNmYWY3MmFjZGJkZTQ3MGQ4NmMyZmI5ZjA3NmRkOGRiL3NlYzozZmFmNzJhY2RiZGU0NzBkODZjMmZiOWYwNzZkZDhkYl84MC9mcmFnOmY2Y2EyZjZjNWVkMTQ2NmVhYTYxNDhjMWZkZjVlZjkyL3RhYmxlOmNkNjJiNmE1ZTU2NTQ3ZGQ5MThlMGE1MDEyMWM1ODJmL3RhYmxlcmFuZ2U6Y2Q2MmI2YTVlNTY1NDdkZDkxOGUwYTUwMTIxYzU4MmZfMTAtNC0xLTEtNjYwL3RleHRyZWdpb246OGQ1M2EyOGZmOTM1NGEwMDhmNTdiYTE3OGEzNzI2MWJfMjE5OTAyMzI1NTU2Mw_a8f6d509-d2d7-406b-9e9b-58dce287140f"
+      unitRef="number">0.60</sasb:EmployeesPercentageOfManagement>
+    <sasb:EmployeesPercentageOfManagement
+      contextRef="iab97778641ff426ba5a33ab7f5dec6a6_D20180101-20181231"
+      decimals="2"
+      id="id3VybDovL2RvY3MudjEvZG9jOjNmYWY3MmFjZGJkZTQ3MGQ4NmMyZmI5ZjA3NmRkOGRiL3NlYzozZmFmNzJhY2RiZGU0NzBkODZjMmZiOWYwNzZkZDhkYl84MC9mcmFnOmY2Y2EyZjZjNWVkMTQ2NmVhYTYxNDhjMWZkZjVlZjkyL3RhYmxlOmNkNjJiNmE1ZTU2NTQ3ZGQ5MThlMGE1MDEyMWM1ODJmL3RhYmxlcmFuZ2U6Y2Q2MmI2YTVlNTY1NDdkZDkxOGUwYTUwMTIxYzU4MmZfMTAtNC0xLTEtNjYwL3RleHRyZWdpb246OGQ1M2EyOGZmOTM1NGEwMDhmNTdiYTE3OGEzNzI2MWJfMjE5OTAyMzI1NTU2OA_a5b23870-a14b-4d65-b92c-1100ca5f654c"
+      unitRef="number">0.40</sasb:EmployeesPercentageOfManagement>
+    <sasb:EmployeesPercentageOfManagement
+      contextRef="ie28c4b855a9e4071a39ca9c237eb15da_D20170101-20171231"
+      decimals="2"
+      id="id3VybDovL2RvY3MudjEvZG9jOjNmYWY3MmFjZGJkZTQ3MGQ4NmMyZmI5ZjA3NmRkOGRiL3NlYzozZmFmNzJhY2RiZGU0NzBkODZjMmZiOWYwNzZkZDhkYl84MC9mcmFnOmY2Y2EyZjZjNWVkMTQ2NmVhYTYxNDhjMWZkZjVlZjkyL3RhYmxlOmNkNjJiNmE1ZTU2NTQ3ZGQ5MThlMGE1MDEyMWM1ODJmL3RhYmxlcmFuZ2U6Y2Q2MmI2YTVlNTY1NDdkZDkxOGUwYTUwMTIxYzU4MmZfMTAtNS0xLTEtNjY4L3RleHRyZWdpb246NTJlODMxOTVkMDk0NDA0NGIyMWYwYzY2ODhhMTQ0NWZfMjE5OTAyMzI1NTU2Mw_ee8ab7b7-5467-4ce8-8711-6e945f597d66"
+      unitRef="number">0.60</sasb:EmployeesPercentageOfManagement>
+    <sasb:EmployeesPercentageOfManagement
+      contextRef="i5dd526452a3049e5bc94803580ecf1b8_D20170101-20171231"
+      decimals="2"
+      id="id3VybDovL2RvY3MudjEvZG9jOjNmYWY3MmFjZGJkZTQ3MGQ4NmMyZmI5ZjA3NmRkOGRiL3NlYzozZmFmNzJhY2RiZGU0NzBkODZjMmZiOWYwNzZkZDhkYl84MC9mcmFnOmY2Y2EyZjZjNWVkMTQ2NmVhYTYxNDhjMWZkZjVlZjkyL3RhYmxlOmNkNjJiNmE1ZTU2NTQ3ZGQ5MThlMGE1MDEyMWM1ODJmL3RhYmxlcmFuZ2U6Y2Q2MmI2YTVlNTY1NDdkZDkxOGUwYTUwMTIxYzU4MmZfMTAtNS0xLTEtNjY4L3RleHRyZWdpb246NTJlODMxOTVkMDk0NDA0NGIyMWYwYzY2ODhhMTQ0NWZfMjE5OTAyMzI1NTU2OA_252082c3-affb-4bee-ab5e-f74fc1e421d7"
+      unitRef="number">0.40</sasb:EmployeesPercentageOfManagement>
+    <sasb:ProductRecalls
+      contextRef="i71c8f613116f4f1b89f6987eeccc967d_D20190101-20191231"
+      decimals="INF"
+      id="id3VybDovL2RvY3MudjEvZG9jOjNmYWY3MmFjZGJkZTQ3MGQ4NmMyZmI5ZjA3NmRkOGRiL3NlYzozZmFmNzJhY2RiZGU0NzBkODZjMmZiOWYwNzZkZDhkYl84MC9mcmFnOmY2Y2EyZjZjNWVkMTQ2NmVhYTYxNDhjMWZkZjVlZjkyL3RhYmxlOmNkNjJiNmE1ZTU2NTQ3ZGQ5MThlMGE1MDEyMWM1ODJmL3RhYmxlcmFuZ2U6Y2Q2MmI2YTVlNTY1NDdkZDkxOGUwYTUwMTIxYzU4MmZfMTctMi0xLTEtNDk3_f8ec8701-681b-4955-ab28-af83ee27e0c2"
+      unitRef="recall">4</sasb:ProductRecalls>
+    <sasb:ProductRecalls
+      contextRef="i790d2f1d13374a9e847a599fe7feb055_D20180101-20181231"
+      decimals="INF"
+      id="id3VybDovL2RvY3MudjEvZG9jOjNmYWY3MmFjZGJkZTQ3MGQ4NmMyZmI5ZjA3NmRkOGRiL3NlYzozZmFmNzJhY2RiZGU0NzBkODZjMmZiOWYwNzZkZDhkYl84MC9mcmFnOmY2Y2EyZjZjNWVkMTQ2NmVhYTYxNDhjMWZkZjVlZjkyL3RhYmxlOmNkNjJiNmE1ZTU2NTQ3ZGQ5MThlMGE1MDEyMWM1ODJmL3RhYmxlcmFuZ2U6Y2Q2MmI2YTVlNTY1NDdkZDkxOGUwYTUwMTIxYzU4MmZfMTctNC0xLTEtNTA3_b2f5e2fd-b380-46a4-90c5-ff575b2b8edb"
+      unitRef="recall">3</sasb:ProductRecalls>
+    <sasb:ProductRecalls
+      contextRef="i5e8e6691e0bb4986b05e5d580c556b8d_D20170101-20171231"
+      decimals="INF"
+      id="id3VybDovL2RvY3MudjEvZG9jOjNmYWY3MmFjZGJkZTQ3MGQ4NmMyZmI5ZjA3NmRkOGRiL3NlYzozZmFmNzJhY2RiZGU0NzBkODZjMmZiOWYwNzZkZDhkYl84MC9mcmFnOmY2Y2EyZjZjNWVkMTQ2NmVhYTYxNDhjMWZkZjVlZjkyL3RhYmxlOmNkNjJiNmE1ZTU2NTQ3ZGQ5MThlMGE1MDEyMWM1ODJmL3RhYmxlcmFuZ2U6Y2Q2MmI2YTVlNTY1NDdkZDkxOGUwYTUwMTIxYzU4MmZfMTctNS0xLTEtNTE0_23e5afc9-45f5-4bcb-87a4-22ed11273aed"
+      unitRef="recall">6</sasb:ProductRecalls>
+    <sasb:FdaEnforcementActionsTakenInResponseToViolationsOfCurrentGoodManufacturingPractices
+      contextRef="i71c8f613116f4f1b89f6987eeccc967d_D20190101-20191231"
+      decimals="INF"
+      id="id3VybDovL2RvY3MudjEvZG9jOjNmYWY3MmFjZGJkZTQ3MGQ4NmMyZmI5ZjA3NmRkOGRiL3NlYzozZmFmNzJhY2RiZGU0NzBkODZjMmZiOWYwNzZkZDhkYl84MC9mcmFnOmY2Y2EyZjZjNWVkMTQ2NmVhYTYxNDhjMWZkZjVlZjkyL3RhYmxlOmNkNjJiNmE1ZTU2NTQ3ZGQ5MThlMGE1MDEyMWM1ODJmL3RhYmxlcmFuZ2U6Y2Q2MmI2YTVlNTY1NDdkZDkxOGUwYTUwMTIxYzU4MmZfMTgtMi0xLTEtNTIx_9ae31787-5570-4265-91fa-fa767b3de69f"
+      unitRef="action">0</sasb:FdaEnforcementActionsTakenInResponseToViolationsOfCurrentGoodManufacturingPractices>
+    <sasb:FdaEnforcementActionsTakenInResponseToViolationsOfCurrentGoodManufacturingPractices
+      contextRef="i790d2f1d13374a9e847a599fe7feb055_D20180101-20181231"
+      decimals="INF"
+      id="id3VybDovL2RvY3MudjEvZG9jOjNmYWY3MmFjZGJkZTQ3MGQ4NmMyZmI5ZjA3NmRkOGRiL3NlYzozZmFmNzJhY2RiZGU0NzBkODZjMmZiOWYwNzZkZDhkYl84MC9mcmFnOmY2Y2EyZjZjNWVkMTQ2NmVhYTYxNDhjMWZkZjVlZjkyL3RhYmxlOmNkNjJiNmE1ZTU2NTQ3ZGQ5MThlMGE1MDEyMWM1ODJmL3RhYmxlcmFuZ2U6Y2Q2MmI2YTVlNTY1NDdkZDkxOGUwYTUwMTIxYzU4MmZfMTgtNC0xLTEtNTI4_fac135e6-0244-448b-a8d0-1aef8c8d7c24"
+      unitRef="action">0</sasb:FdaEnforcementActionsTakenInResponseToViolationsOfCurrentGoodManufacturingPractices>
+    <sasb:FdaEnforcementActionsTakenInResponseToViolationsOfCurrentGoodManufacturingPractices
+      contextRef="i5e8e6691e0bb4986b05e5d580c556b8d_D20170101-20171231"
+      decimals="INF"
+      id="id3VybDovL2RvY3MudjEvZG9jOjNmYWY3MmFjZGJkZTQ3MGQ4NmMyZmI5ZjA3NmRkOGRiL3NlYzozZmFmNzJhY2RiZGU0NzBkODZjMmZiOWYwNzZkZDhkYl84MC9mcmFnOmY2Y2EyZjZjNWVkMTQ2NmVhYTYxNDhjMWZkZjVlZjkyL3RhYmxlOmNkNjJiNmE1ZTU2NTQ3ZGQ5MThlMGE1MDEyMWM1ODJmL3RhYmxlcmFuZ2U6Y2Q2MmI2YTVlNTY1NDdkZDkxOGUwYTUwMTIxYzU4MmZfMTgtNS0xLTEtNTI4_0e17a074-9a14-4a40-9a5e-e6924f6c40cd"
+      unitRef="action">0</sasb:FdaEnforcementActionsTakenInResponseToViolationsOfCurrentGoodManufacturingPractices>
+    <sasb:ProductRecalls
+      contextRef="i71c8f613116f4f1b89f6987eeccc967d_D20190101-20191231"
+      decimals="INF"
+      id="id3VybDovL2RvY3MudjEvZG9jOjNmYWY3MmFjZGJkZTQ3MGQ4NmMyZmI5ZjA3NmRkOGRiL3NlYzozZmFmNzJhY2RiZGU0NzBkODZjMmZiOWYwNzZkZDhkYl84Ni9mcmFnOjI1MWM2ODQ0MDU1MDRlMWI4NGYzNzNiYTFjOTMxNDRlL3RleHRyZWdpb246MjUxYzY4NDQwNTUwNGUxYjg0ZjM3M2JhMWM5MzE0NGVfMjc0ODc3OTA3MjM5Mg_f8ec8701-681b-4955-ab28-af83ee27e0c2"
+      unitRef="recall">4</sasb:ProductRecalls>
+    <sasb:ProductRecalls
+      contextRef="i790d2f1d13374a9e847a599fe7feb055_D20180101-20181231"
+      decimals="INF"
+      id="id3VybDovL2RvY3MudjEvZG9jOjNmYWY3MmFjZGJkZTQ3MGQ4NmMyZmI5ZjA3NmRkOGRiL3NlYzozZmFmNzJhY2RiZGU0NzBkODZjMmZiOWYwNzZkZDhkYl84Ni9mcmFnOjI1MWM2ODQ0MDU1MDRlMWI4NGYzNzNiYTFjOTMxNDRlL3RleHRyZWdpb246MjUxYzY4NDQwNTUwNGUxYjg0ZjM3M2JhMWM5MzE0NGVfMjc0ODc3OTA3MjQwMQ_b2f5e2fd-b380-46a4-90c5-ff575b2b8edb"
+      unitRef="recall">3</sasb:ProductRecalls>
+</xbrl>

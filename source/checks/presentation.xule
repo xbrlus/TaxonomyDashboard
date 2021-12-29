@@ -47,3 +47,4 @@ for $a in $all_axis
 message
 "The axis concept {$a.name} has a descendant element that is not a member. A dimension should only have a member as a descendant. The following concepts were identified as inappropriate:
 {$invalidmember.join(",")}."
+

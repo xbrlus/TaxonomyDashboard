@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="utf-8"?>
+<log>
+<entry code="info" level="info">
+ <message>[info] Activation of plug-in XBRL rule processor (xule) successful, version Check version using Tools->Xule->Version on the GUI or --xule-version on the command line. - xule </message>
+ <ref href="xule"/></entry>
+<entry code="info" level="info">
+ <message>[info] Activation of plug-in SEC Inline Transforms successful, version 19.2. - transforms/SEC </message>
+ <ref href="transforms/SEC"/></entry>
+<entry code="info" level="info">
+ <message>[info] Activation of package The SASB Taxonomy successful. - /Users/campbellpryde/Documents/GitHub/TaxonomyDashboard/SASB/Draft SASB Taxonomy 2021-02-12.zip </message>
+ <ref href="/Users/campbellpryde/Documents/GitHub/TaxonomyDashboard/SASB/Draft SASB Taxonomy 2021-02-12.zip"/></entry>
+<entry code="info" level="info">
+ <message>[info] Xule version: 3.0.23185 - </message>
+ <ref href=""/></entry>
+<entry code="info" level="info">
+ <message>[info] loaded in 4.20 secs at 2021-02-22T14:06:59 - /Users/campbellpryde/Documents/GitHub/TaxonomyDashboard/SASB/blank-instance/ixbrl-viewer_extracted.xbrl </message>
+ <ref href="/Users/campbellpryde/Documents/GitHub/TaxonomyDashboard/SASB/blank-instance/ixbrl-viewer_extracted.xbrl"/></entry>
+<entry code="" level="info">
+ <message>[] Formula xpath2 grammar initialized in 1.11 secs - </message>
+ <ref href=""/></entry>
+<entry code="l0002" level="error">
+ <message cid="4469875656" filing_url="/Users/campbellpryde/Documents/GitHub/TaxonomyDashboard/SASB/blank-instance/ixbrl-viewer_extracted.xbrl" severity="error">[l0002] The following strings  were used in the standard labels of the following concepts.  Standard labels cannot contain pronouns, articles the word total, double spaces and special characters:
+Concept: LK, Label: SRI LANKA, BadWord: I 
+Concept: FDAEnforcementActionAxis, Label: FDA Enforcement Action [Axis], BadWord: A 
+Concept: RRPP000AAbstract, Label: RR-PP-000.A [Abstract], BadWord: A 
+Concept: StandardPoorsARatingMember, Label: Standard &amp; Poor's, A Rating [Member], BadWord: A 
+Concept: StandardPoorsARatingMember, Label: Standard &amp; Poor's, A Rating [Member], BadWord:  &amp; 
+Concept: StandardPoorsARatingMember, Label: Standard &amp; Poor's, A Rating [Member], BadWord: &amp; 
+Concept: IFRE000AAbstract, Label: IF-RE-000.A [Abstract], BadWord: A 
+Concept: EnvironmentalImpactsInSupplyChainDisclosureTextBlock, Label: Environmental Impacts in the Supply Chain Disclosure [Text Block], BadWord:  the 
+Concept: RecruitingAndManagingAGlobalDiverseAndSkilledWorkforceDisclosureTextBlock, Label: Recruiting And Managing a Global, Diverse And Skilled Workforce Disclosure [Text Block], BadWord:  a 
+Concept: RRWT000AAbstract, Label: RR-WT-000.A [Abstract], BadWord: A 
+Concept: StandardPoorsCCCRatingMember, Label: Standard &amp; Poor's, CCC Rating [Member], BadWord:  &amp; 
+Concept: StandardPoorsCCCRatingMember, Label: Standard &amp; Poor's, CCC Rating [Member], BadWord: &amp; 
+Concept: FitchBMinusRatingMember, Label: Fitch, B- Rating [Member], BadWord: - 
+Concept: SA, Label: SAUDI ARABIA, BadWord: I 
+Concept: EmployeesPercentageOfTechnicalStaffWhoAreH1BVisaHolders, Label: Employees, Percentage Of Technical Staff Who Are H-1B Visa Holders, BadWord: Who 
+Concept: AMBestCPlusPlusRatingMember, Label: AM Best, C++ Rating [Member], BadWord: + 
+Concept: FNCB000AAbstract, Label: FN-CB-000.A [Abstract], BadWord: A 
+Concept: StandardPoorsBBPlusRatingMember, Label: Standard &amp; Poor's, BB+ Rating [Member], BadWord: + 
+Concept: StandardPoorsBBPlusRatingMember, Label: Standard &amp; Poor's, BB+ Rating [Member], BadWord:  &amp; 
+Concept: StandardPoorsBBPlusRatingMember, Label: Standard &amp; Poor's, BB+ Rating [Member], BadWord: &amp; 
+Concept: ManagementOfLegalAndRegulatoryEnvironmentDisclosureAbstract, Label: Management of the Legal And Regulatory Environment Disclosure [Abstract], BadWord:  the 
+Concept: EMEP000AAbstract, Label: EM-EP-000.A [Abstract], BadWord: A 
+Concept: FitchBBBMinusRatingMember, Label: Fitch, BBB- Rating [Member], BadWord: - 
+Concept: StandardPoorsAAMinusRatingMember, Label: Standard &amp; Poor's, AA- Rating [Member], BadWord:  &amp; 
+Concept: StandardPoorsAAMinusRatingMember, Label: Standard &amp; Poor's, AA- Rating [Member], BadWord: - 
+Concept: StandardPoorsAAMinusRatingMember, Label: Standard &amp; Poor's, AA- Rating [Member], BadWord: &amp; 
+Concept: MineSitesPercentageWhereAcidRockDrainageIsPredictedToOccur, Label: Mine Sites, Percentage Where Acid Rock Drainage Is Predicted To Occur, BadWord: Mine 
+Concept: FDAInspectionClassificationAxis, Label: FDA Inspection Classification [Axis], BadWord: A 
+Concept: StandardPoorsAARatingMember, Label: Standard &amp; Poor's, AA Rating [Member], BadWord: A 
+Concept: StandardPoorsAARatingMember, Label: Standard &amp; Poor's, AA Rating [Member], BadWord:  &amp; 
+Concept: StandardPoorsAARatingMember, Label: Standard &amp; Poor's, AA Rating [Member], BadWord: &amp; 
+Concept: FDAEnforcementActionsTakenInResponseToViolationsOfCurrentGoodManufacturingPracticesLineItems, Label: FDA Enforcement Actions Taken In Response To Violations Of Current Good Manufacturing Practices [Line Items], BadWord: A 
+Concept: IECWindTurbineClassIIMember, Label: IEC Wind Turbine Class II [Member], BadWord: I 
+Concept: ManagementOfEnvironmentalAndSocialImpactsInSupplyChainDisclosureAbstract, Label: Management of Environmental And Social Impacts in the Supply Chain Disclosure [Abstract], BadWord:  the 
+Concept: RRFM000AAbstract, Label: RR-FM-000.A [Abstract], BadWord: A 
+Concept: USMineSafetyAndHealthAdministrationMSHAHazardPotentialDomain, Label: U.S. Mine Safety And Health Administration (MSHA) Hazard Potential [Domain], BadWord: Mine 
+Concept: RecruitingAndManagingAGlobalAndSkilledWorkforceDisclosureAbstract, Label: Recruiting And Managing a Global And Skilled Workforce Disclosure [Abstract], BadWord:  a 
+Concept: TCES000AAbstract, Label: TC-ES-000.A [Abstract], BadWord: A 
+Concept: TCHW000AAbstract, Label: TC-HW-000.A [Abstract], BadWord: A 
+Concept: StandardPoorsBBMinusRatingMember, Label: Standard &amp; Poor's, BB- Rating [Member], BadWord:  &amp; 
+Concept: StandardPoorsBBMinusRatingMember, Label: Standard &amp; Poor's, BB- Rating [Member], BadWord: &amp; 
+Concept: StandardPoorsBBMinusRatingMember, Label: Standard &amp; Poor's, BB- Rating [Member], BadWord: - 
+Concept: HCMC000AAbstract, Label: HC-MC-000.A [Abstract], BadWord: A 
+Concept: SVCA000AAbstract, Label: SV-CA-000.A [Abstract], BadWord: A 
+Concept: MineSafetyAndHealthAdministrationAllIncidenceRateTable, Label: Mine Safety And Health Administration All-incidence Rate [Table], BadWord: Mine 
+Concept: FatalitiesNumberAssociatedWithProductsAsReportedInFDAAdverseEventReportingSystem, Label: Fatalities, Number Associated With Products As Reported In FDA Adverse Event Reporting System, BadWord: A 
+Concept: RTCP000AAbstract, Label: RT-CP-000.A [Abstract], BadWord: A 
+Concept: BA, Label: BOSNIA AND HERZEGOVINA, BadWord: A 
+Concept: AccountHoldersWhoseInformationIsUsedForSecondaryPurposesPercentageOptedIn, Label: Account Holders Whose Information Is Used For Secondary Purposes, Percentage Opted In, BadWord: Whose 
+Concept: FitchAMinusRatingMember, Label: Fitch, A- Rating [Member], BadWord: - 
+Concept: StandardPoorsAAARatingMember, Label: Standard &amp; Poor's, AAA Rating [Member], BadWord: &amp; 
+Concept: StandardPoorsAAARatingMember, Label: Standard &amp; Poor's, AAA Rating [Member], BadWord: A 
+Concept: StandardPoorsAAARatingMember, Label: Standard &amp; Poor's, AAA Rating [Member], BadWord:  &amp; 
+Concept: CGAA000AAbstract, Label: CG-AA-000.A [Abstract], BadWord: A 
+Concept: StandardPoorsCRatingMember, Label: Standard &amp; Poor's, C Rating [Member], BadWord:  &amp; 
+Concept: StandardPoorsCRatingMember, Label: Standard &amp; Poor's, C Rating [Member], BadWord: &amp; 
+Concept: BF, Label: BURKINA FASO, BadWord: A 
+Concept: AMBestCPlusRatingMember, Label: AM Best, C+ Rating [Member], BadWord: + 
+Concept: FNIB000AAbstract, Label: FN-IB-000.A [Abstract], BadWord: A 
+Concept: SFICertifiedFiberSourcingStandardMember, Label: SFI Certified Fiber Sourcing Standard [Member], BadWord: I 
+Concept: FDAEnforcementActionsTakenInResponseToViolationsOfCurrentGoodManufacturingPractices, Label: FDA Enforcement Actions Taken In Response To Violations Of Current Good Manufacturing Practices, BadWord: A 
+Concept: RisksAndOpportunitiesAssociatedWithTitleIVFundingGIBillFundingPrivateStudentLoansAndOtherTextBlock, Label: Risks And Opportunities Associated With Title IV Funding, GI Bill Funding, Private Student Loans, And Other [Text Block], BadWord: I 
+Concept: RTAE000AAbstract, Label: RT-AE-000.A [Abstract], BadWord: A 
+Concept: RRBI000AAbstract, Label: RR-BI-000.A [Abstract], BadWord: A 
+Concept: AMBestAMinusRatingMember, Label: AM Best, A- Rating [Member], BadWord: - 
+Concept: DataBreachesPercentageInvolvingCBIOrPII, Label: Data Breaches, Percentage Involving CBI Or PII, BadWord: I 
+Concept: FoodIngredientsSourcedPercentageSourcedFromSupplierFacilitiesCertifiedToGFSITable, Label: Food Ingredients Sourced, Percentage Sourced From Supplier Facilities Certified To GFSI [Table], BadWord: I 
+Concept: HCMS000AAbstract, Label: HC-MS-000.A [Abstract], BadWord: A 
+Concept: SVPS000AAbstract, Label: SV-PS-000.A [Abstract], BadWord: A 
+Concept: FairTradeUSAMember, Label: Fair Trade USA [Member], BadWord: A 
+Concept: FNCF000AAbstract, Label: FN-CF-000.A [Abstract], BadWord: A 
+Concept: AMBestBMinusRatingMember, Label: AM Best, B- Rating [Member], BadWord: - 
+Concept: USEPAENERGYSTARMember, Label: U.S. EPA ENERGY STAR [Member], BadWord: A 
+Concept: StandardPoorsBPlusRatingMember, Label: Standard &amp; Poor's, B+ Rating [Member], BadWord:  &amp; 
+Concept: StandardPoorsBPlusRatingMember, Label: Standard &amp; Poor's, B+ Rating [Member], BadWord: &amp; 
+Concept: StandardPoorsBPlusRatingMember, Label: Standard &amp; Poor's, B+ Rating [Member], BadWord: + 
+Concept: BN, Label: BRUNEI DARUSSALAM, BadWord: I 
+Concept: IFRS000AAbstract, Label: IF-RS-000.A [Abstract], BadWord: A 
+Concept: HCDR000AAbstract, Label: HC-DR-000.A [Abstract], BadWord: A 
+Concept: TRMT000AAbstract, Label: TR-MT-000.A [Abstract], BadWord: A 
+Concept: StandardPoorsAAPlusRatingMember, Label: Standard &amp; Poor's, AA+ Rating [Member], BadWord:  &amp; 
+Concept: StandardPoorsAAPlusRatingMember, Label: Standard &amp; Poor's, AA+ Rating [Member], BadWord: &amp; 
+Concept: StandardPoorsAAPlusRatingMember, Label: Standard &amp; Poor's, AA+ Rating [Member], BadWord: + 
+Concept: RTEE000AAbstract, Label: RT-EE-000.A [Abstract], BadWord: A 
+Concept: HCBP000AAbstract, Label: HC-BP-000.A [Abstract], BadWord: A 
+Concept: MineSitesPercentageWhereAcidRockDrainageIsUnderTreatmentOrRemediation, Label: Mine Sites, Percentage Where Acid Rock Drainage Is Under Treatment Or Remediation, BadWord: Mine 
+Concept: SVME000AAbstract, Label: SV-ME-000.A [Abstract], BadWord: A 
+Concept: CreditRatingStandardPoorsAxis, Label: Credit Rating, Standard &amp; Poor's [Axis], BadWord:  &amp; 
+Concept: CreditRatingStandardPoorsAxis, Label: Credit Rating, Standard &amp; Poor's [Axis], BadWord: &amp; 
+Concept: FDAEnforcementActionsTakenInResponseToViolationsOfCurrentGoodManufacturingPracticesTable, Label: FDA Enforcement Actions Taken In Response To Violations Of Current Good Manufacturing Practices [Table], BadWord: A 
+Concept: FDAInspectionsRelatedToClinicalTrialManagementAndPharmacovigilanceTable, Label: FDA Inspections Related To Clinical Trial Management And Pharmacovigilance [Table], BadWord: A 
+Concept: StandardPoorsBBBRatingMember, Label: Standard &amp; Poor's, BBB Rating [Member], BadWord:  &amp; 
+Concept: StandardPoorsBBBRatingMember, Label: Standard &amp; Poor's, BBB Rating [Member], BadWord: &amp; 
+Concept: CustomersWhoseInformationIsUsedForSecondaryPurposes, Label: Customers Whose Information Is Used For Secondary Purposes, BadWord: Whose 
+Concept: UsersWhoseInformationWasRequested, Label: Users Whose Information Was Requested, BadWord: Whose 
+Concept: EMCM000AAbstract, Label: EM-CM-000.A [Abstract], BadWord: A 
+Concept: FDARequestedRecallMember, Label: FDA Requested Recall [Member], BadWord: A 
+Concept: FDAMandatedRecallMember, Label: FDA Mandated Recall [Member], BadWord: A 
+Concept: LaborConditionsInSupplyChainDisclosureTextBlock, Label: Labor Conditions in the Supply Chain Disclosure [Text Block], BadWord:  the 
+Concept: CGBF000AAbstract, Label: CG-BF-000.A [Abstract], BadWord: A 
+Concept: TRAF000AAbstract, Label: TR-AF-000.A [Abstract], BadWord: A 
+Concept: SVHL000AAbstract, Label: SV-HL-000.A [Abstract], BadWord: A 
+Concept: FitchARatingMember, Label: Fitch, A Rating [Member], BadWord: A 
+Concept: AccountHoldersWhoseInformationIsUsedForSecondaryPurposes, Label: Account Holders Whose Information Is Used For Secondary Purposes, BadWord: Whose 
+Concept: ShorelinesWithESIRankings810Member, Label: Shorelines With ESI Rankings 8-10 [Member], BadWord: I 
+Concept: FitchAARatingMember, Label: Fitch, AA Rating [Member], BadWord: A 
+Concept: RTIG000AAbstract, Label: RT-IG-000.A [Abstract], BadWord: A 
+Concept: OnroadMediumAndHeavydutyEnginesMember, Label: On-road Medium- And Heavy-duty Engines [Member], BadWord: - 
+Concept: SVED000AAbstract, Label: SV-ED-000.A [Abstract], BadWord: A 
+Concept: RTCH000AAbstract, Label: RT-CH-000.A [Abstract], BadWord: A 
+Concept: EMMM000AAbstract, Label: EM-MM-000.A [Abstract], BadWord: A 
+Concept: FDAInspectionClassificationDomain, Label: FDA Inspection Classification [Domain], BadWord: A 
+Concept: StandardPoorsCCCMinusRatingMember, Label: Standard &amp; Poor's, CCC- Rating [Member], BadWord:  &amp; 
+Concept: StandardPoorsCCCMinusRatingMember, Label: Standard &amp; Poor's, CCC- Rating [Member], BadWord: &amp; 
+Concept: StandardPoorsCCCMinusRatingMember, Label: Standard &amp; Poor's, CCC- Rating [Member], BadWord: - 
+Concept: FitchCCCMinusRatingMember, Label: Fitch, CCC- Rating [Member], BadWord: - 
+Concept: TRRO000AAbstract, Label: TR-RO-000.A [Abstract], BadWord: A 
+Concept: FBAB000AAbstract, Label: FB-AB-000.A [Abstract], BadWord: A 
+Concept: CGTS000AAbstract, Label: CG-TS-000.A [Abstract], BadWord: A 
+Concept: ExternalCreditRatingStandardPoorsMember, Label: External Credit Rating, Standard &amp; Poor's [Domain], BadWord: &amp; 
+Concept: ExternalCreditRatingStandardPoorsMember, Label: External Credit Rating, Standard &amp; Poor's [Domain], BadWord:  &amp; 
+Concept: ProductsListedInFDAMedwatchSafetyAlertsForHumanMedicalProductsDatabaseTable, Label: Products Listed In FDA Medwatch Safety Alerts For Human Medical Products Database [Table], BadWord: A 
+Concept: MP, Label: NORTHERN MARIANA ISLANDS, BadWord: A 
+Concept: USMineSafetyAndHealthAdministrationMSHAHazardPotentialAxis, Label: U.S. Mine Safety And Health Administration (MSHA) Hazard Potential [Axis], BadWord: Mine 
+Concept: AMBestARatingMember, Label: AM Best, A Rating [Member], BadWord: A 
+Concept: AMBestAPlusPlusRatingMember, Label: AM Best, A++ Rating [Member], BadWord: + 
+Concept: AMBestBPlusRatingMember, Label: AM Best, B+ Rating [Member], BadWord: + 
+Concept: FBFR000AAbstract, Label: FB-FR-000.A [Abstract], BadWord: A 
+Concept: FitchBBPlusRatingMember, Label: Fitch, BB+ Rating [Member], BadWord: + 
+Concept: TRCL000AAbstract, Label: TR-CL-000.A [Abstract], BadWord: A 
+Concept: CustomersWhosePersonallyIdentifiableInformationEntityCollectsNumber, Label: Customers Whose Personally Identifiable Information Entity Collects, Number, BadWord: Whose 
+Concept: FNMF000AAbstract, Label: FN-MF-000.A [Abstract], BadWord: A 
+Concept: StandardPoorsBBRatingMember, Label: Standard &amp; Poor's, BB Rating [Member], BadWord: &amp; 
+Concept: StandardPoorsBBRatingMember, Label: Standard &amp; Poor's, BB Rating [Member], BadWord:  &amp; 
+Concept: CarriersPercentageWithBASICPercentilesAboveFMCSAInterventionThreshold, Label: Carriers, Percentage With BASIC Percentiles Above FMCSA Intervention Threshold, BadWord: A 
+Concept: RecruitingAndManagingAGlobalAndSkilledWorkforceDisclosureTextBlock, Label: Recruiting And Managing a Global And Skilled Workforce Disclosure [Text Block], BadWord:  a 
+Concept: MineSitesPercentageWhereAcidRockDrainageIsActivelyMitigated, Label: Mine Sites, Percentage Where Acid Rock Drainage Is Actively Mitigated, BadWord: Mine 
+Concept: CGHP000AAbstract, Label: CG-HP-000.A [Abstract], BadWord: A 
+Concept: StandardPoorsAPlusRatingMember, Label: Standard &amp; Poor's, A+ Rating [Member], BadWord:  &amp; 
+Concept: StandardPoorsAPlusRatingMember, Label: Standard &amp; Poor's, A+ Rating [Member], BadWord: + 
+Concept: StandardPoorsAPlusRatingMember, Label: Standard &amp; Poor's, A+ Rating [Member], BadWord: &amp; 
+Concept: ProductsListedInFDAMedwatchSafetyAlertsForHumanMedicalProductsDatabase, Label: Products Listed In FDA Medwatch Safety Alerts For Human Medical Products Database, BadWord: A 
+Concept: FNAC000AAbstract, Label: FN-AC-000.A [Abstract], BadWord: A 
+Concept: MineSafetyAndHealthAdministrationAllIncidenceRateLineItems, Label: Mine Safety And Health Administration All-incidence Rate [Line Items], BadWord: Mine 
+Concept: StandardPoorsDRatingMember, Label: Standard &amp; Poor's, D Rating [Member], BadWord:  &amp; 
+Concept: StandardPoorsDRatingMember, Label: Standard &amp; Poor's, D Rating [Member], BadWord: &amp; 
+Concept: RRFC000AAbstract, Label: RR-FC-000.A [Abstract], BadWord: A 
+Concept: UsersWhoseInformationIsUsedForSecondaryPurposes, Label: Users Whose Information Is Used For Secondary Purposes, BadWord: Whose 
+Concept: IFEU000AAbstract, Label: IF-EU-000.A [Abstract], BadWord: A 
+Concept: StandardPoorsBBBMinusRatingMember, Label: Standard &amp; Poor's, BBB- Rating [Member], BadWord:  &amp; 
+Concept: StandardPoorsBBBMinusRatingMember, Label: Standard &amp; Poor's, BBB- Rating [Member], BadWord: - 
+Concept: StandardPoorsBBBMinusRatingMember, Label: Standard &amp; Poor's, BBB- Rating [Member], BadWord: &amp; 
+Concept: TRRA000AAbstract, Label: TR-RA-000.A [Abstract], BadWord: A 
+Concept: TCSI000AAbstract, Label: TC-SI-000.A [Abstract], BadWord: A 
+Concept: SVAD000AAbstract, Label: SV-AD-000.A [Abstract], BadWord: A 
+Concept: FitchAAMinusRatingMember, Label: Fitch, AA- Rating [Member], BadWord: - 
+Concept: FNEX000AAbstract, Label: FN-EX-000.A [Abstract], BadWord: A 
+Concept: SL, Label: SIERRA LEONE, BadWord: A 
+Concept: TRAP000AAbstract, Label: TR-AP-000.A [Abstract], BadWord: A 
+Concept: MineSafetyAndHealthAdministrationAllIncidenceRate, Label: Mine Safety And Health Administration All-incidence Rate, BadWord: Mine 
+Concept: TCTL000AAbstract, Label: TC-TL-000.A [Abstract], BadWord: A 
+Concept: CGEC000AAbstract, Label: CG-EC-000.A [Abstract], BadWord: A 
+Concept: RRST000AAbstract, Label: RR-ST-000.A [Abstract], BadWord: A 
+Concept: SVLF000AAbstract, Label: SV-LF-000.A [Abstract], BadWord: A 
+Concept: ProductsListedInFDAMedwatchSafetyAlertsForHumanMedicalProductsDatabaseLineItems, Label: Products Listed In FDA Medwatch Safety Alerts For Human Medical Products Database [Line Items], BadWord: A 
+Concept: TRAL000AAbstract, Label: TR-AL-000.A [Abstract], BadWord: A 
+Concept: FitchBBBPlusRatingMember, Label: Fitch, BBB+ Rating [Member], BadWord: + 
+Concept: StandardPoorsCCCPlusRatingMember, Label: Standard &amp; Poor's, CCC+ Rating [Member], BadWord: &amp; 
+Concept: StandardPoorsCCCPlusRatingMember, Label: Standard &amp; Poor's, CCC+ Rating [Member], BadWord: + 
+Concept: StandardPoorsCCCPlusRatingMember, Label: Standard &amp; Poor's, CCC+ Rating [Member], BadWord:  &amp; 
+Concept: IFEN000AAbstract, Label: IF-EN-000.A [Abstract], BadWord: A 
+Concept: FoodIngredientsSourcedPercentageSourcedFromSupplierFacilitiesCertifiedToGFSILineItems, Label: Food Ingredients Sourced, Percentage Sourced From Supplier Facilities Certified To GFSI [Line Items], BadWord: I 
+Concept: GS, Label: SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS, BadWord: A 
+Concept: FitchAPlusRatingMember, Label: Fitch, A+ Rating [Member], BadWord: + 
+Concept: FNIN000AAbstract, Label: FN-IN-000.A [Abstract], BadWord: A 
+Concept: CGAM000AAbstract, Label: CG-AM-000.A [Abstract], BadWord: A 
+Concept: TCSC000AAbstract, Label: TC-SC-000.A [Abstract], BadWord: A 
+Concept: IFGU000AAbstract, Label: IF-GU-000.A [Abstract], BadWord: A 
+Concept: IECWindTurbineClassIIIMember, Label: IEC Wind Turbine Class III [Member], BadWord: I 
+Concept: CGMR000AAbstract, Label: CG-MR-000.A [Abstract], BadWord: A 
+Concept: FitchBBMinusRatingMember, Label: Fitch, BB- Rating [Member], BadWord: - 
+Concept: HCDI000AAbstract, Label: HC-DI-000.A [Abstract], BadWord: A 
+Concept: GIBillFundingMember, Label: GI Bill Funding [Member], BadWord: I 
+Concept: StandardPoorsCCRatingMember, Label: Standard &amp; Poor's, CC Rating [Member], BadWord:  &amp; 
+Concept: StandardPoorsCCRatingMember, Label: Standard &amp; Poor's, CC Rating [Member], BadWord: &amp; 
+Concept: StandardPoorsAMinusRatingMember, Label: Standard &amp; Poor's, A- Rating [Member], BadWord:  &amp; 
+Concept: StandardPoorsAMinusRatingMember, Label: Standard &amp; Poor's, A- Rating [Member], BadWord: &amp; 
+Concept: StandardPoorsAMinusRatingMember, Label: Standard &amp; Poor's, A- Rating [Member], BadWord: - 
+Concept: EMMD000AAbstract, Label: EM-MD-000.A [Abstract], BadWord: A 
+Concept: IFWM000AAbstract, Label: IF-WM-000.A [Abstract], BadWord: A 
+Concept: FitchBPlusRatingMember, Label: Fitch, B+ Rating [Member], BadWord: + 
+Concept: AG, Label: ANTIGUA AND BARBUDA, BadWord: A 
+Concept: CoveredEmployeesMeasuresToEnsureThatCoveredEmployeesFileAndUpdateFINRAAndSECFormsInTimelyMannerTextBlock, Label: Covered Employees, Measures To Ensure That Covered Employees File And Update FINRA And SEC Forms In Timely Manner [Text Block], BadWord: A 
+Concept: RecruitingAndManagingAGlobalDiverseAndSkilledWorkforceDisclosureAbstract, Label: Recruiting And Managing a Global, Diverse And Skilled Workforce Disclosure [Abstract], BadWord:  a 
+Concept: ManagementOfEnvironmentalAndSocialImpactsInSupplyChainDisclosureTextBlock, Label: Management of Environmental And Social Impacts in the Supply Chain Disclosure [Text Block], BadWord:  the 
+Concept: IECWindTurbineClassIMember, Label: IEC Wind Turbine Class I [Member], BadWord: I 
+Concept: TCIM000AAbstract, Label: TC-IM-000.A [Abstract], BadWord: A 
+Concept: FBPF000AAbstract, Label: FB-PF-000.A [Abstract], BadWord: A 
+Concept: FDAInspectionsRelatedToClinicalTrialManagementAndPharmacovigilanceLineItems, Label: FDA Inspections Related To Clinical Trial Management And Pharmacovigilance [Line Items], BadWord: A 
+Concept: FDAEnforcementActionDomain, Label: FDA Enforcement Action [Domain], BadWord: A 
+Concept: EMRM000AAbstract, Label: EM-RM-000.A [Abstract], BadWord: A 
+Concept: FDAInspectionsRelatedToClinicalTrialManagementAndPharmacovigilance, Label: FDA Inspections Related To Clinical Trial Management And Pharmacovigilance, BadWord: A 
+Concept: FitchAAARatingMember, Label: Fitch, AAA Rating [Member], BadWord: A 
+Concept: FBAG000AAbstract, Label: FB-AG-000.A [Abstract], BadWord: A 
+Concept: FatalitiesNumberRelatedToProductsAsReportedInFDAManufacturerAndUserFacilityDeviceExperienceDatabase, Label: Fatalities, Number Related To Products As Reported In FDA Manufacturer And User Facility Device Experience Database, BadWord: A 
+Concept: StandardPoorsBRatingMember, Label: Standard &amp; Poor's, B Rating [Member], BadWord:  &amp; 
+Concept: StandardPoorsBRatingMember, Label: Standard &amp; Poor's, B Rating [Member], BadWord: &amp; 
+Concept: AMBestAPlusRatingMember, Label: AM Best, A+ Rating [Member], BadWord: + 
+Concept: AMBestCMinusRatingMember, Label: AM Best, C- Rating [Member], BadWord: - 
+Concept: LaborConditionsInSupplyChainDisclosureAbstract, Label: Labor Conditions in the Supply Chain Disclosure [Abstract], BadWord:  the 
+Concept: FitchAAPlusRatingMember, Label: Fitch, AA+ Rating [Member], BadWord: + 
+Concept: EnvironmentalImpactsInSupplyChainDisclosureAbstract, Label: Environmental Impacts in the Supply Chain Disclosure [Abstract], BadWord:  the 
+Concept: EMSV000AAbstract, Label: EM-SV-000.A [Abstract], BadWord: A 
+Concept: IFWU000AAbstract, Label: IF-WU-000.A [Abstract], BadWord: A 
+Concept: StandardPoorsBMinusRatingMember, Label: Standard &amp; Poor's, B- Rating [Member], BadWord:  &amp; 
+Concept: StandardPoorsBMinusRatingMember, Label: Standard &amp; Poor's, B- Rating [Member], BadWord: - 
+Concept: StandardPoorsBMinusRatingMember, Label: Standard &amp; Poor's, B- Rating [Member], BadWord: &amp; 
+Concept: EMCO000AAbstract, Label: EM-CO-000.A [Abstract], BadWord: A 
+Concept: PoliciesAndPracticesToSecureCustomersPHIRecordsAndOtherPIITextBlock, Label: Policies And Practices To Secure Customers' PHI Records And Other PII [Text Block], BadWord: I 
+Concept: HCDY000AAbstract, Label: HC-DY-000.A [Abstract], BadWord: A 
+Concept: FBMP000AAbstract, Label: FB-MP-000.A [Abstract], BadWord: A 
+Concept: FBRN000AAbstract, Label: FB-RN-000.A [Abstract], BadWord: A 
+Concept: TRCR000AAbstract, Label: TR-CR-000.A [Abstract], BadWord: A 
+Concept: FBNB000AAbstract, Label: FB-NB-000.A [Abstract], BadWord: A 
+Concept: FitchCCCPlusRatingMember, Label: Fitch, CCC+ Rating [Member], BadWord: + 
+Concept: StandardPoorsBBBPlusRatingMember, Label: Standard &amp; Poor's, BBB+ Rating [Member], BadWord:  &amp; 
+Concept: StandardPoorsBBBPlusRatingMember, Label: Standard &amp; Poor's, BBB+ Rating [Member], BadWord: &amp; 
+Concept: StandardPoorsBBBPlusRatingMember, Label: Standard &amp; Poor's, BBB+ Rating [Member], BadWord: + 
+Concept: CR, Label: COSTA RICA, BadWord: A 
+Concept: IFHB000AAbstract, Label: IF-HB-000.A [Abstract], BadWord: A 
+Concept: EMIS000AAbstract, Label: EM-IS-000.A [Abstract], BadWord: A 
+Concept: TRAU000AAbstract, Label: TR-AU-000.A [Abstract], BadWord: A 
+Concept: ManagementOfLegalAndRegulatoryEnvironmentDisclosureTextBlock, Label: Management of the Legal And Regulatory Environment Disclosure [Text Block], BadWord:  the 
+Concept: AMBestBPlusPlusRatingMember, Label: AM Best, B++ Rating [Member], BadWord: + 
+Concept: FBTB000AAbstract, Label: FB-TB-000.A [Abstract], BadWord: A 
+ - </message></entry>
+<entry code="l0003" level="error">
+ <message cid="4469875656" filing_url="/Users/campbellpryde/Documents/GitHub/TaxonomyDashboard/SASB/blank-instance/ixbrl-viewer_extracted.xbrl" severity="error">[l0003] The following pronouns were used in elements:
+Concept: RisksAndOpportunitiesAssociatedWithTitleIVFundingGIBillFundingPrivateStudentLoansAndOtherTextBlock, Label: Discussion of risks and opportunities associated with Title IV funding, GI Bill funding, private student loans, and other funding sources., BadWord: I 
+Concept: MineSitesPercentageWhereAcidRockDrainageIsActivelyMitigated, Label: Percentage of mine sites where acid rock drainage is actively mitigated., BadWord:  mine 
+Concept: MineSitesPercentageWhereAcidRockDrainageIsPredictedToOccur, Label: Percentage of mine sites where acid rock drainage is predicted to occur., BadWord:  mine 
+Concept: MineSafetyAndHealthAdministrationAllIncidenceRate, Label: Mine Safety and Health Administration (MSHA) All-Incidence rate., BadWord: Mine 
+Concept: MineSitesPercentageWhereAcidRockDrainageIsUnderTreatmentOrRemediation, Label: Percentage of mine sites where acid rock drainage is under treatment or remediation., BadWord:  mine 
+ - </message></entry>
+<entry code="l0004" level="error">
+ <message cid="4469875656" filing_url="/Users/campbellpryde/Documents/GitHub/TaxonomyDashboard/SASB/blank-instance/ixbrl-viewer_extracted.xbrl" severity="error">[l0004] The following non abstract concepts do not have documentation labels associated with them.
+The items are as follows:
+srt:ProvedDevelopedReservesBOE1,
+srt:ProvedUndevelopedReserveBOE1,
+srt:ContractualObligationFiscalYearMaturityScheduleTableTextBlock,
+srt:DescriptionOfSignificantProvisionsOfLongTermObligationsOfParentCompany,
+srt:OilAndGasNetProductionAverageSalesPriceAndAverageProductionCostsDisclosureTextBlock,
+srt:CondensedStatementOfComprehensiveIncomeTableTextBlock,
+srt:ProvedDevelopedAndUndevelopedReserveNetEnergy,
+srt:DecreaseDueToSalesOfMineralsInPlace,
+srt:NetCapitalExcessShortageUnderCommodityExchangeAct,
+srt:ScheduleOfCondensedBalanceSheetTableTextBlock,
+srt:ConsolidatedOilAndGasProductionCostsPerUnitOfProduction,
+srt:ScheduleOfProvedDevelopedAndUndevelopedOilAndGasReserveQuantitiesTextBlock,
+srt:DescriptionOfGuaranteesGivenByParentCompany,
+srt:ProvedReserveQuantityLocationInHomeCountry,
+srt:MinimumFinancialRequirementsForFuturesCommissionMerchantsUnderCommodityExchangeActTextBlock,
+srt:ProductiveOilWellsNumberOfWellsNet,
+srt:ProvedDevelopedAndUndevelopedReserveImprovedRecoveryEnergy,
+srt:DevelopmentWellsDrilledNetProductive,
+srt:MortgageLoansOnRealEstatePriorLiens1,
+srt:RealEstateWriteDownOrReserveBasis,
+srt:LifeInsuranceInForceNet,
+srt:LifeInsuranceInForcePercentageAssumedToNet,
+srt:SignificantChangesInReserves,
+srt:FutureNetCashFlowsRelatingToProvedOilAndGasReservesDevelopmentCosts,
+srt:AlternativeNetCapitalRequirement1,
+srt:ProvedDevelopedAndUndevelopedReservesNetPeriodIncreaseDecrease,
+srt:CapitalRequirementOfConsolidatedBrokerDealerSubsidiaryElectingAlternativeMethod,
+srt:OilAndGasDeliveryCommitmentsAndContractsAvailableAmountsToBeReceived,
+srt:PayablesToBrokerDealersAndClearingOrganizations,
+srt:ScheduleOfOilAndGasInProcessActivitiesTextBlock,
+srt:ProvedDevelopedAndUndevelopedReservesProduction,
+srt:StandardizedMeasureOfDiscountedFutureNetCashFlowOfProvedOilAndGasReservesPeriodIncreaseDecrease,
+srt:ScheduleOfDevelopmentWellsDrilledTextBlock,
+srt:ScheduleOfExploratoryWellsDrilledTextBlock,
+srt:OilAndGasDeliveryCommitmentsAndContractsSignificantSuppliesDedicatedOrContractedToEntity,
+srt:RealEstateFederalIncomeTaxBasis,
+srt:ReservesShareOfEquityMethodInvesteesNetProvedOilAndGasReserves,
+srt:PayablesToCustomers,
+srt:DescriptionOfMandatoryDividendOrRedemptionProvisionsOfRedeemableStockOfParentCompany,
+srt:ProductionBarrelsOfOilEquivalents1,
+srt:SignificantEconomicInterestInStandardizedMeasureOfDiscountedFutureNetCashFlowsAttributableToConsolidatedSubsidiaryIesWithSignificantMinorityInterests,
+srt:ProvedDevelopedAndUndevelopedReservesRevisionsOfPreviousEstimatesIncreaseDecrease,
+srt:StandardizedMeasureOfDiscountedFutureNetCashFlowsRelatingToProvedOilAndGasReserves,
+srt:ProductiveGasWellsNumberOfWellsGross,
+srt:RealEstateAndAccumulatedDepreciationDateOfConstruction1,
+srt:ProvedDevelopedAndUndevelopedReserveExtensionAndDiscoveryEnergy,
+srt:LifeInsuranceInForceCeded,
+srt:NetCapital,
+srt:ProvedDevelopedAndUndevelopedReservesPurchasesOfMineralsInPlace,
+srt:GasAndOilAreaUndevelopedNet,
+srt:MortgageLoansOnRealEstateRenewedAndExtended,
+srt:IncreaseDecreaseInEstimatedFutureDevelopmentCosts,
+srt:SupplementaryInsuranceInformationForInsuranceCompaniesDisclosureTextBlock,
+srt:ScheduleOfCondensedFinancialStatementsTableTextBlock,
+srt:SalesAndTransfersOfOilAndGasProducedNetOfProductionCosts,
+srt:RealEstateAndAccumulatedDepreciationDateAcquired1,
+srt:ProvedDevelopedAndUndevelopedReservesNet,
+srt:SupplementalScheduleOfReinsurancePremiumsForInsuranceCompaniesTextBlock,
+srt:MinimumNetCapitalRequiredForEntity1,
+srt:ScheduleOfSupplementalInformationForPropertyCasualtyInsuranceUnderwritersTextBlock,
+srt:ProvedOilAndGasReserveQuantitiesApplicableToLongTermSupplyAgreementsWithGovernmentsOrAuthorities,
+srt:NetIncreaseDecreaseInSalesAndTransferPricesAndProductionCosts,
+srt:FutureNetCashFlowsRelatingToProvedOilAndGasReservesIncomeTaxExpense,
+srt:AlternativeExcessNetCapital,
+srt:ProvedDevelopedAndUndevelopedReserveRevisionOfPreviousEstimateEnergy,
+srt:MortgageLoansOnRealEstateFaceAmountOfMortgages,
+srt:GasAndOilAreaUndevelopedGross,
+srt:ScheduleOfProductiveWellsTextBlock,
+srt:MortgageLoansOnRealEstateReserves,
+srt:RequiredNetCapitalUnderCommodityExchangeAct1,
+srt:ProvedDevelopedAndUndevelopedReservesSaleOfMineralInPlaceEnergy,
+srt:WellsInProcessOfDrilling,
+srt:ProductiveOilWellsNumberOfWellsGross,
+srt:BankLoans,
+srt:AdditionalInformationNecessaryToPreventDisclosureOfDiscountsFutureNetCashFlowsFromBeingMisleading,
+srt:SummaryOfInvestmentsOtherThanInvestmentsInRelatedPartiesCarryingAmountExplanation,
+srt:RevisionsOfPreviousQuantityEstimates,
+srt:MortgageLoansOnRealEstateFederalIncomeTaxBasis1,
+srt:RealEstateOtherDisclosures,
+srt:IncreaseDecreaseInFutureIncomeTaxExpenseEstimatesOnFutureCashFlowsRelatedToProvedOilAndGasReserves,
+srt:GasAndOilAreaDevelopedNet,
+srt:SecSchedule1229InvestmentInMortgageLoansOnRealEstateLocationOfPropertyExtensibleList,
+srt:ProvedDevelopedAndUndevelopedReservesSalesOfMineralsInPlace,
+srt:ProvedDevelopedAndUndevelopedReservesImprovedRecovery,
+srt:WellsTemporarilySuspended,
+srt:SummaryOfInvestmentsOtherThanInvestmentsInRelatedPartiesTextBlock,
+srt:MortgageLoansOnRealEstateInterestRate,
+srt:StandardizedMeasureOfDiscountedFutureNetCashFlowOfProvedOilAndGasReservesOther,
+srt:LifeInsuranceInForceGross,
+srt:ProductiveOilWellsNumberOfWellsWithMultipleCompletionsNet,
+srt:ReserveQuantityAttributableToConsolidatedSubsidiaryNoncontrollingInterestVolume,
+srt:RealEstateAndAccumulatedDepreciationAmountOfEncumbrances,
+srt:OilAndGasQuantitiesReceivedUnderLongTermSupplyAgreementsWithGovernmentsOrAuthorities,
+srt:MortgageLoansOnRealEstateByLoanDisclosureTextBlock,
+srt:StandardizedMeasureOfDiscountedFutureCashFlowsRelatingToProvedReservesDisclosureTextBlock,
+srt:LifeInsuranceInForceAssumed,
+srt:MortgageLoansOnRealEstatePeriodicPaymentTermsLevelPayments,
+srt:MinimumNetCapitalRequired1,
+srt:NetCapitalInExcessOfFivePercentOfDebitItems,
+srt:FutureNetCashFlowsRelatingToProvedOilAndGasReservesNetCashFlows,
+srt:MortgageLoansOnRealEstateTransactionsWithAffiliates,
+srt:ScheduleOfChangesInStandardizedMeasureOfDiscountedFutureNetCashFlowsTableTextBlock,
+srt:MinimumNetCapitalRequiredForBrokerDealerSubsidiary1,
+srt:ProductiveOilWellsNumberOfWellsWithMultipleCompletionsGross,
+srt:IncreaseDueToPurchasesOfMineralsInPlace,
+srt:DraftsPayable,
+srt:ScheduleOfValuationAndQualifyingAccountsDisclosureTextBlock,
+srt:FutureNetCashFlowsRelatingToProvedOilAndGasReservesProductionCosts,
+srt:ProvedUndevelopedReserveVolume,
+srt:SECScheduleIIIRealEstateNumberOfUnits,
+srt:FutureNetCashFlowsRelatingToProvedOilAndGasReservesCashInflows,
+srt:MortgageLoansOnRealEstateCollectionsOfPrincipal,
+srt:OilAndGasDeliveryCommitmentsAndContractsRemainingContractualVolume,
+srt:ExtensionsDiscoveriesAdditionsAndImprovedRecoveryLessRelatedCosts,
+srt:CondensedFinancialStatementsTextBlock,
+srt:MortgageLoansOnRealEstateWriteDownOrReserveBasis,
+srt:ScheduleOfCondensedCashFlowStatementTableTextBlock,
+srt:MortgageLoansOnRealEstatePeriodicPaymentTermsBalloonPaymentToBeReceived,
+srt:ProvedDevelopedAndUndevelopedReservePurchaseOfMineralInPlaceEnergy,
+srt:ScheduleOfCondensedIncomeStatementTableTextBlock,
+srt:ExploratoryWellsDrilledNetNonproductive,
+srt:DescriptionOfMaterialContingenciesOfParentCompany,
+srt:GasAndOilAreaDevelopedGross,
+srt:DescriptionOfNetCapitalRequirementsUnderCommodityExchangeAct,
+srt:MortgageLoansOnRealEstatePeriodicPaymentTermsVaryingAmounts,
+srt:ScheduleOfGasAndOilAcreageTextBlock,
+srt:NetCapitalUnderCommodityExchangeActComputation,
+srt:ProvedDevelopedAndUndevelopedReserveNetEnergyPeriodIncreaseDecrease,
+srt:FutureNetCashFlowsRelatingToProvedOilAndGasReservesTenPercentAnnualDiscountForEstimatedTimingOfCashFlows,
+srt:ReserveQuantityAttributableToConsolidatedSubsidiaryNoncontrollingInterest,
+srt:MinimumRemainingTermsOfLeasesAndConcessionsOnUndevelopedAcreage1,
+srt:StandardizedMeasureOfDiscountedFutureNetCashFlowRelatingToProvedOilAndGasReservesAccretionOfDiscount,
+srt:MortgageLoansOnRealEstatePrincipalAmountOfDelinquentLoans,
+srt:ExcessNetCapitalAt1500Percent,
+srt:DevelopmentWellsDrilledNetNonproductive,
+srt:TwoPercentOfDebitItems,
+srt:MortgageLoanOnRealEstateFinalMaturityDate,
+srt:PreviouslyEstimatedDevelopmentCostsIncurred,
+srt:ProvedDevelopedAndUndevelopedReserveProductionEnergy,
+srt:MortgageLoansOnRealEstateDelinquentPrincipalOrInterestAcquiredFromAffiliates,
+srt:MortgageLoansOnRealEstatePeriodicPaymentTerms,
+srt:ProductiveGasWellsNumberOfWellsNet,
+srt:ProvedDevelopedReservesVolume,
+srt:ProvedDevelopedAndUndevelopedReservesExtensionsDiscoveriesAndAdditions,
+srt:SECScheduleIIIRealEstateTransactionsWithAffiliatesDisclosure,
+srt:OilAndGasDeliveryCommitmentsAndContractsDisclosureTextBlock,
+srt:ComputationOfNetCapitalUnderSecuritiesAndExchangeCommissionRegulationTextBlock,
+srt:MortgageLoansOnRealEstateNumberOfLoans,
+srt:ExploratoryWellsDrilledNetProductive,
+srt:RealEstateAndAccumulatedDepreciationDisclosureTextBlock,
+srt:AverageSalesPrices - </message></entry>
+<entry code="l0005" level="error">
+ <message cid="4469875656" filing_url="/Users/campbellpryde/Documents/GitHub/TaxonomyDashboard/SASB/blank-instance/ixbrl-viewer_extracted.xbrl" severity="error">[l0005] The following documentation labels do not end with a period:
+Concept: http://fasb.org/srt/2020-01-31:RequiredNetCapitalUnderCommodityExchangeAct1, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:RealEstateAndAccumulatedDepreciationDateAcquired1, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:IncreaseDueToPurchasesOfMineralsInPlace, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:ProvedUndevelopedReserveVolume, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:DescriptionOfMaterialContingenciesOfParentCompany, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:IncreaseDecreaseInFutureIncomeTaxExpenseEstimatesOnFutureCashFlowsRelatedToProvedOilAndGasReserves, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:ProvedDevelopedAndUndevelopedReservesPurchasesOfMineralsInPlace, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:ProvedDevelopedAndUndevelopedReservesSalesOfMineralsInPlace, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:MinimumNetCapitalRequired1, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:LifeInsuranceInForceCeded, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:ProductiveOilWellsNumberOfWellsGross, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:MinimumRemainingTermsOfLeasesAndConcessionsOnUndevelopedAcreage1, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:CondensedFinancialStatementsTextBlock, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:MortgageLoansOnRealEstatePeriodicPaymentTermsBalloonPaymentToBeReceived, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:ScheduleOfProvedDevelopedAndUndevelopedOilAndGasReserveQuantitiesTextBlock, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:ProductiveOilWellsNumberOfWellsWithMultipleCompletionsGross, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:OilAndGasNetProductionAverageSalesPriceAndAverageProductionCostsDisclosureTextBlock, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:ProvedOilAndGasReserveQuantitiesApplicableToLongTermSupplyAgreementsWithGovernmentsOrAuthorities, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:MortgageLoansOnRealEstateNumberOfLoans, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:ScheduleOfExploratoryWellsDrilledTextBlock, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:StandardizedMeasureOfDiscountedFutureNetCashFlowOfProvedOilAndGasReservesOther, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:ProvedDevelopedAndUndevelopedReservesExtensionsDiscoveriesAndAdditions, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:ProvedDevelopedAndUndevelopedReservesImprovedRecovery, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:CondensedStatementOfComprehensiveIncomeTableTextBlock, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:RealEstateFederalIncomeTaxBasis, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:ProvedDevelopedAndUndevelopedReservesRevisionsOfPreviousEstimatesIncreaseDecrease, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:MortgageLoansOnRealEstateInterestRate, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:MortgageLoansOnRealEstateFederalIncomeTaxBasis1, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:OilAndGasQuantitiesReceivedUnderLongTermSupplyAgreementsWithGovernmentsOrAuthorities, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:NetCapitalExcessShortageUnderCommodityExchangeAct, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:ScheduleOfCondensedIncomeStatementTableTextBlock, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:ExtensionsDiscoveriesAdditionsAndImprovedRecoveryLessRelatedCosts, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:ConsolidatedOilAndGasProductionCostsPerUnitOfProduction, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:ProvedDevelopedReservesVolume, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:ProvedDevelopedAndUndevelopedReserveNetEnergy, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:ProvedDevelopedAndUndevelopedReserveImprovedRecoveryEnergy, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:OilAndGasDeliveryCommitmentsAndContractsAvailableAmountsToBeReceived, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:ScheduleOfChangesInStandardizedMeasureOfDiscountedFutureNetCashFlowsTableTextBlock, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:OilAndGasDeliveryCommitmentsAndContractsRemainingContractualVolume, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:StandardizedMeasureOfDiscountedFutureNetCashFlowOfProvedOilAndGasReservesPeriodIncreaseDecrease, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:DescriptionOfMandatoryDividendOrRedemptionProvisionsOfRedeemableStockOfParentCompany, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:FutureNetCashFlowsRelatingToProvedOilAndGasReservesCashInflows, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:MortgageLoansOnRealEstateFaceAmountOfMortgages, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:ProductiveOilWellsNumberOfWellsWithMultipleCompletionsNet, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:ScheduleOfSupplementalInformationForPropertyCasualtyInsuranceUnderwritersTextBlock, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:PayablesToCustomers, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:AverageSalesPrices, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:RealEstateAndAccumulatedDepreciationAmountOfEncumbrances, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:TwoPercentOfDebitItems, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:SummaryOfInvestmentsOtherThanInvestmentsInRelatedPartiesCarryingAmountExplanation, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:GasAndOilAreaDevelopedNet, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:MortgageLoansOnRealEstatePrincipalAmountOfDelinquentLoans, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:WellsTemporarilySuspended, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:FutureNetCashFlowsRelatingToProvedOilAndGasReservesNetCashFlows, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:SECScheduleIIIRealEstateTransactionsWithAffiliatesDisclosure, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:ExcessNetCapitalAt1500Percent, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:MortgageLoansOnRealEstatePriorLiens1, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:ComputationOfNetCapitalUnderSecuritiesAndExchangeCommissionRegulationTextBlock, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:FutureNetCashFlowsRelatingToProvedOilAndGasReservesIncomeTaxExpense, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:SignificantChangesInReserves, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:RealEstateWriteDownOrReserveBasis, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:NetCapitalInExcessOfFivePercentOfDebitItems, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:ScheduleOfCondensedFinancialStatementsTableTextBlock, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:ScheduleOfCondensedBalanceSheetTableTextBlock, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:RealEstateOtherDisclosures, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:DraftsPayable, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:ProvedReserveQuantityLocationInHomeCountry, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:SupplementalScheduleOfReinsurancePremiumsForInsuranceCompaniesTextBlock, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:MinimumFinancialRequirementsForFuturesCommissionMerchantsUnderCommodityExchangeActTextBlock, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:MortgageLoansOnRealEstateWriteDownOrReserveBasis, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:IncreaseDecreaseInEstimatedFutureDevelopmentCosts, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:ProvedDevelopedAndUndevelopedReserveProductionEnergy, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:ScheduleOfOilAndGasInProcessActivitiesTextBlock, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:MortgageLoanOnRealEstateFinalMaturityDate, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:SECScheduleIIIRealEstateNumberOfUnits, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:LifeInsuranceInForceNet, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:LifeInsuranceInForcePercentageAssumedToNet, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:GasAndOilAreaUndevelopedNet, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:ProvedUndevelopedReserveBOE1, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:MinimumNetCapitalRequiredForEntity1, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:CapitalRequirementOfConsolidatedBrokerDealerSubsidiaryElectingAlternativeMethod, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:GasAndOilAreaDevelopedGross, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:FutureNetCashFlowsRelatingToProvedOilAndGasReservesDevelopmentCosts, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:SalesAndTransfersOfOilAndGasProducedNetOfProductionCosts, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:ProvedDevelopedAndUndevelopedReservesSaleOfMineralInPlaceEnergy, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:FutureNetCashFlowsRelatingToProvedOilAndGasReservesTenPercentAnnualDiscountForEstimatedTimingOfCashFlows, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:ProvedDevelopedAndUndevelopedReservesNet, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:SecSchedule1229InvestmentInMortgageLoansOnRealEstateLocationOfPropertyExtensibleList, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:ScheduleOfDevelopmentWellsDrilledTextBlock, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:ProvedDevelopedAndUndevelopedReserveExtensionAndDiscoveryEnergy, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:RealEstateAndAccumulatedDepreciationDisclosureTextBlock, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:GasAndOilAreaUndevelopedGross, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:RealEstateAndAccumulatedDepreciationDateOfConstruction1, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:AlternativeExcessNetCapital, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:LifeInsuranceInForceGross, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:ProvedDevelopedReservesBOE1, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:OilAndGasDeliveryCommitmentsAndContractsSignificantSuppliesDedicatedOrContractedToEntity, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:PreviouslyEstimatedDevelopmentCostsIncurred, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:ReserveQuantityAttributableToConsolidatedSubsidiaryNoncontrollingInterest, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:StandardizedMeasureOfDiscountedFutureCashFlowsRelatingToProvedReservesDisclosureTextBlock, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:DecreaseDueToSalesOfMineralsInPlace, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:MortgageLoansOnRealEstateByLoanDisclosureTextBlock, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:ProductionBarrelsOfOilEquivalents1, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:SupplementaryInsuranceInformationForInsuranceCompaniesDisclosureTextBlock, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:DescriptionOfSignificantProvisionsOfLongTermObligationsOfParentCompany, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:BankLoans, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:DescriptionOfGuaranteesGivenByParentCompany, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:MortgageLoansOnRealEstateReserves, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:MortgageLoansOnRealEstatePeriodicPaymentTermsLevelPayments, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:ExploratoryWellsDrilledNetNonproductive, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:MortgageLoansOnRealEstateTransactionsWithAffiliates, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:ProductiveGasWellsNumberOfWellsNet, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:RevisionsOfPreviousQuantityEstimates, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:ContractualObligationFiscalYearMaturityScheduleTableTextBlock, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:LifeInsuranceInForceAssumed, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:MortgageLoansOnRealEstateRenewedAndExtended, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:ScheduleOfCondensedCashFlowStatementTableTextBlock, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:ProvedDevelopedAndUndevelopedReservesProduction, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:MinimumNetCapitalRequiredForBrokerDealerSubsidiary1, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:MortgageLoansOnRealEstateCollectionsOfPrincipal, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:StandardizedMeasureOfDiscountedFutureNetCashFlowRelatingToProvedOilAndGasReservesAccretionOfDiscount, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:MortgageLoansOnRealEstatePeriodicPaymentTerms, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:DevelopmentWellsDrilledNetNonproductive, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:SignificantEconomicInterestInStandardizedMeasureOfDiscountedFutureNetCashFlowsAttributableToConsolidatedSubsidiaryIesWithSignificantMinorityInterests, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:NetIncreaseDecreaseInSalesAndTransferPricesAndProductionCosts, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:StandardizedMeasureOfDiscountedFutureNetCashFlowsRelatingToProvedOilAndGasReserves, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:SummaryOfInvestmentsOtherThanInvestmentsInRelatedPartiesTextBlock, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:MortgageLoansOnRealEstateDelinquentPrincipalOrInterestAcquiredFromAffiliates, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:ScheduleOfGasAndOilAcreageTextBlock, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:ProductiveGasWellsNumberOfWellsGross, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:ProvedDevelopedAndUndevelopedReserveRevisionOfPreviousEstimateEnergy, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:ReserveQuantityAttributableToConsolidatedSubsidiaryNoncontrollingInterestVolume, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:OilAndGasDeliveryCommitmentsAndContractsDisclosureTextBlock, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:ExploratoryWellsDrilledNetProductive, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:MortgageLoansOnRealEstatePeriodicPaymentTermsVaryingAmounts, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:ProvedDevelopedAndUndevelopedReservesNetPeriodIncreaseDecrease, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:ScheduleOfValuationAndQualifyingAccountsDisclosureTextBlock, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:DevelopmentWellsDrilledNetProductive, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:AdditionalInformationNecessaryToPreventDisclosureOfDiscountsFutureNetCashFlowsFromBeingMisleading, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:PayablesToBrokerDealersAndClearingOrganizations, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:ProductiveOilWellsNumberOfWellsNet, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:ScheduleOfProductiveWellsTextBlock, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:ReservesShareOfEquityMethodInvesteesNetProvedOilAndGasReserves, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:ProvedDevelopedAndUndevelopedReservePurchaseOfMineralInPlaceEnergy, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:AlternativeNetCapitalRequirement1, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:ProvedDevelopedAndUndevelopedReserveNetEnergyPeriodIncreaseDecrease, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:NetCapital, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:FutureNetCashFlowsRelatingToProvedOilAndGasReservesProductionCosts, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:WellsInProcessOfDrilling, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:DescriptionOfNetCapitalRequirementsUnderCommodityExchangeAct, Label: , LastCharacter: 
+Concept: http://fasb.org/srt/2020-01-31:NetCapitalUnderCommodityExchangeActComputation, Label: , LastCharacter: 
+ - </message></entry>
+<entry code="l0008" level="error">
+ <message cid="4469875656" filing_url="/Users/campbellpryde/Documents/GitHub/TaxonomyDashboard/SASB/blank-instance/ixbrl-viewer_extracted.xbrl" severity="error">[l0008] The member srt:ExternalCreditRatingFitchMember does not contain the text [Member] in the label External Credit Rating, Fitch [Domain]. - </message></entry>
+<entry code="l0008" level="error">
+ <message cid="4469875656" filing_url="/Users/campbellpryde/Documents/GitHub/TaxonomyDashboard/SASB/blank-instance/ixbrl-viewer_extracted.xbrl" severity="error">[l0008] The member srt:ExternalCreditRatingStandardPoorsMember does not contain the text [Member] in the label External Credit Rating, Standard &amp; Poor's [Domain]. - </message></entry>
+<entry code="l0008" level="error">
+ <message cid="4469875656" filing_url="/Users/campbellpryde/Documents/GitHub/TaxonomyDashboard/SASB/blank-instance/ixbrl-viewer_extracted.xbrl" severity="error">[l0008] The member srt:ExternalCreditRatingMoodysMember does not contain the text [Member] in the label External Credit Rating, Moody's [Domain]. - </message></entry>
+<entry code="l0008" level="error">
+ <message cid="4469875656" filing_url="/Users/campbellpryde/Documents/GitHub/TaxonomyDashboard/SASB/blank-instance/ixbrl-viewer_extracted.xbrl" severity="error">[l0008] The member srt:RangeMember does not contain the text [Member] in the label Statistical Measurement [Domain]. - </message></entry>
+<entry code="l0008" level="error">
+ <message cid="4469875656" filing_url="/Users/campbellpryde/Documents/GitHub/TaxonomyDashboard/SASB/blank-instance/ixbrl-viewer_extracted.xbrl" severity="error">[l0008] The member srt:AircraftTypeMember does not contain the text [Member] in the label Aircraft [Domain]. - </message></entry>
+<entry code="info" level="info">
+ <message>[info] validated in 101.20 secs - /Users/campbellpryde/Documents/GitHub/TaxonomyDashboard/SASB/blank-instance/ixbrl-viewer_extracted.xbrl </message>
+ <ref href="/Users/campbellpryde/Documents/GitHub/TaxonomyDashboard/SASB/blank-instance/ixbrl-viewer_extracted.xbrl"/></entry>
+</log>

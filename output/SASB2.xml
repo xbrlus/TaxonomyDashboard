@@ -1,0 +1,1524 @@
+<?xml version="1.0" encoding="utf-8"?>
+<log>
+<entry code="info" level="info">
+ <message>[info] Activation of plug-in XBRL rule processor (xule) successful, version Check version using Tools->Xule->Version on the GUI or --xule-version on the command line. - xule </message>
+ <ref href="xule"/></entry>
+<entry code="info" level="info">
+ <message>[info] Activation of plug-in SEC Inline Transforms successful, version 19.2. - transforms/SEC </message>
+ <ref href="transforms/SEC"/></entry>
+<entry code="info" level="info">
+ <message>[info] Activation of package Legal Entity Identifier Taxonomy, The SASB Taxonomy successful. - /Users/campbellpryde/Documents/GitHub/TaxonomyDashboard/SASB/Draft SASB Taxonomy 2020-12-07.zip </message>
+ <ref href="/Users/campbellpryde/Documents/GitHub/TaxonomyDashboard/SASB/Draft SASB Taxonomy 2020-12-07.zip"/></entry>
+<entry code="info" level="info">
+ <message>[info] Xule version: 3.0.23068 - </message>
+ <ref href=""/></entry>
+<entry code="info" level="info">
+ <message>[info] loaded in 4.20 secs at 2020-12-22T14:26:20 - /Users/campbellpryde/Documents/GitHub/TaxonomyDashboard/SASB/Novo Nordisk v2 - 2020.12.07/ixbrl-viewer.htm </message>
+ <ref href="/Users/campbellpryde/Documents/GitHub/TaxonomyDashboard/SASB/Novo Nordisk v2 - 2020.12.07/ixbrl-viewer.htm"/></entry>
+<entry code="enum2te:MissingDomainError" level="error">
+ <message concept="sasb:ProductBanMarketsThatBanImportsOfEntitysProducts">[enum2te:MissingDomainError] Item sasb:ProductBanMarketsThatBanImportsOfEntitysProducts enumeration type must specify a domain. - http://www.sasb.org/xbrl/taxonomy/cor/sasb.xsd 5985</message>
+ <ref href="http://www.sasb.org/xbrl/taxonomy/cor/sasb.xsd#sasb_ProductBanMarketsThatBanImportsOfEntitysProducts" sourceLine="5985">
+  <property name="label" value="Product Ban, Markets That Ban Imports Of Entity's Products">
+   <property name="commentaryGuidance (en-US)" value="Values reported using this element should be elements available in the taxonomies used, including the extension taxonomy. An exa..."/>
+   <property name="documentation (en-US)" value="list of countries and regions that restrict, ban, or have suspended imports of the entity's products due to sanitary and phytosa..."/>
+   <property name="label (en-US)" value="Product Ban, Markets That Ban Imports Of Entity's Products"/>
+  </property>
+  <property name="namespace" value="http://www.sasb.org/xbrl/taxonomy/cor"/>
+  <property name="name" value="ProductBanMarketsThatBanImportsOfEntitysProducts"/>
+  <property name="QName" value="sasb:ProductBanMarketsThatBanImportsOfEntitysProducts"/>
+  <property name="id" value="sasb_ProductBanMarketsThatBanImportsOfEntitysProducts"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="enum2:enumerationSetItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="facets" value="pattern">
+   <property name="pattern" value="re.compile('([A-Za-z][-A-Za-z0-9+-.]*:\\S+#[_A-Za-zÀ-ÖØ-öø-ÿĀ-˿Ͱ-ͽͿ-\u1fff\u200c-\u200d⁰-\u218fⰀ-\u2fef、-\ud7ff豈-\ufdcfﷰ-�][_\\-..."/>
+  </property>
+  <property name="references" value="Sustainability Accounting Standards Board (SASB) Sustainability Accounting Standard 2018-10-01 FB-MP-250a.4">
+   <property name="Disclosure Ref" value=" ">
+    <property name="Publisher" value="Sustainability Accounting Standards Board (SASB)"/>
+    <property name="Name" value="Sustainability Accounting Standard"/>
+    <property name="IssueDate" value="2018-10-01"/>
+    <property name="Section" value="FB-MP-250a.4"/>
+   </property>
+  </property>
+ </ref></entry>
+<entry code="enum2te:MissingLinkRoleError" level="error">
+ <message concept="sasb:ProductBanMarketsThatBanImportsOfEntitysProducts">[enum2te:MissingLinkRoleError] Item sasb:ProductBanMarketsThatBanImportsOfEntitysProducts enumeration type must specify a linkrole. - http://www.sasb.org/xbrl/taxonomy/cor/sasb.xsd 5985</message>
+ <ref href="http://www.sasb.org/xbrl/taxonomy/cor/sasb.xsd#sasb_ProductBanMarketsThatBanImportsOfEntitysProducts" sourceLine="5985">
+  <property name="label" value="Product Ban, Markets That Ban Imports Of Entity's Products">
+   <property name="commentaryGuidance (en-US)" value="Values reported using this element should be elements available in the taxonomies used, including the extension taxonomy. An exa..."/>
+   <property name="documentation (en-US)" value="list of countries and regions that restrict, ban, or have suspended imports of the entity's products due to sanitary and phytosa..."/>
+   <property name="label (en-US)" value="Product Ban, Markets That Ban Imports Of Entity's Products"/>
+  </property>
+  <property name="namespace" value="http://www.sasb.org/xbrl/taxonomy/cor"/>
+  <property name="name" value="ProductBanMarketsThatBanImportsOfEntitysProducts"/>
+  <property name="QName" value="sasb:ProductBanMarketsThatBanImportsOfEntitysProducts"/>
+  <property name="id" value="sasb_ProductBanMarketsThatBanImportsOfEntitysProducts"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="enum2:enumerationSetItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="facets" value="pattern">
+   <property name="pattern" value="re.compile('([A-Za-z][-A-Za-z0-9+-.]*:\\S+#[_A-Za-zÀ-ÖØ-öø-ÿĀ-˿Ͱ-ͽͿ-\u1fff\u200c-\u200d⁰-\u218fⰀ-\u2fef、-\ud7ff豈-\ufdcfﷰ-�][_\\-..."/>
+  </property>
+  <property name="references" value="Sustainability Accounting Standards Board (SASB) Sustainability Accounting Standard 2018-10-01 FB-MP-250a.4">
+   <property name="Disclosure Ref" value=" ">
+    <property name="Publisher" value="Sustainability Accounting Standards Board (SASB)"/>
+    <property name="Name" value="Sustainability Accounting Standard"/>
+    <property name="IssueDate" value="2018-10-01"/>
+    <property name="Section" value="FB-MP-250a.4"/>
+   </property>
+  </property>
+ </ref></entry>
+<entry code="enum2te:MissingDomainError" level="error">
+ <message concept="sasb:ProductBanAnimalProteinProductsAffected">[enum2te:MissingDomainError] Item sasb:ProductBanAnimalProteinProductsAffected enumeration type must specify a domain. - http://www.sasb.org/xbrl/taxonomy/cor/sasb.xsd 5976</message>
+ <ref href="http://www.sasb.org/xbrl/taxonomy/cor/sasb.xsd#sasb_ProductBanAnimalProteinProductsAffected" sourceLine="5976">
+  <property name="label" value="Product Ban, Animal Protein Products Affected">
+   <property name="commentaryGuidance (en-US)" value="Values reported using this element should be elements available in the taxonomies used, including the extension taxonomy. An exa..."/>
+   <property name="documentation (en-US)" value="Animal protein products affected by a particular country or region's ban."/>
+   <property name="label (en-US)" value="Product Ban, Animal Protein Products Affected"/>
+  </property>
+  <property name="namespace" value="http://www.sasb.org/xbrl/taxonomy/cor"/>
+  <property name="name" value="ProductBanAnimalProteinProductsAffected"/>
+  <property name="QName" value="sasb:ProductBanAnimalProteinProductsAffected"/>
+  <property name="id" value="sasb_ProductBanAnimalProteinProductsAffected"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="enum2:enumerationSetItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="facets" value="pattern">
+   <property name="pattern" value="re.compile('([A-Za-z][-A-Za-z0-9+-.]*:\\S+#[_A-Za-zÀ-ÖØ-öø-ÿĀ-˿Ͱ-ͽͿ-\u1fff\u200c-\u200d⁰-\u218fⰀ-\u2fef、-\ud7ff豈-\ufdcfﷰ-�][_\\-..."/>
+  </property>
+  <property name="references" value="Sustainability Accounting Standards Board (SASB) Sustainability Accounting Standard 2018-10-01 FB-MP-250a.4">
+   <property name="Disclosure Ref" value=" ">
+    <property name="Publisher" value="Sustainability Accounting Standards Board (SASB)"/>
+    <property name="Name" value="Sustainability Accounting Standard"/>
+    <property name="IssueDate" value="2018-10-01"/>
+    <property name="Section" value="FB-MP-250a.4"/>
+   </property>
+  </property>
+ </ref></entry>
+<entry code="enum2te:MissingLinkRoleError" level="error">
+ <message concept="sasb:ProductBanAnimalProteinProductsAffected">[enum2te:MissingLinkRoleError] Item sasb:ProductBanAnimalProteinProductsAffected enumeration type must specify a linkrole. - http://www.sasb.org/xbrl/taxonomy/cor/sasb.xsd 5976</message>
+ <ref href="http://www.sasb.org/xbrl/taxonomy/cor/sasb.xsd#sasb_ProductBanAnimalProteinProductsAffected" sourceLine="5976">
+  <property name="label" value="Product Ban, Animal Protein Products Affected">
+   <property name="commentaryGuidance (en-US)" value="Values reported using this element should be elements available in the taxonomies used, including the extension taxonomy. An exa..."/>
+   <property name="documentation (en-US)" value="Animal protein products affected by a particular country or region's ban."/>
+   <property name="label (en-US)" value="Product Ban, Animal Protein Products Affected"/>
+  </property>
+  <property name="namespace" value="http://www.sasb.org/xbrl/taxonomy/cor"/>
+  <property name="name" value="ProductBanAnimalProteinProductsAffected"/>
+  <property name="QName" value="sasb:ProductBanAnimalProteinProductsAffected"/>
+  <property name="id" value="sasb_ProductBanAnimalProteinProductsAffected"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="enum2:enumerationSetItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="facets" value="pattern">
+   <property name="pattern" value="re.compile('([A-Za-z][-A-Za-z0-9+-.]*:\\S+#[_A-Za-zÀ-ÖØ-öø-ÿĀ-˿Ͱ-ͽͿ-\u1fff\u200c-\u200d⁰-\u218fⰀ-\u2fef、-\ud7ff豈-\ufdcfﷰ-�][_\\-..."/>
+  </property>
+  <property name="references" value="Sustainability Accounting Standards Board (SASB) Sustainability Accounting Standard 2018-10-01 FB-MP-250a.4">
+   <property name="Disclosure Ref" value=" ">
+    <property name="Publisher" value="Sustainability Accounting Standards Board (SASB)"/>
+    <property name="Name" value="Sustainability Accounting Standard"/>
+    <property name="IssueDate" value="2018-10-01"/>
+    <property name="Section" value="FB-MP-250a.4"/>
+   </property>
+  </property>
+ </ref></entry>
+<entry code="enum2te:MissingDomainError" level="error">
+ <message concept="sasb:PriorityFoodIngredientsListing">[enum2te:MissingDomainError] Item sasb:PriorityFoodIngredientsListing enumeration type must specify a domain. - http://www.sasb.org/xbrl/taxonomy/cor/sasb.xsd 5930</message>
+ <ref href="http://www.sasb.org/xbrl/taxonomy/cor/sasb.xsd#sasb_PriorityFoodIngredientsListing" sourceLine="5930">
+  <property name="label" value="Priority Food Ingredients, Listing">
+   <property name="commentaryGuidance (en-US)" value="Values reported using this element should be elements available in the taxonomies used, including the extension taxonomy. An exa..."/>
+   <property name="documentation (en-US)" value="List of priority food ingredients"/>
+   <property name="label (en-US)" value="Priority Food Ingredients, Listing"/>
+  </property>
+  <property name="namespace" value="http://www.sasb.org/xbrl/taxonomy/cor"/>
+  <property name="name" value="PriorityFoodIngredientsListing"/>
+  <property name="QName" value="sasb:PriorityFoodIngredientsListing"/>
+  <property name="id" value="sasb_PriorityFoodIngredientsListing"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="enum2:enumerationSetItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="facets" value="pattern">
+   <property name="pattern" value="re.compile('([A-Za-z][-A-Za-z0-9+-.]*:\\S+#[_A-Za-zÀ-ÖØ-öø-ÿĀ-˿Ͱ-ͽͿ-\u1fff\u200c-\u200d⁰-\u218fⰀ-\u2fef、-\ud7ff豈-\ufdcfﷰ-�][_\\-..."/>
+  </property>
+  <property name="references" value="Sustainability Accounting Standards Board (SASB) Sustainability Accounting Standard 2018-10-01 FB-PF-440a.2">
+   <property name="Disclosure Ref" value=" ">
+    <property name="Publisher" value="Sustainability Accounting Standards Board (SASB)"/>
+    <property name="Name" value="Sustainability Accounting Standard"/>
+    <property name="IssueDate" value="2018-10-01"/>
+    <property name="Section" value="FB-PF-440a.2"/>
+   </property>
+  </property>
+ </ref></entry>
+<entry code="enum2te:MissingLinkRoleError" level="error">
+ <message concept="sasb:PriorityFoodIngredientsListing">[enum2te:MissingLinkRoleError] Item sasb:PriorityFoodIngredientsListing enumeration type must specify a linkrole. - http://www.sasb.org/xbrl/taxonomy/cor/sasb.xsd 5930</message>
+ <ref href="http://www.sasb.org/xbrl/taxonomy/cor/sasb.xsd#sasb_PriorityFoodIngredientsListing" sourceLine="5930">
+  <property name="label" value="Priority Food Ingredients, Listing">
+   <property name="commentaryGuidance (en-US)" value="Values reported using this element should be elements available in the taxonomies used, including the extension taxonomy. An exa..."/>
+   <property name="documentation (en-US)" value="List of priority food ingredients"/>
+   <property name="label (en-US)" value="Priority Food Ingredients, Listing"/>
+  </property>
+  <property name="namespace" value="http://www.sasb.org/xbrl/taxonomy/cor"/>
+  <property name="name" value="PriorityFoodIngredientsListing"/>
+  <property name="QName" value="sasb:PriorityFoodIngredientsListing"/>
+  <property name="id" value="sasb_PriorityFoodIngredientsListing"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="enum2:enumerationSetItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="facets" value="pattern">
+   <property name="pattern" value="re.compile('([A-Za-z][-A-Za-z0-9+-.]*:\\S+#[_A-Za-zÀ-ÖØ-öø-ÿĀ-˿Ͱ-ͽͿ-\u1fff\u200c-\u200d⁰-\u218fⰀ-\u2fef、-\ud7ff豈-\ufdcfﷰ-�][_\\-..."/>
+  </property>
+  <property name="references" value="Sustainability Accounting Standards Board (SASB) Sustainability Accounting Standard 2018-10-01 FB-PF-440a.2">
+   <property name="Disclosure Ref" value=" ">
+    <property name="Publisher" value="Sustainability Accounting Standards Board (SASB)"/>
+    <property name="Name" value="Sustainability Accounting Standard"/>
+    <property name="IssueDate" value="2018-10-01"/>
+    <property name="Section" value="FB-PF-440a.2"/>
+   </property>
+  </property>
+ </ref></entry>
+<entry code="enum2te:MissingDomainError" level="error">
+ <message concept="sasb:ProductsListedInTheFdasMedwatchSafetyAlertsForHumanMedicalProductsDatabase">[enum2te:MissingDomainError] Item sasb:ProductsListedInTheFdasMedwatchSafetyAlertsForHumanMedicalProductsDatabase enumeration type must specify a domain. - http://www.sasb.org/xbrl/taxonomy/cor/sasb.xsd 6095</message>
+ <ref href="http://www.sasb.org/xbrl/taxonomy/cor/sasb.xsd#sasb_ProductsListedInTheFdasMedwatchSafetyAlertsForHumanMedicalProductsDatabase" sourceLine="6095">
+  <property name="label" value="Products Listed In The Fda's Medwatch Safety Alerts For Human Medical Products Database">
+   <property name="commentaryGuidance (en-US)" value="Values reported using this element should be elements available in the taxonomies used, including the extension taxonomy. An exa..."/>
+   <property name="documentation (en-US)" value="List of products listed in the U.S. Food and Drug Administration's (FDA) MedWatch Safety Alerts for Human Medical Products datab..."/>
+   <property name="label (en-US)" value="Products Listed In The Fda's Medwatch Safety Alerts For Human Medical Products Database"/>
+  </property>
+  <property name="namespace" value="http://www.sasb.org/xbrl/taxonomy/cor"/>
+  <property name="name" value="ProductsListedInTheFdasMedwatchSafetyAlertsForHumanMedicalProductsDatabase"/>
+  <property name="QName" value="sasb:ProductsListedInTheFdasMedwatchSafetyAlertsForHumanMedicalProductsDatabase"/>
+  <property name="id" value="sasb_ProductsListedInTheFdasMedwatchSafetyAlertsForHumanMedicalProductsDatabase"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="enum2:enumerationSetItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="facets" value="pattern">
+   <property name="pattern" value="re.compile('([A-Za-z][-A-Za-z0-9+-.]*:\\S+#[_A-Za-zÀ-ÖØ-öø-ÿĀ-˿Ͱ-ͽͿ-\u1fff\u200c-\u200d⁰-\u218fⰀ-\u2fef、-\ud7ff豈-\ufdcfﷰ-�][_\\-..."/>
+  </property>
+  <property name="references" value="Sustainability Accounting Standards Board (SASB) Sustainability Accounting Standard 2018-10-01 HC-BP-250a.1">
+   <property name="Disclosure Ref" value=" ">
+    <property name="Publisher" value="Sustainability Accounting Standards Board (SASB)"/>
+    <property name="Name" value="Sustainability Accounting Standard"/>
+    <property name="IssueDate" value="2018-10-01"/>
+    <property name="Section" value="HC-BP-250a.1"/>
+   </property>
+  </property>
+ </ref></entry>
+<entry code="enum2te:MissingLinkRoleError" level="error">
+ <message concept="sasb:ProductsListedInTheFdasMedwatchSafetyAlertsForHumanMedicalProductsDatabase">[enum2te:MissingLinkRoleError] Item sasb:ProductsListedInTheFdasMedwatchSafetyAlertsForHumanMedicalProductsDatabase enumeration type must specify a linkrole. - http://www.sasb.org/xbrl/taxonomy/cor/sasb.xsd 6095</message>
+ <ref href="http://www.sasb.org/xbrl/taxonomy/cor/sasb.xsd#sasb_ProductsListedInTheFdasMedwatchSafetyAlertsForHumanMedicalProductsDatabase" sourceLine="6095">
+  <property name="label" value="Products Listed In The Fda's Medwatch Safety Alerts For Human Medical Products Database">
+   <property name="commentaryGuidance (en-US)" value="Values reported using this element should be elements available in the taxonomies used, including the extension taxonomy. An exa..."/>
+   <property name="documentation (en-US)" value="List of products listed in the U.S. Food and Drug Administration's (FDA) MedWatch Safety Alerts for Human Medical Products datab..."/>
+   <property name="label (en-US)" value="Products Listed In The Fda's Medwatch Safety Alerts For Human Medical Products Database"/>
+  </property>
+  <property name="namespace" value="http://www.sasb.org/xbrl/taxonomy/cor"/>
+  <property name="name" value="ProductsListedInTheFdasMedwatchSafetyAlertsForHumanMedicalProductsDatabase"/>
+  <property name="QName" value="sasb:ProductsListedInTheFdasMedwatchSafetyAlertsForHumanMedicalProductsDatabase"/>
+  <property name="id" value="sasb_ProductsListedInTheFdasMedwatchSafetyAlertsForHumanMedicalProductsDatabase"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="enum2:enumerationSetItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="facets" value="pattern">
+   <property name="pattern" value="re.compile('([A-Za-z][-A-Za-z0-9+-.]*:\\S+#[_A-Za-zÀ-ÖØ-öø-ÿĀ-˿Ͱ-ͽͿ-\u1fff\u200c-\u200d⁰-\u218fⰀ-\u2fef、-\ud7ff豈-\ufdcfﷰ-�][_\\-..."/>
+  </property>
+  <property name="references" value="Sustainability Accounting Standards Board (SASB) Sustainability Accounting Standard 2018-10-01 HC-BP-250a.1">
+   <property name="Disclosure Ref" value=" ">
+    <property name="Publisher" value="Sustainability Accounting Standards Board (SASB)"/>
+    <property name="Name" value="Sustainability Accounting Standard"/>
+    <property name="IssueDate" value="2018-10-01"/>
+    <property name="Section" value="HC-BP-250a.1"/>
+   </property>
+  </property>
+ </ref></entry>
+<entry code="enum2te:MissingDomainError" level="error">
+ <message concept="sasb:ProductsListedOnTheWorldHealthOrganizationListOfPrequalifiedMedicinalProducts">[enum2te:MissingDomainError] Item sasb:ProductsListedOnTheWorldHealthOrganizationListOfPrequalifiedMedicinalProducts enumeration type must specify a domain. - http://www.sasb.org/xbrl/taxonomy/cor/sasb.xsd 6098</message>
+ <ref href="http://www.sasb.org/xbrl/taxonomy/cor/sasb.xsd#sasb_ProductsListedOnTheWorldHealthOrganizationListOfPrequalifiedMedicinalProducts" sourceLine="6098">
+  <property name="label" value="Products Listed On The World Health Organization List Of Prequalified Medicinal Products">
+   <property name="commentaryGuidance (en-US)" value="Values reported using this element should be elements available in the taxonomies used, including the extension taxonomy. An exa..."/>
+   <property name="documentation (en-US)" value="List of products on the World Health Organization (WHO) List of Prequalified Medicinal Products as part of its Prequalification ..."/>
+   <property name="label (en-US)" value="Products Listed On The World Health Organization List Of Prequalified Medicinal Products"/>
+  </property>
+  <property name="namespace" value="http://www.sasb.org/xbrl/taxonomy/cor"/>
+  <property name="name" value="ProductsListedOnTheWorldHealthOrganizationListOfPrequalifiedMedicinalProducts"/>
+  <property name="QName" value="sasb:ProductsListedOnTheWorldHealthOrganizationListOfPrequalifiedMedicinalProducts"/>
+  <property name="id" value="sasb_ProductsListedOnTheWorldHealthOrganizationListOfPrequalifiedMedicinalProducts"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="enum2:enumerationSetItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="facets" value="pattern">
+   <property name="pattern" value="re.compile('([A-Za-z][-A-Za-z0-9+-.]*:\\S+#[_A-Za-zÀ-ÖØ-öø-ÿĀ-˿Ͱ-ͽͿ-\u1fff\u200c-\u200d⁰-\u218fⰀ-\u2fef、-\ud7ff豈-\ufdcfﷰ-�][_\\-..."/>
+  </property>
+  <property name="references" value="Sustainability Accounting Standards Board (SASB) Sustainability Accounting Standard 2018-10-01 HC-BP-240a.2">
+   <property name="Disclosure Ref" value=" ">
+    <property name="Publisher" value="Sustainability Accounting Standards Board (SASB)"/>
+    <property name="Name" value="Sustainability Accounting Standard"/>
+    <property name="IssueDate" value="2018-10-01"/>
+    <property name="Section" value="HC-BP-240a.2"/>
+   </property>
+  </property>
+ </ref></entry>
+<entry code="enum2te:MissingLinkRoleError" level="error">
+ <message concept="sasb:ProductsListedOnTheWorldHealthOrganizationListOfPrequalifiedMedicinalProducts">[enum2te:MissingLinkRoleError] Item sasb:ProductsListedOnTheWorldHealthOrganizationListOfPrequalifiedMedicinalProducts enumeration type must specify a linkrole. - http://www.sasb.org/xbrl/taxonomy/cor/sasb.xsd 6098</message>
+ <ref href="http://www.sasb.org/xbrl/taxonomy/cor/sasb.xsd#sasb_ProductsListedOnTheWorldHealthOrganizationListOfPrequalifiedMedicinalProducts" sourceLine="6098">
+  <property name="label" value="Products Listed On The World Health Organization List Of Prequalified Medicinal Products">
+   <property name="commentaryGuidance (en-US)" value="Values reported using this element should be elements available in the taxonomies used, including the extension taxonomy. An exa..."/>
+   <property name="documentation (en-US)" value="List of products on the World Health Organization (WHO) List of Prequalified Medicinal Products as part of its Prequalification ..."/>
+   <property name="label (en-US)" value="Products Listed On The World Health Organization List Of Prequalified Medicinal Products"/>
+  </property>
+  <property name="namespace" value="http://www.sasb.org/xbrl/taxonomy/cor"/>
+  <property name="name" value="ProductsListedOnTheWorldHealthOrganizationListOfPrequalifiedMedicinalProducts"/>
+  <property name="QName" value="sasb:ProductsListedOnTheWorldHealthOrganizationListOfPrequalifiedMedicinalProducts"/>
+  <property name="id" value="sasb_ProductsListedOnTheWorldHealthOrganizationListOfPrequalifiedMedicinalProducts"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="enum2:enumerationSetItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="facets" value="pattern">
+   <property name="pattern" value="re.compile('([A-Za-z][-A-Za-z0-9+-.]*:\\S+#[_A-Za-zÀ-ÖØ-öø-ÿĀ-˿Ͱ-ͽͿ-\u1fff\u200c-\u200d⁰-\u218fⰀ-\u2fef、-\ud7ff豈-\ufdcfﷰ-�][_\\-..."/>
+  </property>
+  <property name="references" value="Sustainability Accounting Standards Board (SASB) Sustainability Accounting Standard 2018-10-01 HC-BP-240a.2">
+   <property name="Disclosure Ref" value=" ">
+    <property name="Publisher" value="Sustainability Accounting Standards Board (SASB)"/>
+    <property name="Name" value="Sustainability Accounting Standard"/>
+    <property name="IssueDate" value="2018-10-01"/>
+    <property name="Section" value="HC-BP-240a.2"/>
+   </property>
+  </property>
+ </ref></entry>
+<entry code="enum2te:MissingDomainError" level="error">
+ <message concept="sasb-dei:DomicileOfEntity">[enum2te:MissingDomainError] Item sasb-dei:DomicileOfEntity enumeration type must specify a domain. - http://www.sasb.org/xbrl/taxonomy/cor/sasb-dei.xsd 33</message>
+ <ref href="http://www.sasb.org/xbrl/taxonomy/cor/sasb-dei.xsd#sasb-dei-cor_DomicileOfEntity" sourceLine="33">
+  <property name="label" value="Domicile of entity">
+   <property name="commentaryGuidance (en-US)" value="Values reported using this element should be elements available in the taxonomies used, including the extension taxonomy. An exa..."/>
+   <property name="documentation (en-US)" value="The country in which the entity is domiciled."/>
+   <property name="label (en-US)" value="Domicile of entity"/>
+  </property>
+  <property name="namespace" value="http://www.sasb.org/xbrl/taxonomy/dei"/>
+  <property name="name" value="DomicileOfEntity"/>
+  <property name="QName" value="sasb-dei:DomicileOfEntity"/>
+  <property name="id" value="sasb-dei-cor_DomicileOfEntity"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="enum2:enumerationSetItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="facets" value="pattern">
+   <property name="pattern" value="re.compile('([A-Za-z][-A-Za-z0-9+-.]*:\\S+#[_A-Za-zÀ-ÖØ-öø-ÿĀ-˿Ͱ-ͽͿ-\u1fff\u200c-\u200d⁰-\u218fⰀ-\u2fef、-\ud7ff豈-\ufdcfﷰ-�][_\\-..."/>
+  </property>
+ </ref></entry>
+<entry code="enum2te:MissingLinkRoleError" level="error">
+ <message concept="sasb-dei:DomicileOfEntity">[enum2te:MissingLinkRoleError] Item sasb-dei:DomicileOfEntity enumeration type must specify a linkrole. - http://www.sasb.org/xbrl/taxonomy/cor/sasb-dei.xsd 33</message>
+ <ref href="http://www.sasb.org/xbrl/taxonomy/cor/sasb-dei.xsd#sasb-dei-cor_DomicileOfEntity" sourceLine="33">
+  <property name="label" value="Domicile of entity">
+   <property name="commentaryGuidance (en-US)" value="Values reported using this element should be elements available in the taxonomies used, including the extension taxonomy. An exa..."/>
+   <property name="documentation (en-US)" value="The country in which the entity is domiciled."/>
+   <property name="label (en-US)" value="Domicile of entity"/>
+  </property>
+  <property name="namespace" value="http://www.sasb.org/xbrl/taxonomy/dei"/>
+  <property name="name" value="DomicileOfEntity"/>
+  <property name="QName" value="sasb-dei:DomicileOfEntity"/>
+  <property name="id" value="sasb-dei-cor_DomicileOfEntity"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="enum2:enumerationSetItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="facets" value="pattern">
+   <property name="pattern" value="re.compile('([A-Za-z][-A-Za-z0-9+-.]*:\\S+#[_A-Za-zÀ-ÖØ-öø-ÿĀ-˿Ͱ-ͽͿ-\u1fff\u200c-\u200d⁰-\u218fⰀ-\u2fef、-\ud7ff豈-\ufdcfﷰ-�][_\\-..."/>
+  </property>
+ </ref></entry>
+<entry code="enum2te:MissingDomainError" level="error">
+ <message concept="sasb:CoreProductsOrServicesIsSubjectToGovernmentRequiredMonitoringBlockingContentFilteringOrCensoring">[enum2te:MissingDomainError] Item sasb:CoreProductsOrServicesIsSubjectToGovernmentRequiredMonitoringBlockingContentFilteringOrCensoring enumeration type must specify a domain. - http://www.sasb.org/xbrl/taxonomy/cor/sasb.xsd 3719</message>
+ <ref href="http://www.sasb.org/xbrl/taxonomy/cor/sasb.xsd#sasb_CoreProductsOrServicesIsSubjectToGovernmentRequiredMonitoringBlockingContentFilteringOrCensoring" sourceLine="3719">
+  <property name="label" value="Core Products Or Services Is Subject To Government-required Monitoring, Blocking, Content Filtering, Or Censoring">
+   <property name="commentaryGuidance (en-US)" value="Values reported using this element should be elements available in the taxonomies used, including the extension taxonomy. An exa..."/>
+   <property name="documentation (en-US)" value="The countries where core products or services are subject to government-required monitoring, blocking, content filtering, or cen..."/>
+   <property name="label (en-US)" value="Core Products Or Services Is Subject To Government-required Monitoring, Blocking, Content Filtering, Or Censoring"/>
+  </property>
+  <property name="namespace" value="http://www.sasb.org/xbrl/taxonomy/cor"/>
+  <property name="name" value="CoreProductsOrServicesIsSubjectToGovernmentRequiredMonitoringBlockingContentFilteringOrCensoring"/>
+  <property name="QName" value="sasb:CoreProductsOrServicesIsSubjectToGovernmentRequiredMonitoringBlockingContentFilteringOrCensoring"/>
+  <property name="id" value="sasb_CoreProductsOrServicesIsSubjectToGovernmentRequiredMonitoringBlockingContentFilteringOrCensoring"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="enum2:enumerationSetItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="facets" value="pattern">
+   <property name="pattern" value="re.compile('([A-Za-z][-A-Za-z0-9+-.]*:\\S+#[_A-Za-zÀ-ÖØ-öø-ÿĀ-˿Ͱ-ͽͿ-\u1fff\u200c-\u200d⁰-\u218fⰀ-\u2fef、-\ud7ff豈-\ufdcfﷰ-�][_\\-..."/>
+  </property>
+  <property name="references" value="Sustainability Accounting Standards Board (SASB) Sustainability Accounting Standard 2018-10-01 TC-IM-220a.5">
+   <property name="Disclosure Ref" value=" ">
+    <property name="Publisher" value="Sustainability Accounting Standards Board (SASB)"/>
+    <property name="Name" value="Sustainability Accounting Standard"/>
+    <property name="IssueDate" value="2018-10-01"/>
+    <property name="Section" value="TC-IM-220a.5"/>
+   </property>
+  </property>
+ </ref></entry>
+<entry code="enum2te:MissingLinkRoleError" level="error">
+ <message concept="sasb:CoreProductsOrServicesIsSubjectToGovernmentRequiredMonitoringBlockingContentFilteringOrCensoring">[enum2te:MissingLinkRoleError] Item sasb:CoreProductsOrServicesIsSubjectToGovernmentRequiredMonitoringBlockingContentFilteringOrCensoring enumeration type must specify a linkrole. - http://www.sasb.org/xbrl/taxonomy/cor/sasb.xsd 3719</message>
+ <ref href="http://www.sasb.org/xbrl/taxonomy/cor/sasb.xsd#sasb_CoreProductsOrServicesIsSubjectToGovernmentRequiredMonitoringBlockingContentFilteringOrCensoring" sourceLine="3719">
+  <property name="label" value="Core Products Or Services Is Subject To Government-required Monitoring, Blocking, Content Filtering, Or Censoring">
+   <property name="commentaryGuidance (en-US)" value="Values reported using this element should be elements available in the taxonomies used, including the extension taxonomy. An exa..."/>
+   <property name="documentation (en-US)" value="The countries where core products or services are subject to government-required monitoring, blocking, content filtering, or cen..."/>
+   <property name="label (en-US)" value="Core Products Or Services Is Subject To Government-required Monitoring, Blocking, Content Filtering, Or Censoring"/>
+  </property>
+  <property name="namespace" value="http://www.sasb.org/xbrl/taxonomy/cor"/>
+  <property name="name" value="CoreProductsOrServicesIsSubjectToGovernmentRequiredMonitoringBlockingContentFilteringOrCensoring"/>
+  <property name="QName" value="sasb:CoreProductsOrServicesIsSubjectToGovernmentRequiredMonitoringBlockingContentFilteringOrCensoring"/>
+  <property name="id" value="sasb_CoreProductsOrServicesIsSubjectToGovernmentRequiredMonitoringBlockingContentFilteringOrCensoring"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="enum2:enumerationSetItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="facets" value="pattern">
+   <property name="pattern" value="re.compile('([A-Za-z][-A-Za-z0-9+-.]*:\\S+#[_A-Za-zÀ-ÖØ-öø-ÿĀ-˿Ͱ-ͽͿ-\u1fff\u200c-\u200d⁰-\u218fⰀ-\u2fef、-\ud7ff豈-\ufdcfﷰ-�][_\\-..."/>
+  </property>
+  <property name="references" value="Sustainability Accounting Standards Board (SASB) Sustainability Accounting Standard 2018-10-01 TC-IM-220a.5">
+   <property name="Disclosure Ref" value=" ">
+    <property name="Publisher" value="Sustainability Accounting Standards Board (SASB)"/>
+    <property name="Name" value="Sustainability Accounting Standard"/>
+    <property name="IssueDate" value="2018-10-01"/>
+    <property name="Section" value="TC-IM-220a.5"/>
+   </property>
+  </property>
+ </ref></entry>
+<entry code="enum2te:MissingDomainError" level="error">
+ <message concept="sasb-dei:CountryOfIncorporation">[enum2te:MissingDomainError] Item sasb-dei:CountryOfIncorporation enumeration type must specify a domain. - http://www.sasb.org/xbrl/taxonomy/cor/sasb-dei.xsd 34</message>
+ <ref href="http://www.sasb.org/xbrl/taxonomy/cor/sasb-dei.xsd#sasb-dei-cor_CountryOfIncorporation" sourceLine="34">
+  <property name="label" value="Country of incorporation">
+   <property name="commentaryGuidance (en-US)" value="Values reported using this element should be elements available in the taxonomies used, including the extension taxonomy. An exa..."/>
+   <property name="documentation (en-US)" value="The country in which the entity is incorporated."/>
+   <property name="label (en-US)" value="Country of incorporation"/>
+  </property>
+  <property name="namespace" value="http://www.sasb.org/xbrl/taxonomy/dei"/>
+  <property name="name" value="CountryOfIncorporation"/>
+  <property name="QName" value="sasb-dei:CountryOfIncorporation"/>
+  <property name="id" value="sasb-dei-cor_CountryOfIncorporation"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="enum2:enumerationSetItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="facets" value="pattern">
+   <property name="pattern" value="re.compile('([A-Za-z][-A-Za-z0-9+-.]*:\\S+#[_A-Za-zÀ-ÖØ-öø-ÿĀ-˿Ͱ-ͽͿ-\u1fff\u200c-\u200d⁰-\u218fⰀ-\u2fef、-\ud7ff豈-\ufdcfﷰ-�][_\\-..."/>
+  </property>
+ </ref></entry>
+<entry code="enum2te:MissingLinkRoleError" level="error">
+ <message concept="sasb-dei:CountryOfIncorporation">[enum2te:MissingLinkRoleError] Item sasb-dei:CountryOfIncorporation enumeration type must specify a linkrole. - http://www.sasb.org/xbrl/taxonomy/cor/sasb-dei.xsd 34</message>
+ <ref href="http://www.sasb.org/xbrl/taxonomy/cor/sasb-dei.xsd#sasb-dei-cor_CountryOfIncorporation" sourceLine="34">
+  <property name="label" value="Country of incorporation">
+   <property name="commentaryGuidance (en-US)" value="Values reported using this element should be elements available in the taxonomies used, including the extension taxonomy. An exa..."/>
+   <property name="documentation (en-US)" value="The country in which the entity is incorporated."/>
+   <property name="label (en-US)" value="Country of incorporation"/>
+  </property>
+  <property name="namespace" value="http://www.sasb.org/xbrl/taxonomy/dei"/>
+  <property name="name" value="CountryOfIncorporation"/>
+  <property name="QName" value="sasb-dei:CountryOfIncorporation"/>
+  <property name="id" value="sasb-dei-cor_CountryOfIncorporation"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="enum2:enumerationSetItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="facets" value="pattern">
+   <property name="pattern" value="re.compile('([A-Za-z][-A-Za-z0-9+-.]*:\\S+#[_A-Za-zÀ-ÖØ-öø-ÿĀ-˿Ͱ-ͽͿ-\u1fff\u200c-\u200d⁰-\u218fⰀ-\u2fef、-\ud7ff豈-\ufdcfﷰ-�][_\\-..."/>
+  </property>
+ </ref></entry>
+<entry code="" level="info">
+ <message>[] Formula xpath2 grammar initialized in 1.15 secs - </message>
+ <ref href=""/></entry>
+<entry code="l0002" level="error">
+ <message filing_url="/Users/campbellpryde/Documents/GitHub/TaxonomyDashboard/SASB/Novo Nordisk v2 - 2020.12.07/ixbrl-viewer.htm" cid="4697877416" severity="error">[l0002] The following strings  were used in the standard labels of the following concepts.  Standard labels cannot contain pronouns, articles the word total, double spaces and special characters:
+Concept: USMineSafetyAndHealthAdministrationMshaHazardPotentialAxis, Label: U.S. Mine Safety And Health Administration (MSHA) Hazard Potential [Axis], BadWord: Mine 
+Concept: DataPrivacyAdvertisingStandardsAndFreedomOfExpressionDisclosureAbstract, Label: Data Privacy, Advertising Standards &amp; Freedom of Expression Disclosure [Abstract], BadWord:  &amp; 
+Concept: DataPrivacyAdvertisingStandardsAndFreedomOfExpressionDisclosureAbstract, Label: Data Privacy, Advertising Standards &amp; Freedom of Expression Disclosure [Abstract], BadWord: &amp; 
+Concept: FuelEconomyAndUsephaseEmissionsDisclosureAbstract, Label: Fuel Economy &amp; Use-phase Emissions Disclosure [Abstract], BadWord:  &amp; 
+Concept: FuelEconomyAndUsephaseEmissionsDisclosureAbstract, Label: Fuel Economy &amp; Use-phase Emissions Disclosure [Abstract], BadWord: &amp; 
+Concept: TransparentInformationAndManagementOfConflictOfInterestDisclosureTextBlock, Label: Transparent Information &amp; Management of Conflict of Interest Disclosure [Text Block], BadWord:  &amp; 
+Concept: TransparentInformationAndManagementOfConflictOfInterestDisclosureTextBlock, Label: Transparent Information &amp; Management of Conflict of Interest Disclosure [Text Block], BadWord: &amp; 
+Concept: FleetFuelEconomyAndUtilizationDisclosureTextBlock, Label: Fleet Fuel Economy &amp; Utilization Disclosure [Text Block], BadWord:  &amp; 
+Concept: FleetFuelEconomyAndUtilizationDisclosureTextBlock, Label: Fleet Fuel Economy &amp; Utilization Disclosure [Text Block], BadWord: &amp; 
+Concept: BusinessEthicsAndTransparencyDisclosureTextBlock, Label: Business Ethics &amp; Transparency Disclosure [Text Block], BadWord:  &amp; 
+Concept: BusinessEthicsAndTransparencyDisclosureTextBlock, Label: Business Ethics &amp; Transparency Disclosure [Text Block], BadWord: &amp; 
+Concept: CampaignsReviewedForAdherenceInComplianceWithTheAdvertisingSelfRegulatoryCouncilProceduresPercentageCompliant, Label: Campaigns, Reviewed For Adherence In Compliance With The Advertising Self-regulatory Council Procedures, Percentage Compliant, BadWord: The 
+Concept: PricingAndBillingTransparencyDisclosureTextBlock, Label: Pricing &amp; Billing Transparency Disclosure [Text Block], BadWord:  &amp; 
+Concept: PricingAndBillingTransparencyDisclosureTextBlock, Label: Pricing &amp; Billing Transparency Disclosure [Text Block], BadWord: &amp; 
+Concept: AirFreightAndLogisticsIndustryAbstract, Label: Air Freight &amp; Logistics Industry [Abstract], BadWord:  &amp; 
+Concept: AirFreightAndLogisticsIndustryAbstract, Label: Air Freight &amp; Logistics Industry [Abstract], BadWord: &amp; 
+Concept: RemanufacturingDesignAndServicesDisclosureAbstract, Label: Remanufacturing Design &amp; Services Disclosure [Abstract], BadWord: &amp; 
+Concept: RemanufacturingDesignAndServicesDisclosureAbstract, Label: Remanufacturing Design &amp; Services Disclosure [Abstract], BadWord:  &amp; 
+Concept: StandardPoorsDRatingMember, Label: Standard &amp; Poor's, D Rating [Member], BadWord:  &amp; 
+Concept: StandardPoorsDRatingMember, Label: Standard &amp; Poor's, D Rating [Member], BadWord: &amp; 
+Concept: HotelsAndLodgingIndustryActivityMetricsAbstract, Label: Hotels &amp; Lodging Industry, Activity Metrics [Abstract], BadWord:  &amp; 
+Concept: HotelsAndLodgingIndustryActivityMetricsAbstract, Label: Hotels &amp; Lodging Industry, Activity Metrics [Abstract], BadWord: &amp; 
+Concept: StrategiesToManageTheUseOfGeneticallyModifiedOrganismsGmosTextBlock, Label: Strategies To Manage The Use Of Genetically Modified Organisms (Gmos) [Text Block], BadWord: The 
+Concept: ManagementOfEnvironmentalRisksAssociatedWithThePolysiliconSupplyChainTextBlock, Label: Management Of Environmental Risks Associated With The Polysilicon Supply Chain [Text Block], BadWord: The 
+Concept: BiotechnologyAndPharmaceuticalsIndustryAccountingMetricsAbstract, Label: Biotechnology &amp; Pharmaceuticals Industry, Accounting Metrics [Abstract], BadWord:  &amp; 
+Concept: BiotechnologyAndPharmaceuticalsIndustryAccountingMetricsAbstract, Label: Biotechnology &amp; Pharmaceuticals Industry, Accounting Metrics [Abstract], BadWord: &amp; 
+Concept: Emep000AAbstract, Label: EM-EP-000.A [Abstract], BadWord: A 
+Concept: Cgec000AAbstract, Label: CG-EC-000.A [Abstract], BadWord: A 
+Concept: CasinosAndGamingIndustryAccountingMetricsAbstract, Label: Casinos &amp; Gaming Industry, Accounting Metrics [Abstract], BadWord:  &amp; 
+Concept: CasinosAndGamingIndustryAccountingMetricsAbstract, Label: Casinos &amp; Gaming Industry, Accounting Metrics [Abstract], BadWord: &amp; 
+Concept: LaborConditionsInTheSupplyChainDisclosureTextBlock, Label: Labor Conditions in the Supply Chain Disclosure [Text Block], BadWord:  the 
+Concept: Cgts000AAbstract, Label: CG-TS-000.A [Abstract], BadWord: A 
+Concept: GreenhouseGasEmissionsAndEnergyResourcePlanningDisclosureAbstract, Label: Greenhouse Gas Emissions &amp; Energy Resource Planning Disclosure [Abstract], BadWord:  &amp; 
+Concept: GreenhouseGasEmissionsAndEnergyResourcePlanningDisclosureAbstract, Label: Greenhouse Gas Emissions &amp; Energy Resource Planning Disclosure [Abstract], BadWord: &amp; 
+Concept: ProcessorEnergyEfficiencyAtASystemLevelTable, Label: Processor Energy Efficiency At A System-level [Table], BadWord: A 
+Concept: PoliciesAndPracticesRegardingDisclosureOfTheUseOfCustomerDataForThirdPartyUseToCustomersIncludingTheNatureOfItsOptInPolicyTextBlock, Label: Policies And Practices Regarding Disclosure Of The Use Of Customer Data For Third Party Use To Customers, Including The Nature Of Its Opt-in Policy [Text Block], BadWord: Its 
+Concept: PoliciesAndPracticesRegardingDisclosureOfTheUseOfCustomerDataForThirdPartyUseToCustomersIncludingTheNatureOfItsOptInPolicyTextBlock, Label: Policies And Practices Regarding Disclosure Of The Use Of Customer Data For Third Party Use To Customers, Including The Nature Of Its Opt-in Policy [Text Block], BadWord: The 
+Concept: WorkforceDiversityAndEngagementDisclosureTextBlock, Label: Workforce Diversity &amp; Engagement Disclosure [Text Block], BadWord:  &amp; 
+Concept: WorkforceDiversityAndEngagementDisclosureTextBlock, Label: Workforce Diversity &amp; Engagement Disclosure [Text Block], BadWord: &amp; 
+Concept: FitchBBBPlusRatingMember, Label: Fitch, BBB+ Rating [Member], BadWord: + 
+Concept: ProfessionalAndCommercialServicesIndustryAccountingMetricsAbstract, Label: Professional &amp; Commercial Services Industry, Accounting Metrics [Abstract], BadWord:  &amp; 
+Concept: ProfessionalAndCommercialServicesIndustryAccountingMetricsAbstract, Label: Professional &amp; Commercial Services Industry, Accounting Metrics [Abstract], BadWord: &amp; 
+Concept: EmployeeIncentivesAndRiskTakingDisclosureAbstract, Label: Employee Incentives &amp; Risk Taking Disclosure [Abstract], BadWord:  &amp; 
+Concept: EmployeeIncentivesAndRiskTakingDisclosureAbstract, Label: Employee Incentives &amp; Risk Taking Disclosure [Abstract], BadWord: &amp; 
+Concept: BusinessEthicsAndTransparencyDisclosureAbstract, Label: Business Ethics &amp; Transparency Disclosure [Abstract], BadWord:  &amp; 
+Concept: BusinessEthicsAndTransparencyDisclosureAbstract, Label: Business Ethics &amp; Transparency Disclosure [Abstract], BadWord: &amp; 
+Concept: Fbtb000AAbstract, Label: FB-TB-000.A [Abstract], BadWord: A 
+Concept: ClimateChangeImpactsOnHumanHealthAndInfrastructureDisclosureTextBlock, Label: Climate Change Impacts on Human Health &amp; Infrastructure Disclosure [Text Block], BadWord:  &amp; 
+Concept: ClimateChangeImpactsOnHumanHealthAndInfrastructureDisclosureTextBlock, Label: Climate Change Impacts on Human Health &amp; Infrastructure Disclosure [Text Block], BadWord: &amp; 
+Concept: MarketingAndRecruitingPracticesDisclosureTextBlock, Label: Marketing &amp; Recruiting Practices Disclosure [Text Block], BadWord: &amp; 
+Concept: MarketingAndRecruitingPracticesDisclosureTextBlock, Label: Marketing &amp; Recruiting Practices Disclosure [Text Block], BadWord:  &amp; 
+Concept: StandardPoorsBPlusRatingMember, Label: Standard &amp; Poor's, B+ Rating [Member], BadWord: &amp; 
+Concept: StandardPoorsBPlusRatingMember, Label: Standard &amp; Poor's, B+ Rating [Member], BadWord:  &amp; 
+Concept: StandardPoorsBPlusRatingMember, Label: Standard &amp; Poor's, B+ Rating [Member], BadWord: + 
+Concept: EnvironmentalAndSocialImpactsOfIngredientSupplyChainDisclosureAbstract, Label: Environmental &amp; Social Impacts of Ingredient Supply Chain Disclosure [Abstract], BadWord: &amp; 
+Concept: EnvironmentalAndSocialImpactsOfIngredientSupplyChainDisclosureAbstract, Label: Environmental &amp; Social Impacts of Ingredient Supply Chain Disclosure [Abstract], BadWord:  &amp; 
+Concept: HouseholdAndPersonalProductsIndustryAbstract, Label: Household &amp; Personal Products Industry [Abstract], BadWord:  &amp; 
+Concept: HouseholdAndPersonalProductsIndustryAbstract, Label: Household &amp; Personal Products Industry [Abstract], BadWord: &amp; 
+Concept: DescriptionOfDisclosureOfPriceInformationForEachProductToCustomersAndAgentsTextBlock, Label: Description Of Disclosure Of Price Information For Each Product To Customers And Agents [Text Block], BadWord: Each 
+Concept: HealthCareFacilitiesPercentageThatComplyWithTheCentersForMedicareAndMedicaidServicesEmergencyPreparednessRule, Label: Health Care Facilities, Percentage That Comply With The Centers For Medicare And Medicaid Services Emergency Preparedness Rule, BadWord: The 
+Concept: FatalitiesNumberAssociatedWithProductsAsReportedInTheFdaAdverseEventReportingSystem, Label: Fatalities, Number Associated With Products As Reported In The FDA Adverse Event Reporting System, BadWord: The 
+Concept: FatalitiesNumberAssociatedWithProductsAsReportedInTheFdaAdverseEventReportingSystem, Label: Fatalities, Number Associated With Products As Reported In The FDA Adverse Event Reporting System, BadWord: A 
+Concept: Emmm000AAbstract, Label: EM-MM-000.A [Abstract], BadWord: A 
+Concept: Emsv000AAbstract, Label: EM-SV-000.A [Abstract], BadWord: A 
+Concept: Fncf000AAbstract, Label: FN-CF-000.A [Abstract], BadWord: A 
+Concept: Svlf000AAbstract, Label: SV-LF-000.A [Abstract], BadWord: A 
+Concept: ProductsListedOnTheWorldHealthOrganizationListOfPrequalifiedMedicinalProductsTable, Label: Products Listed On The World Health Organization List Of Prequalified Medicinal Products [Table], BadWord: The 
+Concept: AMBestCPlusRatingMember, Label: AM Best, C+ Rating [Member], BadWord: + 
+Concept: USMineSafetyAndHealthAdministrationMshaHazardPotentialDomain, Label: U.S. Mine Safety And Health Administration (MSHA) Hazard Potential [Domain], BadWord: Mine 
+Concept: FoodborneIllnessOutbreaksThatWereInvestigatedByTheUSCdcAndCorrectiveActionsImplementedInResponseToEventsTextBlock, Label: Foodborne Illness Outbreaks That Were Investigated By The U.S. CDC And Corrective Actions Implemented In Response To Events [Text Block], BadWord: The 
+Concept: Rtee000AAbstract, Label: RT-EE-000.A [Abstract], BadWord: A 
+Concept: MultilineAndSpecialtyRetailersAndDistributorsIndustryAbstract, Label: Multiline and Specialty Retailers &amp; Distributors Industry [Abstract], BadWord:  &amp; 
+Concept: MultilineAndSpecialtyRetailersAndDistributorsIndustryAbstract, Label: Multiline and Specialty Retailers &amp; Distributors Industry [Abstract], BadWord: &amp; 
+Concept: HospitalValueBasedPurchasingAverageTotalPerformanceScore, Label: Hospital Value-based Purchasing, Average Total Performance Score, BadWord: Total 
+Concept: OilAndGasMidstreamIndustryActivityMetricsAbstract, Label: Oil &amp; Gas - Midstream Industry, Activity Metrics [Abstract], BadWord:  &amp; 
+Concept: OilAndGasMidstreamIndustryActivityMetricsAbstract, Label: Oil &amp; Gas - Midstream Industry, Activity Metrics [Abstract], BadWord:  - 
+Concept: OilAndGasMidstreamIndustryActivityMetricsAbstract, Label: Oil &amp; Gas - Midstream Industry, Activity Metrics [Abstract], BadWord: - 
+Concept: OilAndGasMidstreamIndustryActivityMetricsAbstract, Label: Oil &amp; Gas - Midstream Industry, Activity Metrics [Abstract], BadWord: &amp; 
+Concept: SecurityAndCommodityExchangesIndustryActivityMetricsAbstract, Label: Security &amp; Commodity Exchanges Industry, Activity Metrics [Abstract], BadWord: &amp; 
+Concept: SecurityAndCommodityExchangesIndustryActivityMetricsAbstract, Label: Security &amp; Commodity Exchanges Industry, Activity Metrics [Abstract], BadWord:  &amp; 
+Concept: EnergyManagementInRetailAndDistributionDisclosureTextBlock, Label: Energy Management in Retail &amp; Distribution Disclosure [Text Block], BadWord: &amp; 
+Concept: EnergyManagementInRetailAndDistributionDisclosureTextBlock, Label: Energy Management in Retail &amp; Distribution Disclosure [Text Block], BadWord:  &amp; 
+Concept: AMBestARatingMember, Label: AM Best, A Rating [Member], BadWord: A 
+Concept: PoliciesAndPracticesToSecureCustomersPhiRecordsAndOtherPiiTextBlock, Label: Policies And Practices To Secure Customers' PHI Records And Other PII [Text Block], BadWord: I 
+Concept: ServicingTheAccountMember, Label: Servicing The Account [Member], BadWord: The 
+Concept: ProgrammeForTheEndorsementOfForestCertificationPefcChainOfCustodyCertificationsMember, Label: Programme For The Endorsement Of Forest Certification (PEFC) Chain Of Custody Certifications [Member], BadWord: The 
+Concept: Trmt000AAbstract, Label: TR-MT-000.A [Abstract], BadWord: A 
+Concept: StandardPoorsBBBRatingMember, Label: Standard &amp; Poor's, BBB Rating [Member], BadWord: &amp; 
+Concept: StandardPoorsBBBRatingMember, Label: Standard &amp; Poor's, BBB Rating [Member], BadWord:  &amp; 
+Concept: FatalitiesNumberRelatedToProductsAsReportedInTheFdaManufacturerAndUserFacilityDeviceExperienceDatabase, Label: Fatalities, Number Related To Products As Reported In The FDA Manufacturer And User Facility Device Experience Database, BadWord: The 
+Concept: FatalitiesNumberRelatedToProductsAsReportedInTheFdaManufacturerAndUserFacilityDeviceExperienceDatabase, Label: Fatalities, Number Related To Products As Reported In The FDA Manufacturer And User Facility Device Experience Database, BadWord: A 
+Concept: PromotingTransparentAndEfficientCapitalMarketsDisclosureAbstract, Label: Promoting Transparent &amp; Efficient Capital Markets Disclosure [Abstract], BadWord:  &amp; 
+Concept: PromotingTransparentAndEfficientCapitalMarketsDisclosureAbstract, Label: Promoting Transparent &amp; Efficient Capital Markets Disclosure [Abstract], BadWord: &amp; 
+Concept: FuelCellsAndIndustrialBatteriesIndustryAbstract, Label: Fuel Cells &amp; Industrial Batteries Industry [Abstract], BadWord: &amp; 
+Concept: FuelCellsAndIndustrialBatteriesIndustryAbstract, Label: Fuel Cells &amp; Industrial Batteries Industry [Abstract], BadWord:  &amp; 
+Concept: ClosingTheAccountMember, Label: Closing The Account [Member], BadWord: The 
+Concept: MultilineAndSpecialtyRetailersAndDistributorsIndustryActivityMetricsAbstract, Label: Multiline and Specialty Retailers &amp; Distributors Industry, Activity Metrics [Abstract], BadWord:  &amp; 
+Concept: MultilineAndSpecialtyRetailersAndDistributorsIndustryActivityMetricsAbstract, Label: Multiline and Specialty Retailers &amp; Distributors Industry, Activity Metrics [Abstract], BadWord: &amp; 
+Concept: ImplementationAndOutcomesOfASafetyManagementSystemTextBlock, Label: Implementation And Outcomes Of A Safety Management System [Text Block], BadWord: A 
+Concept: BuildingProductsAndFurnishingsIndustryActivityMetricsAbstract, Label: Building Products &amp; Furnishings Industry, Activity Metrics [Abstract], BadWord: &amp; 
+Concept: BuildingProductsAndFurnishingsIndustryActivityMetricsAbstract, Label: Building Products &amp; Furnishings Industry, Activity Metrics [Abstract], BadWord:  &amp; 
+Concept: AnimalAndFeedSourcingDisclosureAbstract, Label: Animal &amp; Feed Sourcing Disclosure [Abstract], BadWord:  &amp; 
+Concept: AnimalAndFeedSourcingDisclosureAbstract, Label: Animal &amp; Feed Sourcing Disclosure [Abstract], BadWord: &amp; 
+Concept: Svhl000AAbstract, Label: SV-HL-000.A [Abstract], BadWord: A 
+Concept: FitchAAMinusRatingMember, Label: Fitch, AA- Rating [Member], BadWord: - 
+Concept: MineSafetyAndHealthAdministrationAllIncidenceRate, Label: Mine Safety And Health Administration All-incidence Rate, BadWord: Mine 
+Concept: Cgbf000AAbstract, Label: CG-BF-000.A [Abstract], BadWord: A 
+Concept: ContainersAndPackagingIndustryAbstract, Label: Containers &amp; Packaging Industry [Abstract], BadWord:  &amp; 
+Concept: ContainersAndPackagingIndustryAbstract, Label: Containers &amp; Packaging Industry [Abstract], BadWord: &amp; 
+Concept: LifecycleImpactsOfBuildingsAndInfrastructureDisclosureTextBlock, Label: Lifecycle Impacts of Buildings &amp; Infrastructure Disclosure [Text Block], BadWord:  &amp; 
+Concept: LifecycleImpactsOfBuildingsAndInfrastructureDisclosureTextBlock, Label: Lifecycle Impacts of Buildings &amp; Infrastructure Disclosure [Text Block], BadWord: &amp; 
+Concept: WorkforceDiversityAndInclusionDisclosureTextBlock, Label: Workforce Diversity &amp; Inclusion Disclosure [Text Block], BadWord:  &amp; 
+Concept: WorkforceDiversityAndInclusionDisclosureTextBlock, Label: Workforce Diversity &amp; Inclusion Disclosure [Text Block], BadWord: &amp; 
+Concept: StandardPoorsAPlusRatingMember, Label: Standard &amp; Poor's, A+ Rating [Member], BadWord: + 
+Concept: StandardPoorsAPlusRatingMember, Label: Standard &amp; Poor's, A+ Rating [Member], BadWord:  &amp; 
+Concept: StandardPoorsAPlusRatingMember, Label: Standard &amp; Poor's, A+ Rating [Member], BadWord: &amp; 
+Concept: DischargeManagementAndEcologicalImpactsDisclosureTextBlock, Label: Discharge Management &amp; Ecological Impacts Disclosure [Text Block], BadWord:  &amp; 
+Concept: DischargeManagementAndEcologicalImpactsDisclosureTextBlock, Label: Discharge Management &amp; Ecological Impacts Disclosure [Text Block], BadWord: &amp; 
+Concept: IntellectualPropertyProtectionAndCompetitiveBehaviorDisclosureAbstract, Label: Intellectual Property Protection &amp; Competitive Behavior Disclosure [Abstract], BadWord:  &amp; 
+Concept: IntellectualPropertyProtectionAndCompetitiveBehaviorDisclosureAbstract, Label: Intellectual Property Protection &amp; Competitive Behavior Disclosure [Abstract], BadWord: &amp; 
+Concept: Tral000AAbstract, Label: TR-AL-000.A [Abstract], BadWord: A 
+Concept: IecWindTurbineClassIMember, Label: IEC Wind Turbine Class I [Member], BadWord: I 
+Concept: StandardPoorsBBBMinusRatingMember, Label: Standard &amp; Poor's, BBB- Rating [Member], BadWord:  &amp; 
+Concept: StandardPoorsBBBMinusRatingMember, Label: Standard &amp; Poor's, BBB- Rating [Member], BadWord: &amp; 
+Concept: StandardPoorsBBBMinusRatingMember, Label: Standard &amp; Poor's, BBB- Rating [Member], BadWord: - 
+Concept: Trau000AAbstract, Label: TR-AU-000.A [Abstract], BadWord: A 
+Concept: ProgrammeForTheEndorsementOfForestCertificationPefcCertifiedForestlandsMember, Label: Programme For The Endorsement Of Forest Certification (PEFC) Certified Forestlands [Member], BadWord: The 
+Concept: StandardPoorsBBPlusRatingMember, Label: Standard &amp; Poor's, BB+ Rating [Member], BadWord: + 
+Concept: StandardPoorsBBPlusRatingMember, Label: Standard &amp; Poor's, BB+ Rating [Member], BadWord:  &amp; 
+Concept: StandardPoorsBBPlusRatingMember, Label: Standard &amp; Poor's, BB+ Rating [Member], BadWord: &amp; 
+Concept: ProductLabelingAndMarketingDisclosureTextBlock, Label: Product Labeling &amp; Marketing Disclosure [Text Block], BadWord: &amp; 
+Concept: ProductLabelingAndMarketingDisclosureTextBlock, Label: Product Labeling &amp; Marketing Disclosure [Text Block], BadWord:  &amp; 
+Concept: CampaignsPercentageReviewedForAdherenceWithTheAdvertisingSelfRegulatoryCouncilProcedures, Label: Campaigns, Percentage Reviewed For Adherence With The Advertising Self-regulatory Council Procedures, BadWord: The 
+Concept: AssetManagementAndCustodyActivitiesIndustryAccountingMetricsAbstract, Label: Asset Management &amp; Custody Activities Industry, Accounting Metrics [Abstract], BadWord:  &amp; 
+Concept: AssetManagementAndCustodyActivitiesIndustryAccountingMetricsAbstract, Label: Asset Management &amp; Custody Activities Industry, Accounting Metrics [Abstract], BadWord: &amp; 
+Concept: CarriersPercentageWithBasicPercentilesAboveTheFmcsaInterventionThreshold, Label: Carriers, Percentage With BASIC Percentiles Above The FMCSA Intervention Threshold, BadWord: The 
+Concept: CarriersPercentageWithBasicPercentilesAboveTheFmcsaInterventionThreshold, Label: Carriers, Percentage With BASIC Percentiles Above The FMCSA Intervention Threshold, BadWord: A 
+Concept: ExtentOfTheImpactAndADiscussionOfTheEntitysPoliciesAndPracticesRelatedToFreedomOfExpressionTextBlock, Label: Extent Of The Impact And A Discussion Of The Entity's Policies And Practices Related To Freedom Of Expression [Text Block], BadWord: The 
+Concept: ExtentOfTheImpactAndADiscussionOfTheEntitysPoliciesAndPracticesRelatedToFreedomOfExpressionTextBlock, Label: Extent Of The Impact And A Discussion Of The Entity's Policies And Practices Related To Freedom Of Expression [Text Block], BadWord: A 
+Concept: ImpactOfExternalFactorsOnCustomerAffordabilityOfWaterIncludingTheEconomicConditionsOfTheServiceTerritoryTextBlock, Label: Impact Of External Factors On Customer Affordability Of Water, Including The Economic Conditions Of The Service Territory [Text Block], BadWord: The 
+Concept: HouseholdAndPersonalProductsIndustryAccountingMetricsAbstract, Label: Household &amp; Personal Products Industry, Accounting Metrics [Abstract], BadWord:  &amp; 
+Concept: HouseholdAndPersonalProductsIndustryAccountingMetricsAbstract, Label: Household &amp; Personal Products Industry, Accounting Metrics [Abstract], BadWord: &amp; 
+Concept: SupplierResponsibleBusinessAllianceRbaValidatedAuditProcessVapOrEquivalentComplianceAuditNonConformanceRateLineItems, Label: Supplier Responsible Business Alliance (RBA) Validated Audit Process (VAP)  Or Equivalent Compliance, Audit Non-conformance Rate [Line Items], BadWord:   
+Concept: ChemicalAndSafetyHazardsOfProductsDisclosureTextBlock, Label: Chemical &amp; Safety Hazards of Products Disclosure [Text Block], BadWord:  &amp; 
+Concept: ChemicalAndSafetyHazardsOfProductsDisclosureTextBlock, Label: Chemical &amp; Safety Hazards of Products Disclosure [Text Block], BadWord: &amp; 
+Concept: AffordabilityAndPricingDisclosureAbstract, Label: Affordability &amp; Pricing Disclosure [Abstract], BadWord:  &amp; 
+Concept: AffordabilityAndPricingDisclosureAbstract, Label: Affordability &amp; Pricing Disclosure [Abstract], BadWord: &amp; 
+Concept: FdaEnforcementActionsTakenInResponseToViolationsOfCurrentGoodManufacturingPracticesTable, Label: FDA Enforcement Actions Taken In Response To Violations Of Current Good Manufacturing Practices [Table], BadWord: A 
+Concept: Ifgu000AAbstract, Label: IF-GU-000.A [Abstract], BadWord: A 
+Concept: Ifre000AAbstract, Label: IF-RE-000.A [Abstract], BadWord: A 
+Concept: GasUtilitiesAndDistributorsIndustryAbstract, Label: Gas Utilities &amp; Distributors Industry [Abstract], BadWord: &amp; 
+Concept: GasUtilitiesAndDistributorsIndustryAbstract, Label: Gas Utilities &amp; Distributors Industry [Abstract], BadWord:  &amp; 
+Concept: ProductsListedOnTheWorldHealthOrganizationListOfPrequalifiedMedicinalProducts, Label: Products Listed On The World Health Organization List Of Prequalified Medicinal Products, BadWord: The 
+Concept: PricingIntegrityAndTransparencyDisclosureTextBlock, Label: Pricing Integrity &amp; Transparency Disclosure [Text Block], BadWord:  &amp; 
+Concept: PricingIntegrityAndTransparencyDisclosureTextBlock, Label: Pricing Integrity &amp; Transparency Disclosure [Text Block], BadWord: &amp; 
+Concept: ManagementOfTheLegalAndRegulatoryEnvironmentDisclosureAbstract, Label: Management of the Legal &amp; Regulatory Environment Disclosure [Abstract], BadWord:  the 
+Concept: ManagementOfTheLegalAndRegulatoryEnvironmentDisclosureAbstract, Label: Management of the Legal &amp; Regulatory Environment Disclosure [Abstract], BadWord:  &amp; 
+Concept: ManagementOfTheLegalAndRegulatoryEnvironmentDisclosureAbstract, Label: Management of the Legal &amp; Regulatory Environment Disclosure [Abstract], BadWord: &amp; 
+Concept: Trra000AAbstract, Label: TR-RA-000.A [Abstract], BadWord: A 
+Concept: Sved000AAbstract, Label: SV-ED-000.A [Abstract], BadWord: A 
+Concept: ProductSourcingPackagingAndMarketingDisclosureTextBlock, Label: Product Sourcing, Packaging &amp; Marketing Disclosure [Text Block], BadWord:  &amp; 
+Concept: ProductSourcingPackagingAndMarketingDisclosureTextBlock, Label: Product Sourcing, Packaging &amp; Marketing Disclosure [Text Block], BadWord: &amp; 
+Concept: ToysAndSportingGoodsIndustryActivityMetricsAbstract, Label: Toys &amp; Sporting Goods Industry, Activity Metrics [Abstract], BadWord:  &amp; 
+Concept: ToysAndSportingGoodsIndustryActivityMetricsAbstract, Label: Toys &amp; Sporting Goods Industry, Activity Metrics [Abstract], BadWord: &amp; 
+Concept: SoftwareAndItServicesIndustryActivityMetricsAbstract, Label: Software &amp; IT Services Industry, Activity Metrics [Abstract], BadWord:  &amp; 
+Concept: SoftwareAndItServicesIndustryActivityMetricsAbstract, Label: Software &amp; IT Services Industry, Activity Metrics [Abstract], BadWord: &amp; 
+Concept: EngineeringAndConstructionServicesIndustryAccountingMetricsAbstract, Label: Engineering &amp; Construction Services Industry, Accounting Metrics [Abstract], BadWord:  &amp; 
+Concept: EngineeringAndConstructionServicesIndustryAccountingMetricsAbstract, Label: Engineering &amp; Construction Services Industry, Accounting Metrics [Abstract], BadWord: &amp; 
+Concept: EnvironmentalImpactsInTheSupplyChainDisclosureAbstract, Label: Environmental Impacts in the Supply Chain Disclosure [Abstract], BadWord:  the 
+Concept: HealthAndNutritionDisclosureTextBlock, Label: Health &amp; Nutrition Disclosure [Text Block], BadWord: &amp; 
+Concept: HealthAndNutritionDisclosureTextBlock, Label: Health &amp; Nutrition Disclosure [Text Block], BadWord:  &amp; 
+Concept: SecurityHumanRightsAndRightsOfIndigenousPeoplesDisclosureAbstract, Label: Security, Human Rights &amp; Rights of Indigenous Peoples Disclosure [Abstract], BadWord: &amp; 
+Concept: SecurityHumanRightsAndRightsOfIndigenousPeoplesDisclosureAbstract, Label: Security, Human Rights &amp; Rights of Indigenous Peoples Disclosure [Abstract], BadWord:  &amp; 
+Concept: AnimalCareAndWelfareDisclosureTextBlock, Label: Animal Care &amp; Welfare Disclosure [Text Block], BadWord:  &amp; 
+Concept: AnimalCareAndWelfareDisclosureTextBlock, Label: Animal Care &amp; Welfare Disclosure [Text Block], BadWord: &amp; 
+Concept: EggRevenuePercentageFromACageFreeEnvironment, Label: Egg Revenue, Percentage From A Cage-free Environment, BadWord: A 
+Concept: FdaEnforcementActionsTakenInResponseToViolationsOfCurrentGoodManufacturingPractices, Label: FDA Enforcement Actions Taken In Response To Violations Of Current Good Manufacturing Practices, BadWord: A 
+Concept: CustomersWhosePersonallyIdentifiableInformationTheEntityCollectsNumber, Label: Customers Whose Personally Identifiable Information The Entity Collects, Number, BadWord: Whose 
+Concept: CustomersWhosePersonallyIdentifiableInformationTheEntityCollectsNumber, Label: Customers Whose Personally Identifiable Information The Entity Collects, Number, BadWord: The 
+Concept: RestaurantsInspectedByAFoodSafetyOversightBodyPercentageReceivingCriticalViolation, Label: Restaurants Inspected By A Food Safety Oversight Body, Percentage Receiving Critical Violation, BadWord: A 
+Concept: FoodIngredientsSourcedPercentageSourcedFromSupplierFacilitiesCertifiedToGfsiTable, Label: Food Ingredients Sourced, Percentage Sourced From Supplier Facilities Certified To GFSI [Table], BadWord: I 
+Concept: IndustrialMachineryAndGoodsIndustryAccountingMetricsAbstract, Label: Industrial Machinery &amp; Goods Industry, Accounting Metrics [Abstract], BadWord:  &amp; 
+Concept: IndustrialMachineryAndGoodsIndustryAccountingMetricsAbstract, Label: Industrial Machinery &amp; Goods Industry, Accounting Metrics [Abstract], BadWord: &amp; 
+Concept: DataPrivacyAndAdvertisingStandardsDisclosureAbstract, Label: Data Privacy &amp; Advertising Standards Disclosure [Abstract], BadWord: &amp; 
+Concept: DataPrivacyAndAdvertisingStandardsDisclosureAbstract, Label: Data Privacy &amp; Advertising Standards Disclosure [Abstract], BadWord:  &amp; 
+Concept: ManagementOfTheLegalAndRegulatoryEnvironmentDisclosureTextBlock, Label: Management of the Legal &amp; Regulatory Environment Disclosure [Text Block], BadWord:  &amp; 
+Concept: ManagementOfTheLegalAndRegulatoryEnvironmentDisclosureTextBlock, Label: Management of the Legal &amp; Regulatory Environment Disclosure [Text Block], BadWord:  the 
+Concept: ManagementOfTheLegalAndRegulatoryEnvironmentDisclosureTextBlock, Label: Management of the Legal &amp; Regulatory Environment Disclosure [Text Block], BadWord: &amp; 
+Concept: JournalisticIntegrityAndSponsorshipIdentificationDisclosureTextBlock, Label: Journalistic Integrity &amp; Sponsorship Identification Disclosure [Text Block], BadWord:  &amp; 
+Concept: JournalisticIntegrityAndSponsorshipIdentificationDisclosureTextBlock, Label: Journalistic Integrity &amp; Sponsorship Identification Disclosure [Text Block], BadWord: &amp; 
+Concept: Cgam000AAbstract, Label: CG-AM-000.A [Abstract], BadWord: A 
+Concept: LandUseAndEcologicalImpactsDisclosureAbstract, Label: Land Use &amp; Ecological Impacts Disclosure [Abstract], BadWord: &amp; 
+Concept: LandUseAndEcologicalImpactsDisclosureAbstract, Label: Land Use &amp; Ecological Impacts Disclosure [Abstract], BadWord:  &amp; 
+Concept: AgriculturalProductsPercentageCertifiedToAThirdPartyEnvironmentalAndSocialStandard, Label: Agricultural Products, Percentage Certified To A Third-party Environmental And Social Standard, BadWord: A 
+Concept: CustomerHealthAndSafetyDisclosureAbstract, Label: Customer Health &amp; Safety Disclosure [Abstract], BadWord: &amp; 
+Concept: CustomerHealthAndSafetyDisclosureAbstract, Label: Customer Health &amp; Safety Disclosure [Abstract], BadWord:  &amp; 
+Concept: TheNewCarAssessmentProgramForSoutheastAsianCountriesAseanNcapMember, Label: The New Car Assessment Program For Southeast Asian Countries (ASEAN NCAP) [Member], BadWord: The 
+Concept: FitchBBBMinusRatingMember, Label: Fitch, BBB- Rating [Member], BadWord: - 
+Concept: DataPrivacyAndFreedomOfExpressionDisclosureAbstract, Label: Data Privacy &amp; Freedom of Expression Disclosure [Abstract], BadWord: &amp; 
+Concept: DataPrivacyAndFreedomOfExpressionDisclosureAbstract, Label: Data Privacy &amp; Freedom of Expression Disclosure [Abstract], BadWord:  &amp; 
+Concept: FacilitiesAuditedToASocialResponsibilityCodeOfConduct, Label: Facilities Audited To A Social Responsibility Code Of Conduct, BadWord: A 
+Concept: ProductSpecificationsAndCleanFuelBlendsDisclosureAbstract, Label: Product Specifications &amp; Clean Fuel Blends Disclosure [Abstract], BadWord: &amp; 
+Concept: ProductSpecificationsAndCleanFuelBlendsDisclosureAbstract, Label: Product Specifications &amp; Clean Fuel Blends Disclosure [Abstract], BadWord:  &amp; 
+Concept: MineSitesPercentageWhereAcidRockDrainageIsPredictedToOccur, Label: Mine Sites, Percentage Where Acid Rock Drainage Is Predicted To Occur, BadWord: Mine 
+Concept: ElectronicManufacturingServicesAndOriginalDesignManufacturingIndustryActivityMetricsAbstract, Label: Electronic Manufacturing Services &amp; Original Design Manufacturing Industry, Activity Metrics [Abstract], BadWord: &amp; 
+Concept: ElectronicManufacturingServicesAndOriginalDesignManufacturingIndustryActivityMetricsAbstract, Label: Electronic Manufacturing Services &amp; Original Design Manufacturing Industry, Activity Metrics [Abstract], BadWord:  &amp; 
+Concept: ControlledSubstancePrescriptionsWrittenPercentageForWhichAPrescriptionDrugMonitoringProgramDatabaseWasQueried, Label: Controlled Substance Prescriptions Written, Percentage For Which A Prescription Drug Monitoring Program Database Was Queried, BadWord: A 
+Concept: MedicareAndMedicaidFraudUnderTheFalseClaimsActMember, Label: Medicare And Medicaid Fraud Under The False Claims Act [Member], BadWord: The 
+Concept: Emrm000AAbstract, Label: EM-RM-000.A [Abstract], BadWord: A 
+Concept: TransparentInformationAndFairAdviceForCustomersDisclosureAbstract, Label: Transparent Information &amp; Fair Advice for Customers Disclosure [Abstract], BadWord:  &amp; 
+Concept: TransparentInformationAndFairAdviceForCustomersDisclosureAbstract, Label: Transparent Information &amp; Fair Advice for Customers Disclosure [Abstract], BadWord: &amp; 
+Concept: Fbpf000AAbstract, Label: FB-PF-000.A [Abstract], BadWord: A 
+Concept: AMBestCMinusRatingMember, Label: AM Best, C- Rating [Member], BadWord: - 
+Concept: AirFreightAndLogisticsIndustryActivityMetricsAbstract, Label: Air Freight &amp; Logistics Industry, Activity Metrics [Abstract], BadWord:  &amp; 
+Concept: AirFreightAndLogisticsIndustryActivityMetricsAbstract, Label: Air Freight &amp; Logistics Industry, Activity Metrics [Abstract], BadWord: &amp; 
+Concept: HealthAndNutritionDisclosureAbstract, Label: Health &amp; Nutrition Disclosure [Abstract], BadWord:  &amp; 
+Concept: HealthAndNutritionDisclosureAbstract, Label: Health &amp; Nutrition Disclosure [Abstract], BadWord: &amp; 
+Concept: DischargeManagementAndEcologicalImpactsDisclosureAbstract, Label: Discharge Management &amp; Ecological Impacts Disclosure [Abstract], BadWord: &amp; 
+Concept: DischargeManagementAndEcologicalImpactsDisclosureAbstract, Label: Discharge Management &amp; Ecological Impacts Disclosure [Abstract], BadWord:  &amp; 
+Concept: Ifwm000AAbstract, Label: IF-WM-000.A [Abstract], BadWord: A 
+Concept: SuppliersPercentageThatHaveBeenAuditedToALaborCodeOfConduct, Label: Suppliers, Perc...</message></entry>
+<entry code="l0003" level="error">
+ <message filing_url="/Users/campbellpryde/Documents/GitHub/TaxonomyDashboard/SASB/Novo Nordisk v2 - 2020.12.07/ixbrl-viewer.htm" cid="4697877416" severity="error">[l0003] The following pronouns were used in elements:
+Concept: IncidentsWithASeverityRatingOf1Or2IncludingTheirRootCauseOutcomesAndCorrectiveActionsImplementedInResponseTextBlock, Label: Description of incidents with a severity rating of 1 or 2, including their root cause, outcomes, and corrective actions implemented in response (e.g., technology improvements and operator training)., BadWord:  their 
+Concept: DescriptionOfDisclosureOfPriceInformationForEachProductToCustomersAndAgentsTextBlock, Label: Description of how price information for each product is disclosed to customers or to their agents, BadWord:  their 
+Concept: MineSitesPercentageWhereAcidRockDrainageIsPredictedToOccur, Label: Percentage of mine sites where acid rock drainage is predicted to occur, BadWord:  mine 
+Concept: MineSafetyAndHealthAdministrationAllIncidenceRate, Label: Mine Safety and Health Administration (MSHA) All-Incidence rate by employee type, BadWord: Mine 
+Concept: RisksAndOpportunitiesAssociatedWithTitleIvFundingGiBillFundingPrivateStudentLoansAndOtherTextBlock, Label: Discussion of risks and opportunities associated with Title IV funding, GI Bill funding, private student loans, and other funding sources, BadWord: I 
+Concept: MineSitesPercentageWhereAcidRockDrainageIsUnderTreatmentOrRemediation, Label: Percentage of mine sites where acid rock drainage is under treatment or remediation, BadWord:  mine 
+Concept: MineSitesPercentageWhereAcidRockDrainageIsActivelyMitigated, Label: Percentage of mine sites where acid rock drainage is actively mitigated, BadWord:  mine 
+ - </message></entry>
+<entry code="l0004" level="error">
+ <message filing_url="/Users/campbellpryde/Documents/GitHub/TaxonomyDashboard/SASB/Novo Nordisk v2 - 2020.12.07/ixbrl-viewer.htm" cid="4697877416" severity="error">[l0004] The following non abstract concepts do not have documentation labels associated with them.
+The items are as follows:
+srt:ProvedDevelopedAndUndevelopedReservesRevisionsOfPreviousEstimatesIncreaseDecrease,
+srt:MortgageLoansOnRealEstateNumberOfLoans,
+dei:EntityAddressAddressDescription,
+sasb:RecruitingAndManagingAGlobalAndSkilledWorkforceDisclosureTextBlock,
+sasb:EnergyAffordabilityDisclosureTextBlock,
+srt:RealEstateFederalIncomeTaxBasis,
+sasb:IncorporationOfEnvironmentalSocialAndGovernanceFactorsInInvestmentManagementDisclosureTextBlock,
+sasb:MarketingPracticesDisclosureTextBlock,
+srt:MortgageLoansOnRealEstateCollectionsOfPrincipal,
+sasb:EnvironmentalImpactsInTheSupplyChainDisclosureTextBlock,
+sasb:EnvironmentalAndSocialImpactsOfIngredientSupplyChainDisclosureTextBlock,
+sasb:LaborPracticesDisclosureTextBlock,
+sasb:MaterialsEfficiencyDisclosureTextBlock,
+srt:ProvedDevelopedAndUndevelopedReserveProductionEnergy,
+sasb:CompetitiveBehaviorDisclosureTextBlock,
+sasb:BiodiversityImpactsDisclosureTextBlock,
+dei:DocumentTransitionReport,
+sasb:EmployeeDiversityAndInclusionDisclosureTextBlock,
+dei:EntityInformationDateToChangeFormerLegalOrRegisteredName,
+sasb:EnvironmentalRiskToMortgagedPropertiesDisclosureTextBlock,
+sasb:EnvironmentalFootprintOfHardwareInfrastructureDisclosureTextBlock,
+sasb:ProductEnvironmentalHealthAndSafetyPerformanceDisclosureTextBlock,
+sasb:FoodWasteManagementDisclosureTextBlock,
+sasb:AirQualityDisclosureTextBlock,
+dei:EntityInformationFormerLegalOrRegisteredName,
+sasb:DriverWorkingConditionsDisclosureTextBlock,
+srt:DecreaseDueToSalesOfMineralsInPlace,
+dei:DocumentShellCompanyReport,
+sasb:DesignForResourceEfficiencyDisclosureTextBlock,
+dei:EntityAddressPostalZipCode,
+srt:DraftsPayable,
+sasb:TransparentInformationAndFairAdviceForCustomersDisclosureTextBlock,
+sasb:ProductLifecycleEnvironmentalImpactsDisclosureTextBlock,
+sasb:HardwareInfrastructureEnergyAndWaterManagementDisclosureTextBlock,
+dei:PreCommencementIssuerTenderOffer,
+srt:GasAndOilAreaUndevelopedNet,
+dei:EntityListingSecurityTradingCurrency,
+srt:OilAndGasDeliveryCommitmentsAndContractsRemainingContractualVolume,
+sasb:SustainabilityServicesDisclosureTextBlock,
+sasb:AnimalAndFeedSourcingDisclosureTextBlock,
+sasb:AdvertisingIntegrityDisclosureTextBlock,
+srt:ProvedDevelopedAndUndevelopedReservesImprovedRecovery,
+sasb:ClimateChangeImpactsOnHumanHealthAndInfrastructureDisclosureTextBlock,
+srt:IncreaseDecreaseInEstimatedFutureDevelopmentCosts,
+sasb:IntellectualPropertyProtectionAndCompetitiveBehaviorDisclosureTextBlock,
+sasb:NuclearSafetyAndEmergencyManagementDisclosureTextBlock,
+dei:PostEffectiveAmendmentNumber,
+dei:EntityWellKnownSeasonedIssuer,
+srt:RealEstateAndAccumulatedDepreciationDisclosureTextBlock,
+sasb:CompetitiveBehaviorAndOpenInternetDisclosureTextBlock,
+sasb:JournalisticIntegrityAndSponsorshipIdentificationDisclosureTextBlock,
+sasb:FinancialInclusionAndCapacityBuildingDisclosureTextBlock,
+sasb:TransparentInformationAndManagementOfConflictOfInterestDisclosureTextBlock,
+sasb:ProductSourcingPackagingAndMarketingDisclosureTextBlock,
+srt:NetCapitalExcessShortageUnderCommodityExchangeAct,
+dei:DocumentRegistrationStatement,
+srt:ScheduleOfOilAndGasInProcessActivitiesTextBlock,
+sasb:GmoManagementDisclosureTextBlock,
+sasb:ProductDesignForUsephaseEfficiencyDisclosureTextBlock,
+dei:AmendmentDescription,
+srt:CapitalRequirementOfConsolidatedBrokerDealerSubsidiaryElectingAlternativeMethod,
+dei:Security12gTitle,
+srt:GasAndOilAreaDevelopedNet,
+srt:NetCapital,
+sasb:ProductDesignAndLifecycleManagementDisclosureTextBlock,
+sasb:RecyclingAndResourceRecoveryDisclosureTextBlock,
+sasb:ChemicalsManagementDisclosureTextBlock,
+sasb:ProductEndoflifeManagementDisclosureTextBlock,
+sasb:ManagingBusinessContinuityAndTechnologyRisksDisclosureTextBlock,
+sasb:PricingAndBillingTransparencyDisclosureTextBlock,
+srt:MinimumNetCapitalRequired1,
+srt:TwoPercentOfDebitItems,
+sasb:WorkforceHealthAndSafetyDisclosureTextBlock,
+srt:ProvedDevelopedAndUndevelopedReserveNetEnergy,
+srt:MortgageLoansOnRealEstatePeriodicPaymentTermsLevelPayments,
+sasb:DischargeManagementAndEcologicalImpactsDisclosureTextBlock,
+srt:RequiredNetCapitalUnderCommodityExchangeAct1,
+srt:AlternativeNetCapitalRequirement1,
+dei:EntityFilerCategory,
+dei:DocumentTitle,
+srt:MortgageLoanOnRealEstateFinalMaturityDate,
+dei:FormerFiscalYearEndDate,
+sasb:FuelEconomyAndUsephaseEmissionsDisclosureTextBlock,
+srt:RealEstateWriteDownOrReserveBasis,
+sasb:DrugSupplyChainIntegrityDisclosureTextBlock,
+sasb:SupplyChainManagementDisclosureTextBlock,
+sasb:PoliciesDesignedToIncentivizeResponsibleBehaviorDisclosureTextBlock,
+srt:StandardizedMeasureOfDiscountedFutureNetCashFlowOfProvedOilAndGasReservesOther,
+sasb:MediaPluralismDisclosureTextBlock,
+srt:NetCapitalUnderCommodityExchangeActComputation,
+dei:AnnualInformationForm,
+sasb:FleetFuelManagementDisclosureTextBlock,
+srt:SignificantEconomicInterestInStandardizedMeasureOfDiscountedFutureNetCashFlowsAttributableToConsolidatedSubsidiaryIesWithSignificantMinorityInterests,
+srt:ScheduleOfExploratoryWellsDrilledTextBlock,
+srt:ProvedDevelopedAndUndevelopedReservesSaleOfMineralInPlaceEnergy,
+srt:OilAndGasQuantitiesReceivedUnderLongTermSupplyAgreementsWithGovernmentsOrAuthorities,
+srt:RevisionsOfPreviousQuantityEstimates,
+srt:OilAndGasDeliveryCommitmentsAndContractsAvailableAmountsToBeReceived,
+dei:EntityIncorporationStateCountryCode,
+sasb:FraudAndUnnecessaryProceduresDisclosureTextBlock,
+dei:EntityVoluntaryFilers,
+srt:MortgageLoansOnRealEstateDelinquentPrincipalOrInterestAcquiredFromAffiliates,
+dei:WrittenCommunications,
+srt:ExploratoryWellsDrilledNetProductive,
+dei:EntityListingDescription,
+srt:AverageSalesPrices,
+sasb:DataPrivacyAndFreedomOfExpressionDisclosureTextBlock,
+sasb:ManagingSystemicRisksFromTechnologyDisruptionsDisclosureTextBlock,
+sasb:DrinkingWaterQualityDisclosureTextBlock,
+srt:MortgageLoansOnRealEstateInterestRate,
+sasb:GridResiliencyDisclosureTextBlock,
+srt:MinimumRemainingTermsOfLeasesAndConcessionsOnUndevelopedAcreage1,
+srt:IncreaseDueToPurchasesOfMineralsInPlace,
+sasb:LifecycleEmissionsBalanceDisclosureTextBlock,
+srt:DescriptionOfSignificantProvisionsOfLongTermObligationsOfParentCompany,
+sasb:WasteManagementDisclosureTextBlock,
+dei:EntityPrimarySicNumber,
+sasb:MaterialsEfficiencyAndRecyclingDisclosureTextBlock,
+sasb:ProductEfficiencyDisclosureTextBlock,
+sasb:ProductLifecycleManagementDisclosureTextBlock,
+sasb:EmployeeRecruitmentDevelopmentAndRetentionDisclosureTextBlock,
+srt:ConsolidatedOilAndGasProductionCostsPerUnitOfProduction,
+dei:EntityTextBlock,
+dei:EntityLegalForm,
+srt:NetIncreaseDecreaseInSalesAndTransferPricesAndProductionCosts,
+srt:SecSchedule1229InvestmentInMortgageLoansOnRealEstateLocationOfPropertyExtensibleList,
+dei:EntityAddressCityOrTown,
+srt:ScheduleOfSupplementalInformationForPropertyCasualtyInsuranceUnderwritersTextBlock,
+srt:ComputationOfNetCapitalUnderSecuritiesAndExchangeCommissionRegulationTextBlock,
+dei:RegistrationStatementAmendmentNumber,
+sasb:ProductSafetyDisclosureTextBlock,
+sasb:AccessForLowincomePatientsDisclosureTextBlock,
+sasb:CustomerSafetyDisclosureTextBlock,
+dei:DocumentsIncorporatedByReferenceTextBlock,
+sasb:AffordabilityAndPricingDisclosureTextBlock,
+sasb:SourcingAndEnvironmentalImpactsOfFeedstockProductionDisclosureTextBlock,
+srt:ReserveQuantityAttributableToConsolidatedSubsidiaryNoncontrollingInterestVolume,
+dei:NoTradingSymbolFlag,
+sasb:BusinessEthicsAndPaymentsTransparencyDisclosureTextBlock,
+srt:MortgageLoansOnRealEstatePeriodicPaymentTerms,
+srt:MortgageLoansOnRealEstateRenewedAndExtended,
+dei:PhoneFaxNumberDescription,
+sasb:EnvironmentalRiskExposureDisclosureTextBlock,
+sasb:ManagementOfControlledSubstancesDisclosureTextBlock,
+sasb:EffluentQualityManagementDisclosureTextBlock,
+srt:ScheduleOfChangesInStandardizedMeasureOfDiscountedFutureNetCashFlowsTableTextBlock,
+dei:Security12bTitle,
+dei:DocumentType,
+dei:EntityCommonStockSharesOutstanding,
+sasb:IngredientSourcingDisclosureTextBlock,
+dei:DocumentInformationTextBlock,
+srt:FutureNetCashFlowsRelatingToProvedOilAndGasReservesTenPercentAnnualDiscountForEstimatedTimingOfCashFlows,
+sasb:WasteAndHazardousMaterialsManagementDisclosureTextBlock,
+sasb:CustomerHealthAndSafetyDisclosureTextBlock,
+sasb:DataSecurityDisclosureTextBlock,
+sasb:ImprovedOutcomesDisclosureTextBlock,
+srt:StandardizedMeasureOfDiscountedFutureNetCashFlowsRelatingToProvedOilAndGasReserves,
+srt:MinimumFinancialRequirementsForFuturesCommissionMerchantsUnderCommodityExchangeActTextBlock,
+sasb:QualityOfCareAndPatientSatisfactionDisclosureTextBlock,
+srt:RealEstateAndAccumulatedDepreciationDateAcquired1,
+sasb:PatientPrivacyAndElectronicHealthRecordsDisclosureTextBlock,
+srt:NetCapitalInExcessOfFivePercentOfDebitItems,
+dei:DocumentName,
+sasb:RecruitingAndManagingAGlobalDiverseAndSkilledWorkforceDisclosureTextBlock,
+sasb:SmokefreeCasinosDisclosureTextBlock,
+dei:ParentEntityLegalName,
+sasb:DataPrivacyDisclosureTextBlock,
+sasb:LendingPracticesDisclosureTextBlock,
+sasb:MaterialsSourcingDisclosureTextBlock,
+srt:OilAndGasDeliveryCommitmentsAndContractsSignificantSuppliesDedicatedOrContractedToEntity,
+dei:DocumentShellCompanyEventDate,
+srt:MortgageLoansOnRealEstateByLoanDisclosureTextBlock,
+sasb:BusinessEthicsDisclosureTextBlock,
+srt:BankLoans,
+sasb:AntibioticUseInAnimalProductionDisclosureTextBlock,
+srt:MortgageLoansOnRealEstatePeriodicPaymentTermsVaryingAmounts,
+dei:EntityTaxIdentificationNumber,
+srt:LifeInsuranceInForceCeded,
+sasb:ProfessionalIntegrityDisclosureTextBlock,
+srt:GasAndOilAreaUndevelopedGross,
+sasb:EcologicalImpactsDisclosureTextBlock,
+sasb:EnvironmentalAndSocialImpactsOfPalmOilSupplyChainDisclosureTextBlock,
+dei:EntityShellCompany,
+srt:ProductiveOilWellsNumberOfWellsGross,
+srt:RealEstateAndAccumulatedDepreciationDateOfConstruction1,
+sasb:ManagementOfTheLegalAndRegulatoryEnvironmentDisclosureTextBlock,
+srt:ExtensionsDiscoveriesAdditionsAndImprovedRecoveryLessRelatedCosts,
+srt:SECScheduleIIIRealEstateNumberOfUnits,
+dei:LocalPhoneNumber,
+srt:MinimumNetCapitalRequiredForBrokerDealerSubsidiary1,
+dei:EntityAddressRegion,
+dei:DocumentFiscalYearFocus,
+dei:DocumentSubtitle,
+dei:EntityAddressAddressLine1,
+srt:ProductionBarrelsOfOilEquivalents1,
+srt:ScheduleOfValuationAndQualifyingAccountsDisclosureTextBlock,
+sasb:EnduseEfficiencyAndDemandDisclosureTextBlock,
+srt:MortgageLoansOnRealEstatePrincipalAmountOfDelinquentLoans,
+srt:FutureNetCashFlowsRelatingToProvedOilAndGasReservesProductionCosts,
+dei:ContactPersonnelFaxNumber,
+dei:DocumentPeriodEndDate,
+srt:ScheduleOfCondensedIncomeStatementTableTextBlock,
+sasb:EmployeeRecruitmentInclusionAndPerformanceDisclosureTextBlock,
+dei:EntityBankruptcyProceedingsReportingCurrent,
+dei:ContainedFileInformationFileName,
+dei:SolicitingMaterial,
+dei:EntityDataUniversalNumberingSystemNumber,
+sasb:WoodSupplyChainManagementDisclosureTextBlock,
+dei:EntitySectorIndustryClassificationPrimary,
+srt:ScheduleOfProductiveWellsTextBlock,
+sasb:IncorporationOfEnvironmentalSocialAndGovernanceFactorsInCreditAnalysisDisclosureTextBlock,
+srt:GasAndOilAreaDevelopedGross,
+dei:IcfrAuditorAttestationFlag,
+srt:ProductiveGasWellsNumberOfWellsNet,
+sasb:EnvironmentalFootprintOfOperationsDisclosureTextBlock,
+srt:SalesAndTransfersOfOilAndGasProducedNetOfProductionCosts,
+dei:DocumentDescription,
+srt:ProvedDevelopedAndUndevelopedReserveRevisionOfPreviousEstimateEnergy,
+dei:EntityRegistrantName,
+dei:EntityCurrentReportingStatus,
+sasb:NutritionalContentDisclosureTextBlock,
+srt:ExcessNetCapitalAt1500Percent,
+dei:SecurityReportingObligation,
+srt:RealEstateAndAccumulatedDepreciationAmountOfEncumbrances,
+srt:DevelopmentWellsDrilledNetProductive,
+srt:FutureNetCashFlowsRelatingToProvedOilAndGasReservesDevelopmentCosts,
+srt:ScheduleOfCondensedFinancialStatementsTableTextBlock,
+sasb:StructuralIntegrityAndSafetyDisclosureTextBlock,
+sasb:EnvironmentalAndSocialImpactsOfAnimalSupplyChainDisclosureTextBlock,
+sasb:ReservesValuationAndCapitalExpendituresDisclosureTextBlock,
+srt:WellsInProcessOfDrilling,
+srt:SignificantChangesInReserves,
+sasb:ProductLabelingAndMarketingDisclosureTextBlock,
+sasb:HealthAndNutritionDisclosureTextBlock,
+srt:MortgageLoansOnRealEstateTransactionsWithAffiliates,
+dei:EntityExTransitionPeriod,
+dei:EntityInvCompanyType,
+sasb:WorkforceDiversityAndEngagementDisclosureTextBlock,
+dei:EntityAddressCountry,
+dei:EntitySmallBusiness,
+sasb:WaterManagementInManufacturingDisclosureTextBlock,
+srt:MortgageLoansOnRealEstateReserves,
+dei:EntityOtherIdentificationValue,
+srt:MinimumNetCapitalRequiredForEntity1,
+sasb:WorkforceDiversityAndInclusionDisclosureTextBlock,
+dei:TradingSymbol,
+dei:SecurityExchangeName,
+sasb:WaterSupplyResilienceDisclosureTextBlock,
+dei:EntityPublicFloat,
+sasb:DataSecurityAndPrivacyDisclosureTextBlock,
+srt:ScheduleOfCondensedCashFlowStatementTableTextBlock,
+dei:ApproximateDateOfCommencementOfProposedSaleToThePublic,
+srt:WellsTemporarilySuspended,
+sasb:AccessToCoverageDisclosureTextBlock,
+dei:DocumentAnnualReport,
+sasb:CriticalIncidentRiskManagementDisclosureTextBlock,
+dei:DocumentQuarterlyReport,
+dei:EntityReportingCurrencyISOCode,
+sasb:ProductInnovationDisclosureTextBlock,
+srt:SupplementaryInsuranceInformationForInsuranceCompaniesDisclosureTextBlock,
+srt:StandardizedMeasureOfDiscountedFutureCashFlowsRelatingToProvedReservesDisclosureTextBlock,
+dei:EntityAddressAddressLine3,
+sasb:AnimalCareAndWelfareDisclosureTextBlock,
+sasb:QualityOfEducationAndGainfulEmploymentDisclosureTextBlock,
+dei:ContainedFileInformationFileType,
+srt:ExploratoryWellsDrilledNetNonproductive,
+sasb:EcosystemServicesAndImpactsDisclosureTextBlock,
+srt:LifeInsuranceInForceAssumed,
+srt:ProductiveGasWellsNumberOfWellsGross,
+sasb:RemanufacturingDesignAndServicesDisclosureTextBlock,
+dei:CurrentFiscalYearEndDate,
+dei:CountryRegion,
+sasb:PlanPerformanceDisclosureTextBlock,
+sasb:EnergyManagementInRetailDisclosureTextBlock,
+dei:ContactPersonnelUniformResourceLocatorURL,
+sasb:FoodAndPackagingWasteManagementDisclosureTextBlock,
+sasb:PublicHealthDisclosureTextBlock,
+sasb:AirEmissionsDisclosureTextBlock,
+sasb:FuelEconomyAndEmissionsInUsephaseDisclosureTextBlock,
+sasb:IntegrityOfGasDeliveryInfrastructureDisclosureTextBlock,
+dei:AmendmentFlag,
+dei:EntityCentralIndexKey,
+sasb:WaterAffordabilityAndAccessDisclosureTextBlock,
+sasb:SafetyAndEnvironmentalStewardshipOfChemicalsDisclosureTextBlock,
+sasb:DrugSafetyDisclosureTextBlock,
+srt:ProvedDevelopedAndUndevelopedReservesExtensionsDiscoveriesAndAdditions,
+dei:EntityListingForeign,
+sasb:PricingIntegrityAndTransparencyDisclosureTextBlock,
+sasb:SafetyOfClinicalTrialParticipantsDisclosureTextBlock,
+sasb:CommunityRelationsDisclosureTextBlock,
+dei:ContactPersonnelEmailAddress,
+sasb:EnergyManagementInManufacturingDisclosureTextBlock,
+srt:DevelopmentWellsDrilledNetNonproductive,
+sasb:PatientHealthOutcomesDisclosureTextBlock,
+dei:EntityNumberOfEmployees,
+srt:LifeInsuranceInForceNet,
+dei:EntityAddressAddressLine2,
+srt:ScheduleOfGasAndOilAcreageTextBlock,
+sasb:DiscriminatoryLendingDisclosureTextBlock,
+srt:ScheduleOfCondensedBalanceSheetTableTextBlock,
+dei:DocumentVersion,
+sasb:ResponsibleDrinkingAndMarketingDisclosureTextBlock,
+dei:EntityOtherIdentificationType,
+sasb:SecurityHumanRightsAndRightsOfIndigenousPeoplesDisclosureTextBlock,
+sasb:CustomerPrivacyAndTechnologyStandardsDisclosureTextBlock,
+srt:DescriptionOfNetCapitalRequirementsUnderCommodityExchangeAct,
+dei:CityAreaCode,
+srt:ProvedDevelopedReservesVolume,
+srt:PayablesToCustomers,
+sasb:RightsOfIndigenousPeoplesDisclosureTextBlock,
+srt:LifeInsuranceInForceGross,
+sasb:EthicalMarketingDisclosureTextBlock,
+srt:ProvedDevelopedAndUndevelopedReserveNetEnergyPeriodIncreaseDecrease,
+sasb:GreenhouseGasEmissionsDisclosureTextBlock,
+srt:DescriptionOfGuaranteesGivenByParentCompany,
+srt:ProductiveOilWellsNumberOfWellsWithMultipleCompletionsNet,
+sasb:HazardousWasteManagementDisclosureTextBlock,
+srt:DescriptionOfMandatoryDividendOrRedemptionProvisionsOfRedeemableStockOfParentCompany,
+srt:ProvedDevelopedAndUndevelopedReservesSalesOfMineralsInPlace,
+dei:EntityAddressStateOrProvince,
+srt:SECScheduleIIIRealEstateTransactionsWithAffiliatesDisclosure,
+sasb:CounterfeitDrugsDisclosureTextBlock,
+sasb:SupplyChainManagementAndFoodSourcingDisclosureTextBlock,
+srt:FutureNetCashFlowsRelatingToProvedOilAndGasReservesNetCashFlows,
+dei:EntityListingParValuePerShare,
+sasb:ProductPackagingAndDistributionDisclosureTextBlock,
+sasb:LaborConditionsInTheSupplyChainDisclosureTextBlock,
+srt:ScheduleOfProvedDevelopedAndUndevelopedOilAndGasReserveQuantitiesTextBlock,
+sasb:EmployeeHealthAndSafetyDisclosureTextBlock,
+sasb:DataPrivacyAdvertisingStandardsAndFreedomOfExpressionDisclosureTextBlock,
+srt:MortgageLoansOnRealEstateFaceAmountOfMortgages,
+srt:FutureNetCashFlowsRelatingToProvedOilAndGasReservesIncomeTaxExpense,
+dei:ContainedFileInformationFileNumber,
+sasb:GreenhouseGasEmissionsAndEnergyResourcePlanningDisclosureTextBlock,
+sasb:MarketingAndRecruitingPracticesDisclosureTextBlock,
+sasb:ClimateChangeImpactsOnHumanHealthDisclosureTextBlock,
+srt:ProductiveOilWellsNumberOfWellsWithMultipleCompletionsGross,
+sasb:CommunityImpactsOfNewDevelopmentsDisclosureTextBlock,
+sasb:ManagementOfChemicalsInProductsDisclosureTextBlock,
+sasb:ManagementOfEnergyInfrastructureIntegrationAndRelatedRegulationsDisclosureTextBlock,
+sasb:LaborRelationsDisclosureTextBlock,
+srt:OilAndGasNetProductionAverageSalesPriceAndAverageProductionCostsDisclosureTextBlock,
+sasb:AirEmissionsFromRefrigerationDisclosureTextBlock,
+srt:FutureNetCashFlowsRelatingToProvedOilAndGasReservesCashInflows,
+sasb:EnduseEfficiencyDisclosureTextBlock,
+sasb:OperationalSafetyEmergencyPreparednessAndResponseDisclosureTextBlock,
+dei:AuditedAnnualFinancialStatements,
+sasb:ManagementOfEnvironmentalAndSocialImpactsInTheSupplyChainDisclosureTextBlock,
+sasb:EcologicalImpactsOfProjectDevelopmentDisclosureTextBlock,
+srt:MortgageLoansOnRealEstatePeriodicPaymentTermsBalloonPaymentToBeReceived,
+dei:DocumentSynopsis,
+dei:DocumentCreationDate,
+sasb:FleetFuelEconomyAndUtilizationDisclosureTextBlock,
+srt:ProvedDevelopedReservesBOE1,
+dei:ContactPersonnelName,
+srt:ProvedReserveQuantityLocationInHomeCountry,
+sasb:NetworkResiliencyAndImpactsOfClimateChangeDisclosureTextBlock,
+sasb:ClimateChangeAdaptationDisclosureTextBlock,
+sasb:HazardousMaterialsManagementDisclosureTextBlock,
+dei:EntityFileNumber,
+sasb:EmissionsReductionServicesAndFuelsManagementDisclosureTextBlock,
+sasb:IncorporationOfEnvironmentalSocialAndGovernanceFactorsInInvestmentBankingAndBrokerageActivitiesDisclosureTextBlock,
+dei:EntityLocationPrimary,
+sasb:EnergyManagementDisclosureTextBlock,
+dei:Extension,
+srt:OilAndGasDeliveryCommitmentsAndContractsDisclosureTextBlock,
+dei:DocumentCopyrightInformation,
+sasb:WorkforceSafetyDisclosureTextBlock,
+dei:ContainedFileInformationFileDescription,
+sasb:LandUseAndEcologicalImpactsDisclosureTextBlock,
+sasb:DistributionNetworkEfficiencyDisclosureTextBlock,
+sasb:CustomerPrivacyDisclosureTextBlock,
+sasb:ClimateImpactsOfBusinessMixDisclosureTextBlock,
+sasb:AccidentManagementDisclosureTextBlock,
+sasb:GeneticallyModifiedOrganismsDisclosureTextBlock,
+srt:MortgageLoansOnRealEstateFederalIncomeTaxBasis1,
+srt:ProvedUndevelopedReserveVolume,
+sasb:FoodSafetyDisclosureTextBlock,
+srt:IncreaseDecreaseInFutureIncomeTaxExpenseEstimatesOnFutureCashFlowsRelatedToProvedOilAndGasReserves,
+srt:StandardizedMeasureOfDiscountedFutureNetCashFlowRelatingToProvedOilAndGasReservesAccretionOfDiscount,
+dei:DocumentAccountingStandard,
+sasb:SellingPracticesDisclosureTextBlock,
+srt:ProvedDevelopedAndUndevelopedReserveImprovedRecoveryEnergy,
+srt:ProvedDevelopedAndUndevelopedReserveExtensionAndDiscoveryEnergy,
+sasb:EnergyManagementInRetailAndDistributionDisclosureTextBlock,
+srt:StandardizedMeasureOfDiscountedFutureNetCashFlowOfProvedOilAndGasReservesPeriodIncreaseDecrease,
+dei:DocumentPeriodStartDate,
+srt:PayablesToBrokerDealersAndClearingOrganizations,
+srt:MortgageLoansOnRealEstateWriteDownOrReserveBasis,
+srt:RealEstateOtherDisclosures,
+sasb:EmployeeIncentivesAndRiskTakingDisclosureTextBlock,
+srt:ProvedDevelopedAndUndevelopedReservePurchaseOfMineralInPlaceEnergy,
+srt:ProvedDevelopedAndUndevelopedReservesNetPeriodIncreaseDecrease,
+sasb:ProductHealthAndNutritionDisclosureTextBlock,
+srt:CondensedFinancialStatementsTextBlock,
+dei:EntityInteractiveDataCurrent,
+sasb:ChemicalAndSafetyHazardsOfProductsDisclosureTextBlock,
+sasb:EnvironmentalImpactsOfProjectDevelopmentDisclosureTextBlock,
+sasb:LifecycleImpactsOfBuildingsAndInfrastructureDisclosureTextBlock,
+dei:PreCommencementTenderOffer,
+dei:EntityAccountingStandard,
+sasb:AccidentAndSafetyManagementDisclosureTextBlock,
+sasb:PackagingLifecycleManagementDisclosureTextBlock,
+sasb:AccessToMedicinesDisclosureTextBlock,
+sasb:IncorporationOfEnvironmentalSocialAndGovernanceFactorsInInvestmentManagementAndAdvisoryDisclosureTextBlock,
+sasb:IntellectualPropertyProtectionAndMediaPiracyDisclosureTextBlock,
+sasb:InternalControlsOnMoneyLaunderingDisclosureTextBlock,
+srt:ProvedDevelopedAndUndevelopedReservesPurchasesOfMineralsInPlace,
+dei:EntityEmergingGrowthCompany,
+sasb:ProductSecurityDisclosureTextBlock,
+srt:CondensedStatementOfComprehensiveIncomeTableTextBlock,
+dei:EntityListingPrimary,
+sasb:WaterManagementDisclosureTextBlock,
+srt:ContractualObligationFiscalYearMaturityScheduleTableTextBlock,
+sasb:SystemicRiskManagementDisclosureTextBlock,
+dei:OtherReportingStandardItemNumber,
+srt:ProvedOilAndGasReserveQuantitiesApplicableToLongTermSupplyAgreementsWithGovernmentsOrAuthorities,
+dei:DocumentFiscalPeriodFocus,
+srt:ReservesShareOfEquityMethodInvesteesNetProvedOilAndGasReserves,
+srt:MortgageLoansOnRealEstatePriorLiens1,
+srt:ProvedDevelopedAndUndevelopedReservesProduction,
+sasb:BusinessEthicsAndTransparencyDisclosureTextBlock,
+srt:DescriptionOfMaterialContingenciesOfParentCompany,
+dei:EntityNorthAmericanIndustryClassificationPrimary,
+sasb:EcologicalImpactManagementDisclosureTextBlock,
+srt:SummaryOfInvestmentsOtherThanInvestmentsInRelatedPartiesTextBlock,
+srt:ProvedUndevelopedReserveBOE1,
+sasb:WaterManagementServicesDisclosureTextBlock,
+sasb:RawMaterialsSourcingDisclosureTextBlock,
+dei:EntityIncorporationDateOfIncorporation,
+sasb:ManagementOfLeachateAndHazardousWasteDisclosureTextBlock,
+sasb:ManagementOfTenantSustainabilityImpactsDisclosureTextBlock,
+dei:PreEffectiveAmendmentNumber,
+sasb:ManagingConflictsOfInterestDisclosureTextBlock,
+sasb:PromotingTransparentAndEfficientCapitalMarketsDisclosureTextBlock,
+srt:AdditionalInformationNecessaryToPreventDisclosureOfDiscountsFutureNetCashFlowsFromBeingMisleading,
+srt:ScheduleOfDevelopmentWellsDrilledTextBlock,
+srt:SummaryOfInvestmentsOtherThanInvestmentsInRelatedPartiesCarryingAmountExplanation,
+dei:LegalEntityIdentifier,
+sasb:ResponsibleGamingDisclosureTextBlock,
+sasb:DesignForFuelEfficiencyDisclosureTextBlock,
+srt:PreviouslyEstimatedDevelopmentCostsIncurred,
+srt:SupplementalScheduleOfReinsurancePremiumsForInsuranceCompaniesTextBlock,
+dei:EntityHomeCountryISOCode,
+srt:AlternativeExcessNetCapital,
+srt:ReserveQuantityAttributableToConsolidatedSubsidiaryNoncontrollingInterest,
+sasb:ProductSpecificationsAndCleanFuelBlendsDisclosureTextBlock,
+sasb:LaborConditionsDisclosureTextBlock,
+dei:DocumentEffectiveDate,
+sasb:CoalAshManagementDisclosureTextBlock,
+srt:ProvedDevelopedAndUndevelopedReservesNet,
+srt:ProductiveOilWellsNumberOfWellsNet,
+sasb:DataPrivacyAndAdvertisingStandardsDisclosureTextBlock,
+srt:LifeInsuranceInForcePercentageAssumedToNet,
+dei:EntityListingDepositoryReceiptRatio - </message></entry>
+<entry code="l0005" level="error">
+ <message filing_url="/Users/campbellpryde/Documents/GitHub/TaxonomyDashboard/SASB/Novo Nordisk v2 - 2020.12.07/ixbrl-viewer.htm" cid="4697877416" severity="error">Message: [l0005] The following documentation labels do not end with a period:
+Concept: MaterialConsumedSecondMostConsumed, Label: Second most-consumed material, by weight, BadWord: t
+Concept: AccidentManagementDisclosureTextBlock, Label: , BadWord: 
+Concept: PayablesToCustomers, Label: , BadWord: 
+Concept: ReasonForEachWorkStoppageImpactOnOperationsAndCorrectiveActionsTextBlock, Label: Description of the reason for each work stoppage, impact on operations, and any corrective actions taken, BadWord: n
+Concept: FuelEconomyAndUsephaseEmissionsDisclosureTextBlock, Label: , BadWord: 
+Concept: LandUseAndEcologicalImpactsDisclosureTextBlock, Label: , BadWord: 
+Concept: AddressableMarketForProductsThatReduceEnergyWaterAndMaterialImpactsDuringUsageOrProduction, Label: Addressable market for products that reduce energy, water, and/or material impacts during usage and/or production, BadWord: n
+Concept: AverageEnergyEfficiencyDesignIndexEediForNewShips, Label: Average Energy Efficiency Design Index (EEDI) for new ships, BadWord: s
+Concept: WaterWithdrawnFreshPercentageInRegionsWithHighOrExtremelyHighBaselineWaterStress, Label: Percentage of total fresh water withdrawn that is in regions with High or Extremely High Baseline Water Stress, BadWord: s
+Concept: DataSecurityAndPrivacyDisclosureTextBlock, Label: , BadWord: 
+Concept: StandardizedMeasureOfDiscountedFutureCashFlowsRelatingToProvedReservesDisclosureTextBlock, Label: , BadWord: 
+Concept: WorkStoppagesDaysIdle, Label: Total days idle related to work stoppages, BadWord: s
+Concept: TradesExecutedAverageDailyNumber, Label: Average daily number of trades executed, by product or asset class, BadWord: s
+Concept: ContactPersonnelFaxNumber, Label: , BadWord: 
+Concept: EnergyManagementInRetailAndDistributionDisclosureTextBlock, Label: , BadWord: 
+Concept: EntityInformationFormerLegalOrRegisteredName, Label: , BadWord: 
+Concept: SecSchedule1229InvestmentInMortgageLoansOnRealEstateLocationOfPropertyExtensibleList, Label: , BadWord: 
+Concept: ProjectBacklog, Label: The value of projects not completed as of the close of the reporting period (i.e., revenue contractually expected in the future but that has not been recognized), or is defined by the entity consistent with its existing disclosure of backlog, BadWord: g
+Concept: DiscriminatoryLendingDisclosureTextBlock, Label: , BadWord: 
+Concept: VesselCapacity, Label: Vessel capacity, BadWord: y
+Concept: PayablesToBrokerDealersAndClearingOrganizations, Label: , BadWord: 
+Concept: EffortsToMinimizeHealthAndSafetyRisksOfProductsSoldAssociatedWithToxicityOrChemicalSafetyHighAbusePotentialOrDeliveryTextBlock, Label: Description of efforts to minimize health and safety risks of products sold associated with toxicity/chemical safety, high abuse potential, or delivery, BadWord: y
+Concept: GasReservesProbablePercentage, Label: The percentage of probable gas reserves within a particular land area, BadWord: a
+Concept: FuelCellsSoldEnergyProductionCapacity, Label: Energy production capacity of fuel cells sold, BadWord: d
+Concept: EmployeeRecruitmentDevelopmentAndRetentionDisclosureTextBlock, Label: , BadWord: 
+Concept: PricingAndBillingTransparencyDisclosureTextBlock, Label: , BadWord: 
+Concept: EndOfLifeMaterialsRecoveredPercentageRecycled, Label: Percentage of end-of-life recovered materials recycled, BadWord: d
+Concept: FutureNetCashFlowsRelatingToProvedOilAndGasReservesNetCashFlows, Label: , BadWord: 
+Concept: EntityAddressAddressLine1, Label: , BadWord: 
+Concept: PatientPrivacyAndElectronicHealthRecordsDisclosureTextBlock, Label: , BadWord: 
+Concept: VoyagesWithAGastrointestinalIllnessCountExceedingTwoPercent, Label: Number of voyages with a gastrointestinal illness count exceeding 2%, BadWord: %
+Concept: VehiclesInFleetPercentageRunningOnAlternativeFuel, Label: Percentage of alternative fuel vehicles in fleet, BadWord: t
+Concept: DataSecurityDisclosureTextBlock, Label: , BadWord: 
+Concept: FoodSafetyViolationNotices, Label: Number of notices of food safety violation received, BadWord: d
+Concept: AdvertisingImpressionsPercentageTargetedToCustomAudiences, Label: Percentage of online advertising impressions that are targeted to custom audiences, BadWord: s
+Concept: FutureNetCashFlowsRelatingToProvedOilAndGasReservesProductionCosts, Label: , BadWord: 
+Concept: WaterUtilityRevenuesPercentageInRateStructure, Label: Percentage of water utility revenues for a particular rate structure, BadWord: e
+Concept: ProductionWeight, Label: Production expressed in weight produced, BadWord: d
+Concept: EntityAddressCountry, Label: , BadWord: 
+Concept: EntityShellCompany, Label: , BadWord: 
+Concept: PackagingPercentageThatIsRecyclableReusableAndCompostable, Label: Percentage of total weight of packaging that is recyclable, reusable and/or compostable, BadWord: e
+Concept: ImplementationAndOutcomesOfASafetyManagementSystemTextBlock, Label: Description of implementation and outcomes of a Safety Management System, BadWord: m
+Concept: ProcessesToAssessAndManageEnvironmentalRisksAssociatedWithProjectDesignSitingAndConstructionTextBlock, Label: Discussion of processes to assess and manage environmental risks associated with project design, siting, and construction, BadWord: n
+Concept: NewLeasesPercentageThatContainACostRecoveryClauseForResourceEfficiencyRelatedCapitalImprovements, Label: Percentage of new leases that contain a cost recovery clause for resource efficiency-related capital improvements, BadWord: s
+Concept: ManagementOfChemicalsInProductsDisclosureTextBlock, Label: , BadWord: 
+Concept: EngagementProcessesAndDueDiligencePracticesWithRespectToHumanRightsIndigenousRightsAndLocalCommunityTextBlock, Label: Description of engagement processes and due diligence practices with respect to human rights, indigenous rights, and the local community, BadWord: y
+Concept: LicensesOrSubscriptionsNumber, Label: Number of licenses or subscriptions, BadWord: s
+Concept: RenewableVolumeObligationPercentageMetThroughProductionOfRenewableFuels, Label: Percentage of Renewable Volume Obligation (RVO) met through production of renewable fuels, BadWord: s
+Concept: LivestockPercentageFromSuppliersImplementingConservationPlanCriteria, Label: Percentage of livestock from suppliers implementing the Natural Resources Conservation Service (NRCS) conservation plan criteria or the equivalent, BadWord: t
+Concept: DocumentTransitionReport, Label: , BadWord: 
+Concept: UndergroundStorageTankReleases, Label: Number of underground storage tanks (USTs) releases requiring cleanup, BadWord: p
+Concept: EmployeeHealthAndSafetyDisclosureTextBlock, Label: , BadWord: 
+Concept: EnvironmentalManagementPoliciesAndPracticesToPreserveEcosystemServicesTextBlock, Label: Description of environmental management policies and practices to preserve ecosystem services, BadWord: s
+Concept: SpillsAndReleasesToTheEnvironment, Label: Number of spills and releases to the environment, BadWord: t
+Concept: Lockouts, Label: Number of lockouts, BadWord: s
+Concept: PorkPercentageProducedWithoutTheUseOfGestationCrates, Label: Percentage of pork (by weight) that was produced without the use of gestation crate, BadWord: e
+Concept: PrescriptionsFilledNumber, Label: Number of prescriptions filled, BadWord: d
+Concept: GlobalScope1EmissionsPercentageCoveredByRegulation, Label: Percentage of gross global Scope 1 emissions that is covered under regulation, BadWord: n
+Concept: BankLoans, Label: , BadWord: 
+Concept: NewLeasesFloorAreaThatContainACostRecoveryClauseForResourceEfficiency, Label: Leased floor area of leases that contain a cost recovery clause for resource efficiency, BadWord: y
+Concept: DataBreachesNumberOfCustomersAffected, Label: Number of customers affected by data breaches, BadWord: s
+Concept: ManagementOfControlledSubstancesDisclosureTextBlock, Label: , BadWord: 
+Concept: FdaInspectionsRelatedToClinicalTrialManagementAndPharmacovigilance, Label: U.S. Food and Drug Administration (FDA) Sponsored Inspections related to clinical trial management and pharmacovigilance, BadWord: e
+Concept: ProjectDelaysRelatedToEcologicalImpactsDuration, Label: Duration of project delays related to ecological impacts, BadWord: s
+Concept: ExpensesInstructionAndStudentServices, Label: Instruction and student services expenses, BadWord: s
+Concept: ResidentialMortgagesModificationsValue, Label: Loan value of residential mortgage modifications, BadWord: s
+Concept: EntityResponsibleBusinessAllianceRbaValidatedAuditProcessVapOrEquivalentComplianceCorrectiveActionRate, Label: Entity's Responsible Business Alliance (RBA) Validated Audit Program (VAP)  or equivalent audit non-conformance rate, BadWord: e
+Concept: PackagingWeight, Label: Total weight of packaging, BadWord: g
+Concept: NotableRecallsDiscussionTextBlock, Label: Discussion of notable recalls, BadWord: s
+Concept: SECScheduleIIIRealEstateTransactionsWithAffiliatesDisclosure, Label: , BadWord: 
+Concept: WaterSavingsFromEfficiencyMeasures, Label: Customer water savings from efficiency measures, BadWord: s
+Concept: OperationalSafetyEmergencyPreparednessAndResponseDisclosureTextBlock, Label: , BadWord: 
+Concept: ProvedDevelopedReservesBOE1, Label: , BadWord: 
+Concept: BatteryCoulombicEfficiency, Label: Average battery efficiency as coulombic efficiency by battery type, BadWord: e
+Concept: WellsTemporarilySuspended, Label: , BadWord: 
+Concept: SupplierFacilitiesPercentageWithWastewaterDischargeMeetingOrExceedingLegalRequirements, Label: Percentage of supplier facilities with wastewater discharge meeting or exceeding legal requirements, BadWord: s
+Concept: ImpactOfExternalFactorsOnCustomerAffordabilityOfElectricityTextBlock, Label: Discussion of impact of external factors on customer affordability of electricity, including the economic conditions of the service territory, BadWord: y
+Concept: ManagementSystemsUsedToIdentifyAndMitigateCatastrophicAndTailEndRisksTextBlock, Label: Description of management systems used to identify and mitigate catastrophic and tail-end risks, BadWord: s
+Concept: ControlledSubstancePrescriptionsDispensedPercentageForWhichAPrescriptionDrugMonitoringProgramDatabaseWasQueried, Label: Percentage of controlled substance prescriptions dispensed for which a prescription drug monitoring program (PDMP) database was queried, BadWord: d
+Concept: TransportIncidents, Label: Number of transport incidents, BadWord: s
+Concept: NuclearSafetyAndEmergencyManagementDisclosureTextBlock, Label: , BadWord: 
+Concept: MarketForAdvancedBiofuelsAndAssociatedInfrastructure, Label: Addressable market for advanced biofuels and associated infrastructure, BadWord: e
+Concept: MaterialComposted, Label: Amount of material composted, BadWord: d
+Concept: ProductLifecycleEnvironmentalImpactsDisclosureTextBlock, Label: , BadWord: 
+Concept: GraduationRate, Label: Graduation rate, BadWord: e
+Concept: PortStateControlDeficiencies, Label: Number of port state control deficiencies, BadWord: s
+Concept: ProductRecalls, Label: Number of recalls, BadWord: s
+Concept: AdvertisementsOrMarketingCampaignsExposuresNumber, Label: Number of exposures to advertisements or marketing campaigns, BadWord: s
+Concept: FraudAndUnnecessaryProceduresDisclosureTextBlock, Label: , BadWord: 
+Concept: ApplicationsReceivedForEnrollment, Label: Number of applications received for enrollment, BadWord: t
+Concept: RealEstateAndAccumulatedDepreciationDisclosureTextBlock, Label: , BadWord: 
+Concept: ProductionPercentage, Label: Percentage of production for a particular subcategory (e.g. production material, etc.) out of total production, BadWord: n
+Concept: HydrocarbonSpillsVolume, Label: volume of hydrocarbon spills, BadWord: s
+Concept: PublicHealthDisclosureTextBlock, Label: , BadWord: 
+Concept: GasReservesProvedPercentage, Label: The percentage of proved gas reserves within a particular land area, BadWord: a
+Concept: GlobalScope1Emissions, Label: Gross global Scope 1 emissions, BadWord: s
+Concept: EmployeesPercentageOfNonExecutiveManagement, Label: Percentage of non-executive management who are a particular race, ethnicity, or gender, BadWord: r
+Concept: PoliciesAndProceduresForEnsuringNondiscriminatoryMortgageOriginationTextBlock, Label: Description of policies and procedures for ensuring nondiscriminatory mortgage origination, BadWord: n
+Concept: WaterWithdrawnFreshPercentageRecycled, Label: Percentage of total fresh water withdrawn that is recycled, BadWord: d
+Concept: ScheduleOfDevelopmentWellsDrilledTextBlock, Label: , BadWord: 
+Concept: GmoManagementDisclosureTextBlock, Label: , BadWord: 
+Concept: IncorporationOfEsgFactorsInCreditAnalysisTextBlock, Label: Description of approach to incorporation of environmental, social, and governance (ESG) factors in credit analysis, BadWord: s
+Concept: ApproachToIntellectualPropertyIpProtectionTextBlock, Label: Description of approach to ensuring intellectual property (IP) protection, BadWord: n
+Concept: FleetUtilizationRate, Label: Fleet utilization rate, BadWord: e
+Concept: CounterfeitDrugsDisclosureTextBlock, Label: , BadWord: 
+Concept: ImpactOfExternalFactorsOnCustomerAffordabilityOfWaterIncludingTheEconomicConditionsOfTheServiceTerritoryTextBlock, Label: Discussion of impact of external factors on customer affordability of water, including the economic conditions of the service territory, BadWord: y
+Concept: ActiveSellingCommunitiesNumber, Label: Number of active selling communities, BadWord: s
+Concept: EnergyManagementInRetailDisclosureTextBlock, Label: , BadWord: 
+Concept: WasteQuantityGenerated, Label: Amount of waste generated, BadWord: d
+Concept: DistributionPipelineMaterialPercentage, Label: Percentage of distribution pipeline that is of certain material, BadWord: l
+Concept: CoveredEmployeesPercentageWithVariableRemuneration, Label: Percentage of remuneration for covered employees that is variable and linked to the amount of products and services sold, BadWord: d
+Concept: CampaignsPercentageThatPromoteAlcoholProducts, Label: Percentage of campaigns that promote alcohol products, BadWord: s
+Concept: HydrocarbonContentInDischargedWater, Label: Hydrocarbon content in discharged water, BadWord: r
+Concept: AlternativeExcessNetCapital, Label: , BadWord: 
+Concept: ProductsAcceptedForTakeBackAndReusedRecycledAndDonatedWeight, Label: Amount (by weight) of products accepted for take-back and reused, recycled, or donated, BadWord: d
+Concept: DescriptionOfSignificantProvisionsOfLongTermObligationsOfParentCompany, Label: , BadWord: 
+Concept: NonRevenueRealWaterLossesVolume, Label: Volume of non-revenue real water losses, BadWord: s
+Concept: EngagementProcessesToManageRisksAndOpportunitiesAssociatedWithCommunityInterestsTextBlock, Label: Discussion of engagement processes to manage risks and opportunities associated with community interests, BadWord: s
+Concept: WindTurbinesDeliveredNumber, Label: Number of delivered wind turbines, BadWord: s
+Concept: EnvironmentalFootprintOfHardwareInfrastructureDisclosureTextBlock, Label: , BadWord: 
+Concept: AssetsUnderCustodyAndSupervision, Label: Assets under custody and supervision, BadWord: n
+Concept: JobPlacementRate, Label: Job placement rate, BadWord: e
+Concept: ContractualObligationFiscalYearMaturityScheduleTableTextBlock, Label: , BadWord: 
+Concept: PharmacistsNumber, Label: Number of pharmacists, BadWord: s
+Concept: EffortsToIdentifyAndManageRisksAndOpportunitiesRelatedToImpactOfClimateChangeOnDistributionAndWastewaterInfrastructureTextBlock, Label: Description of efforts to identify and manage risks and opportunities related to the impact of climate change on distribution and wastewater infrastructure, BadWord: e
+Concept: FutureNetCashFlowsRelatingToProvedOilAndGasReservesDevelopmentCosts, Label: , BadWord: 
+Concept: TerrestrialAcreageDisturbedImpactedAreaPercentageRestored, Label: Percentage of impacted area restored of terrestrial acreage disturbed, BadWord: d
+Concept: StructuralIntegrityAndSafetyDisclosureTextBlock, Label: , BadWord: 
+Concept: ProductSalesWeight, Label: Weight of products sold, BadWord: d
+Concept: CustomerHealthAndSafetyDisclosureTextBlock, Label: , BadWord: 
+Concept: EntityIncorporationStateCountryCode, Label: , BadWord: 
+Concept: ProductInnovationDisclosureTextBlock, Label: , BadWord: 
+Concept: RefiningOperatingCapacity, Label: Refining operating capacity, BadWord: y
+Concept: DocumentSynopsis, Label: , BadWord: 
+Concept: EnergyConsumptionLikeForLikePercentageChange, Label: Like-for-like percentage change in energy consumption of portfolio area with data coverage, BadWord: e
+Concept: ViolationDefectsFederalRailroadAdministrationRecommended, Label: Number of Federal Railroad Administration (FRA) Recommended Violation Defects, BadWord: s
+Concept: HydrocarbonSpillsRecoveredVolume, Label: volume of hydrocarbon spills recovered, BadWord: d
+Concept: CruiseShipCapacityAvailableLowerBerthDistance, Label: Available lower berth distance (e.g. miles, kilometers) measuring standard capacity of a cruise ship, BadWord: p
+Concept: BatteryStorageCapacity, Label: Average storage capacity of batteries by battery type, BadWord: e
+Concept: EntityReportingCurrencyISOCode, Label: , BadWord: 
+Concept: SpillsAndReleasesToTheEnvironmentVolume, Label: Aggregate volume of spills and releases to the environment, BadWord: t
+Concept: DataStoragePercentageOutsourced, Label: Percentage of data storage that is outsourced, BadWord: d
+Concept: RealEstatePropertyAndBuildingAssets, Label: number of distinct real estate property or building assets, BadWord: s
+Concept: WasteManagementDisclosureTextBlock, Label: , BadWord: 
+Concept: LandfillGasPercentageFlared, Label: Percentage of landfill gas flared of total landfill gas generated, BadWord: d
+Concept: SystemicRiskManagementDisclosureTextBlock, Label: , BadWord: 
+Concept: ProductSecurityDisclosureTextBlock, Label: , BadWord: 
+Concept: ProfessionalIntegrityDisclosureTextBlock, Label: , BadWord: 
+Concept: WastePercentageIncinerated, Label: Percentage of waste incinerated, BadWord: d
+Concept: BiodiversityImpactsDisclosureTextBlock, Label: , BadWord: 
+Concept: NoticesOfViolationsReceivedForNonConformanceWithRegulatoryLabelingAndMarketingCodes, Label: Number of notices of violations received for non-conformance with regulatory labeling or marketing codes, BadWord: s
+Concept: EffortsToReduceOccurrenceOfCompromisedDrugsWithinTheSupplyChainTextBlock, Label: Description of efforts to reduce the occurrence of compromised drugs within the supply chain, BadWord: n
+Concept: ScheduleOfCondensedIncomeStatementTableTextBlock, Label: , BadWord: 
+Concept: TailingsImpoundments, Label: Number of tailings impoundments, BadWord: s
+Concept: EntityNumberOfEmployees, Label: , BadWord: 
+Concept: ActiveProjectsNumber, Label: Number of active projects, BadWord: s
+Concept: Security12bTitle, Label: , BadWord: 
+Concept: StrategiesToManageDrinkingWaterContaminantsOfEmergingConcernTextBlock, Label: Discussion of strategies to manage drinking water contaminants of emerging concern, BadWord: n
+Concept: HydraulicFracturingFluid, Label: Volume of hydraulic fracturing fluid, BadWord: d
+Concept: ProvedDevelopedAndUndevelopedReservesRevisionsOfPreviousEstimatesIncreaseDecrease, Label: , BadWord: 
+Concept: PortfolioPercentageThatHasAnEnergyRating, Label: Percentage of eligible portfolio that has an energy rating, BadWord: g
+Concept: EmployeeIncentivesAndRiskTakingDisclosureTextBlock, Label: , BadWord: 
+Concept: ProvedDevelopedAndUndevelopedReservesProduction, Label: , BadWord: 
+Concept: FuelConsumedPercentage, Label: Percentage of total fuel consumed by fuel source, BadWord: e
+Concept: SubsidiesReceivedThroughGovernmentPrograms, Label: Amount of subsidies received through government programs, BadWord: s
+Concept: FacilitiesPercentageInspectedForSafetyThatFailedInspection, Label: Percentage of facilities inspected for safety that failed inspection, BadWord: n
+Concept: WastePercentageLandfilled, Label: Percentage of waste landfilled, BadWord: d
+Concept: EntityAddressAddressLine3, Label: , BadWord: 
+Concept: SellingPracticesDisclosureTextBlock, Label: , BadWord: 
+Concept: NetCapitalExcessShortageUnderCommodityExchangeAct, Label: , BadWord: 
+Concept: BankAccountsNumber, Label: Number of bank accounts, BadWord: s
+Concept: StrategyOrPlansToAddressChemicalRelatedRisksOpportunitiesAndImpactsTextBlock, Label: Discussion of strategy or plans to address chemical-related risks, opportunities, and impacts, BadWord: s
+Concept: ProxyVotingAndInvesteeEngagementPoliciesAndProceduresTextBlock, Label: Description of proxy voting and investee engagement policies and procedures, BadWord: s
+Concept: ApproximateDateOfCommencementOfProposedSaleToThePublic, Label: , BadWord: 
+Concept: ScheduleOfCondensedBalanceSheetTableTextBlock, Label: , BadWord: 
+Concept: SuppliesAcceptedForTakeBackAndReusedRecycledOrDonated, Label: Amount of supplies accepted for take-back and reused, recycled, or donated, BadWord: d
+Concept: RestaurantsInspectedByAFoodSafetyOversightBodyPercentageReceivingCriticalViolation, Label: Percentage of restaurants inspected by a food safety oversight body receiving critical violation, BadWord: n
+Concept: IncreaseDueToPurchasesOfMineralsInPlace, Label: , BadWord: 
+Concept: EntityRegistrantName, Label: , BadWord: 
+Concept: EfficiencyMeasuresRequiredByRegulationsTextBlock, Label: Discussion of customer efficiency measures that are required by regulations, BadWord: s
+Concept: FleetFuelEconomySalesWeightedAverage, Label: Sales-weighted average passenger fleet fuel economy, BadWord: y
+Concept: MortgagesOriginatedValue, Label: Value of mortgages originated, BadWord: d
+Concept: ResponsibleGamingDisclosureTextBlock, Label: , BadWord: 
+Concept: ComputationOfNetCapitalUnderSecuritiesAndExchangeCommissionRegulationTextBlock, Label: , BadWord: 
+Concept: SuppliersLaborCodeOfConductCorrectiveActionRate, Label: Corrective action rate associated with suppliers' non-conformance found by labor code of conduct audits, BadWord: s
+Concept: EntityFacilitiesPercentageParticipatingInThePharmaceuticalSupplyChainConsortiumAuditProgram, Label: Percentage of entity's facilities participating in the Rx-360 International Pharmaceutical Supply Chain Consortium audit program or equivalent third-party audit programs for integrity of supply chain and ingredients, BadWord: s
+Concept: AuditedAnnualFinancialStatements, Label: , BadWord: 
+Concept: ProcessesToAssessAndManageRisksAssociatedWithChemicalsInProductsTextBlock, Label: Discussion of processes to assess and manage risks associated with chemicals in products, BadWord: s
+Concept: BuildingsUnderManagementNumberWithOwnerOperationalControl, Label: Number of buildings under management with owner operational control, BadWord: l
+Concept: BacklogProjects, Label: Amount of backlog for projects, BadWord: s
+Concept: EntityEmergingGrowthCompany, Label: , BadWord: 
+Concept: DocumentEffectiveDate, Label: , BadWord: 
+Concept: ReportablePipelineIncidents, Label: Number of reportable pipeline incidents, BadWord: s
+Concept: EntityOtherIdentificationType, Label: , BadWord: 
+Concept: LaborConditionsDisclosureTextBlock, Label: , BadWord: 
+Concept: RecruitingAndManagingAGlobalDiverseAndSkilledWorkforceDisclosureTextBlock, Label: , BadWord: 
+Concept: ContainedFileInformationFileDescription, Label: , BadWord: 
+Concept: CarriersPercentageWithBasicPercentilesAboveTheFmcsaInterventionThreshold, Label: Percentage of carriers with Behavior Analysis and Safety Improvement Category (BASIC) percentiles above the FMCSA intervention threshold, BadWord: d
+Concept: WoodFiberMaterialsPurchasedPercentageCertifiedToOtherFiberSourcingStandards, Label: Percentage of weight of total wood fiber materials purchased certified to other fiber sourcing standards, BadWord: s
+Concept: ProductsAndFeaturesThatIncentivizeHealthSafetyEnvironmentallyResponsibleActionsAndBehaviorsTextBlock, Label: Discussion of products and/or product features that incentivize health, safety, and/or environmentally responsible actions and/or behaviors, BadWord: s
+Concept: SeriousIncidentsOutcomesAndCorrectiveActionsImplementedInResponseTextBlock, Label: Description of serious incidents, outcomes, and corrective actions implemented in response, BadWord: e
+Concept: ForestlandOwnedLeasedOrManagedByTheEntityArea, Label: Area of forestland owned, leased, and/or managed by the entity, BadWord: y
+Concept: ManagementSystemForPreventionOfCorruptionAndBriberyThroughoutTheValueChainTextBlock, Label: Description of the management system for prevention of corruption and bribery throughout the value chain, BadWord: n
+Concept: EffortsToMinimizeConflictsOfInterestAndUnethicalBusinessPracticesTextBlock, Label: Description of efforts to minimize conflicts of interest and unethical business practices, BadWord: s
+Concept: ProcessesAndProceduresToManageNonAccidentAndAccidentReleases, Label: Discussion of the entity's processes and procedures to manage non-accident and accident releases, BadWord: s
+Concept: Accidents, Label: Number of accidents and incidents, BadWord: s
+Concept: ComplaintsFiledWithCfpbPercentageDisputedByConsumer, Label: Percentage of complaints filed with Consumer Financial Protection Bureau (CFPB) disputed by consumer, BadWord: r
+Concept: EntityListingForeign, Label: , BadWord: 
+Concept: BiofuelProductionPercentageCertifiedToAnEnvironmentalSustainabilityStandard, Label: Percentage of biofuel production third-party certified to an environmental sustainability standard, BadWord: d
+Concept: UsersWhoseInformationWasRequested, Label: Number of users whose information was requested, BadWord: d
+Concept: GreenhouseGasFootprintAcrossTransportModes, Label: Total greenhouse gas footprint across transport modes, BadWord: s
+Concept: EndOfLifeMaterialRecoveredPercentageRecycled, Label: Weight of end-of-life material recovered, Percentage recycled, BadWord: d
+Concept: FoodborneIllnessOutbreaksThatWereInvestigatedByTheUSCdcAndCorrectiveActionsImplementedInResponseToEventsTextBlock, Label: Description of foodborne illness outbreaks that were investigated by the U.S. Centers for Disease Control and Prevention (CDC) and corrective actions implemented in response to events, BadWord: s
+Concept: ProvedDevelopedAndUndevelopedReserveNetEnergy, Label: , BadWord: 
+Concept: EcosystemServicesAndImpactsDisclosureTextBlock, Label: , BadWord: 
+Concept: WastePercentageDiverted, Label: Percentage of waste that diverted from waste stream, BadWord: m
+Concept: CoveredEmployeesNumberWithARecordOfInvestmentRelatedInvestigationsConsumerInitiatedComplaintsPrivateCivilLitigationsAndOtherRegulatoryProceedings, Label: Number of covered employees with a record of investment-related investigations, consumer-initiated complaints, private civil litigations, or other regulatory proceedings, BadWord: s
+Concept: WastewaterTreatmentCapacity, Label: Wastewater treatment capacity within a particular land area, BadWord: a
+Concept: FoodIngredientsPercentageSourcedFromRegionsWithHighOrExtremelyHighBaselineWaterStress, Label: Percentage, by cost, of food ingredients sourced from regions with High or Extremely High Baseline Water Stress, BadWord: s
+Concept: DueDiligencePracticesForFiberThatIsNotFromCertifiedForestlandsOrCertifiedToOtherFiberSourcingStandardsTextBlock, Label: Discussion of due diligence practices for fiber that is not from certified forestlands or certified to other fiber sourcing standards, BadWord: s
+Concept: ProvedDevelopedAndUndevelopedReservesNetPeriodIncreaseDecrease, Label: , BadWord: 
+Concept: ProductDesignAndLifecycleManagementDisclosureTextBlock, Label: , BadWord: 
+Concept: EntityFacilitiesPercentageParticipatingInThirdPartyAuditProgramsForManufacturingAndProductQuality, Label: Percentage of entity's facilities participating in third-party audit programs for manufacturing and product quality, BadWord: y
+Concept: LandfillGasQuantity, Label: Landfill gas generated, BadWord: d
+Concept: FuelConsumed, Label: Total fuel consumed, BadWord: d
+Concept: HomesDeliveredInRegionsWithHighOrExtremelyHighBaselineWaterStress, Label: Number of homes delivered in regions with High or Extremely High Baseline Water Stress, BadWord: s
+Concept: CommunityRelationsDisclosureTextBlock, Label: , BadWord: 
+Concept: TradingPausesNumberRelatedToVolatility, Label: Number of trading pauses related to volatility, BadWord: y
+Concept: ProcessToManageRisksAndOpportunitiesAssociatedWithCommunityRightsAndInterestsTextBlock, Label: Discussion of process to manage risks and opportunities associated with community rights and interests, BadWord: s
+Concept: RentalFleetRatedByNewCarAssessmentProgramsPercentageWithOverall5StarSafetyRating, Label: Percentage of rental fleet that has an overall 5-star safety rating of those rated by New Car Assessment Program (NCAP) programs, BadWord: s
+Concept: SummaryOfInvestmentsOtherThanInvestmentsInRelatedPartiesCarryingAmountExplanation, Label: , BadWord: 
+Concept: AdvertisingImpressionsPercentageMadeOnChildren, Label: Percent of total advertising impressions made on children, BadWord: n
+Concept: ProductionBarrelsOfOilEquivalents1, Label: , BadWord: 
+Concept: RentalFleetFuelEconomyRentalDayWeightedAverage, Label: Rental day-weighted average rental fleet fuel economy, BadWord: y
+Concept: NoticesOfViolationThatResultedInAnEnforcementActionTextBlock, Label: Discussion of notices of violation that resulted in an enforcement action, BadWord: n
+Concept: MortgageLoansOnRealEstateNumberOfLoans, Label: , BadWord: 
+Concept: EnvironmentalAndSocialImpactsOfPalmOilSupplyChainDisclosureTextBlock, Label: , BadWord: 
+Concept: NetCapitalUnderCommodityExchangeActComputation, Label: , BadWord: 
+Concept: PrePaidProductsApprovalRate, Label: Approval rate for pre-paid products for applicants with a particular FICO score, BadWord: e
+Concept: SecurityHumanRightsAndRightsOfIndigenousPeoplesDisclosureTextBlock, Label: , BadWord: 
+Concept: CustomerSavingsFromEfficiencyMeasuresElectricity, Label: Customer electricity savings from efficiency measures, BadWord: s
+Concept: EffortsToAssessMonitorAndReduceExposureOfEmployeesAndContractWorkersToLongTermChronicHealthRisksTextBlock, Label: Discussion of efforts to assess, monitor, and reduce exposure of employees and contract workers to long-term (chronic) health risks, BadWord: s
+Concept: RecycledFiberProcured, Label: Amount of recycled fiber procured, BadWord: d
+Concept: IntegrationOfEnvironmentalConsiderationsIntoStrategicPlanningForDataCenterNeedsTextBlock, Label: Description of the integration of environmental considerations into strategic planning for data center needs, BadWord: s
+Concept: DevelopmentWellsDrilledNetProductive, Label: , BadWord: 
+Concept: HydraulicFracturingFluidPercentageHazardous, Label: Percentage of hydraulic fracturing fluid that is hazardous, BadWord: s
+Concept: EmployeesPercentageOfTechnicalStaffWhoAreH1bVisaHolders, Label: Percentage of technical employees who are H-1B visa holders, BadWord: s
+Concept: VehicesSold, Label: Number of vehicles sold, BadWord: d
+Concept: AgriculturalProductsPercentageSourcedFromGlobalFoodSafetyInitiativeCertifiedSuppliers, Label: Percentage of agricultural products sourced from suppliers certified to a Global Food Safety Initiative (GFSI) recognized food safety certification program, BadWord: m
+Concept: FleetFuelEconomyAndUtilizationDisclosureTextBlock, Label: , BadWord: 
+Concept: ResponsibleDrinkingAndMarketingDisclosureTextBlock, Label: , BadWord: 
+Concept: SecurityExchangeName, Label: , BadWord: 
+Concept: HowProximityAndAccessToInfrastructureServicesAndEconomicCentersAffectSiteSelectionAndDevelopmentDecisionsTextBlock, Label: Discussion of how proximity and access to infrastructure, services, and economic centers affect site selection and development decisions, BadWord: s
+Concept: IngredientSourcingDisclosureTextBlock, Label: , BadWord: 
+Concept: HazardousMaterialReleasesFromRailTransportation, Label: releases of hazardous material from rail transportation, BadWord: n
+Concept: PreCommencementIssuerTenderOffer, Label: , BadWord: 
+Concept: AmendmentFlag, Label: , BadWord: 
+Concept: DownloadSpeedAverageActualSustained, Label: Average actual sustained download speed of specific content, BadWord: t
+Concept: AlternativeNetCapitalRequirement1, Label: , BadWord: 
+Concept: SupplierAuditsPercentageThatHaveBeenConductedByAThirdPartyAuditor, Label: Percentage of total supplier facility audits that have been conducted by a third party auditor, BadWord: r
+Concept: DrugsInPortfolioNumber, Label: Number of drugs in portfolio, BadWord: o
+Concept: DebtToDiscretionaryIncomeRate, Label: Debt-to-discretionary income rate, BadWord: e
+Concept: PurchasedElectricityConsumed, Label: Purchased electricity consumed, BadWord: d
+Concept: GasDisconnectionsForNonPaymentPercentageReconnectedWithinThirtyDays, Label: Percentage of gas disconnections for non-payment that were reconnected within 30 days, BadWord: s
+Concept: ProjectsCommissionedCertif...</message></entry>
+<entry code="l0007" level="error">
+ <message filing_url="/Users/campbellpryde/Documents/GitHub/TaxonomyDashboard/SASB/Novo Nordisk v2 - 2020.12.07/ixbrl-viewer.htm" cid="4697877416" severity="error">[l0007] The dimension sasb:StatementBusinessSegmentsAxis does not contain the text [Axis] in the label Statement Business Segments Axis. - </message></entry>
+<entry code="l0008" level="error">
+ <message filing_url="/Users/campbellpryde/Documents/GitHub/TaxonomyDashboard/SASB/Novo Nordisk v2 - 2020.12.07/ixbrl-viewer.htm" cid="4697877416" severity="error">[l0008] The member srt:ExternalCreditRatingStandardPoorsMember does not contain the text [Member] in the label External Credit Rating, Standard &amp; Poor's [Domain]. - </message></entry>
+<entry code="l0008" level="error">
+ <message filing_url="/Users/campbellpryde/Documents/GitHub/TaxonomyDashboard/SASB/Novo Nordisk v2 - 2020.12.07/ixbrl-viewer.htm" cid="4697877416" severity="error">[l0008] The member srt:ExternalCreditRatingMoodysMember does not contain the text [Member] in the label External Credit Rating, Moody's [Domain]. - </message></entry>
+<entry code="l0008" level="error">
+ <message filing_url="/Users/campbellpryde/Documents/GitHub/TaxonomyDashboard/SASB/Novo Nordisk v2 - 2020.12.07/ixbrl-viewer.htm" cid="4697877416" severity="error">[l0008] The member srt:ExternalCreditRatingFitchMember does not contain the text [Member] in the label External Credit Rating, Fitch [Domain]. - </message></entry>
+<entry code="l0008" level="error">
+ <message filing_url="/Users/campbellpryde/Documents/GitHub/TaxonomyDashboard/SASB/Novo Nordisk v2 - 2020.12.07/ixbrl-viewer.htm" cid="4697877416" severity="error">[l0008] The member srt:RangeMember does not contain the text [Member] in the label Statistical Measurement [Domain]. - </message></entry>
+<entry code="l0008" level="error">
+ <message filing_url="/Users/campbellpryde/Documents/GitHub/TaxonomyDashboard/SASB/Novo Nordisk v2 - 2020.12.07/ixbrl-viewer.htm" cid="4697877416" severity="error">[l0008] The member srt:AircraftTypeMember does not contain the text [Member] in the label Aircraft [Domain]. - </message></entry>
+<entry code="l0009" level="error">
+ <message filing_url="/Users/campbellpryde/Documents/GitHub/TaxonomyDashboard/SASB/Novo Nordisk v2 - 2020.12.07/ixbrl-viewer.htm" cid="4697877416" severity="error">[l0009] The domain member sasb:SegmentDomain does not contain the text [Domain] in the label Segment Domain. - </message></entry>
+<entry code="l0010" level="error">
+ <message filing_url="/Users/campbellpryde/Documents/GitHub/TaxonomyDashboard/SASB/Novo Nordisk v2 - 2020.12.07/ixbrl-viewer.htm" cid="4697877416" severity="error">[l0010] The following non abstract concepts do not have standrd labels associated with them.
+The items are as follows:
+dei:EntityAddressAddressDescription,
+dei:EntityTextBlock,
+dei:AuditedAnnualFinancialStatements,
+dei:EntityLegalForm,
+dei:EntityExTransitionPeriod,
+dei:EntityInvCompanyType,
+dei:EntityAddressCityOrTown,
+dei:DocumentSynopsis,
+dei:RegistrationStatementAmendmentNumber,
+dei:DocumentCreationDate,
+dei:EntityAddressCountry,
+dei:EntitySmallBusiness,
+dei:ContactPersonnelName,
+dei:DocumentTransitionReport,
+dei:EntityInformationDateToChangeFormerLegalOrRegisteredName,
+dei:DocumentsIncorporatedByReferenceTextBlock,
+dei:EntityOtherIdentificationValue,
+dei:TradingSymbol,
+dei:EntityInformationFormerLegalOrRegisteredName,
+dei:SecurityExchangeName,
+dei:NoTradingSymbolFlag,
+dei:EntityFileNumber,
+dei:DocumentShellCompanyReport,
+dei:EntityPublicFloat,
+dei:PhoneFaxNumberDescription,
+dei:EntityLocationPrimary,
+dei:EntityAddressPostalZipCode,
+dei:ApproximateDateOfCommencementOfProposedSaleToThePublic,
+dei:Extension,
+dei:DocumentCopyrightInformation,
+dei:PreCommencementIssuerTenderOffer,
+dei:EntityListingSecurityTradingCurrency,
+dei:DocumentAnnualReport,
+dei:ContainedFileInformationFileDescription,
+dei:EntityReportingCurrencyISOCode,
+dei:DocumentQuarterlyReport,
+dei:Security12bTitle,
+dei:DocumentType,
+dei:EntityCommonStockSharesOutstanding,
+dei:EntityAddressAddressLine3,
+dei:DocumentInformationTextBlock,
+dei:DocumentAccountingStandard,
+dei:ContainedFileInformationFileType,
+dei:PostEffectiveAmendmentNumber,
+dei:DocumentPeriodStartDate,
+dei:EntityWellKnownSeasonedIssuer,
+dei:CurrentFiscalYearEndDate,
+dei:CountryRegion,
+dei:EntityInteractiveDataCurrent,
+dei:DocumentRegistrationStatement,
+dei:PreCommencementTenderOffer,
+dei:EntityAccountingStandard,
+dei:AmendmentDescription,
+dei:Security12gTitle,
+dei:ContactPersonnelUniformResourceLocatorURL,
+dei:DocumentName,
+dei:ParentEntityLegalName,
+dei:EntityEmergingGrowthCompany,
+dei:AmendmentFlag,
+dei:EntityCentralIndexKey,
+dei:EntityListingForeign,
+dei:DocumentShellCompanyEventDate,
+dei:EntityListingPrimary,
+dei:EntityFilerCategory,
+dei:DocumentTitle,
+dei:OtherReportingStandardItemNumber,
+dei:EntityTaxIdentificationNumber,
+dei:FormerFiscalYearEndDate,
+dei:ContactPersonnelEmailAddress,
+dei:EntityNumberOfEmployees,
+dei:EntityAddressAddressLine2,
+dei:EntityNorthAmericanIndustryClassificationPrimary,
+dei:EntityShellCompany,
+dei:DocumentVersion,
+dei:EntityOtherIdentificationType,
+dei:CityAreaCode,
+dei:AnnualInformationForm,
+dei:LocalPhoneNumber,
+dei:EntityIncorporationDateOfIncorporation,
+dei:PreEffectiveAmendmentNumber,
+dei:EntityAddressRegion,
+dei:DocumentFiscalYearFocus,
+dei:DocumentSubtitle,
+dei:EntityAddressAddressLine1,
+dei:EntityAddressStateOrProvince,
+dei:EntityIncorporationStateCountryCode,
+dei:ContactPersonnelFaxNumber,
+dei:EntityListingParValuePerShare,
+dei:EntityVoluntaryFilers,
+dei:DocumentPeriodEndDate,
+dei:LegalEntityIdentifier,
+dei:WrittenCommunications,
+dei:EntityBankruptcyProceedingsReportingCurrent,
+dei:ContainedFileInformationFileName,
+dei:SolicitingMaterial,
+dei:EntityHomeCountryISOCode,
+dei:EntityDataUniversalNumberingSystemNumber,
+dei:ContainedFileInformationFileNumber,
+dei:EntityListingDescription,
+dei:EntitySectorIndustryClassificationPrimary,
+dei:IcfrAuditorAttestationFlag,
+dei:DocumentEffectiveDate,
+dei:DocumentDescription,
+dei:EntityRegistrantName,
+dei:EntityCurrentReportingStatus,
+dei:EntityPrimarySicNumber,
+dei:SecurityReportingObligation,
+dei:DocumentFiscalPeriodFocus,
+dei:EntityListingDepositoryReceiptRatio - </message></entry>
+<entry code="info" level="info">
+ <message>[info] validated in 148.95 secs - /Users/campbellpryde/Documents/GitHub/TaxonomyDashboard/SASB/Novo Nordisk v2 - 2020.12.07/ixbrl-viewer.htm </message>
+ <ref href="/Users/campbellpryde/Documents/GitHub/TaxonomyDashboard/SASB/Novo Nordisk v2 - 2020.12.07/ixbrl-viewer.htm"/></entry>
+</log>

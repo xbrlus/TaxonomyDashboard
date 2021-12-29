@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><tp:taxonomyPackage xmlns:tp="http://xbrl.org/2016/taxonomy-package" xml:lang="en-US">
+<tp:identifier>http://www.sasb.org/xbrl/taxonomy/cor</tp:identifier>
+<tp:name>The SASB Taxonomy</tp:name>
+<tp:description xml:lang="en-US">The SASB Taxonomy was designed for companies to report their ESG information that follows SASB standards in a structured machine-readable data format (i.e. XBRL) to the investor and analyst community and other users of companies' non-financial information. The intent is for companies to 'digitally tag' ESG information within their current regulatory filings (e.g. Forms 10-K/Q with the US SEC, foreign equivalents, etc.), within their Corporate Social Responsibility reports, or other reporting format.</tp:description>
+<tp:version>2021-03-31</tp:version>
+<tp:publisher>Sustainability Accounting Standards Board (SASB)</tp:publisher>
+<tp:publisherURL>http://www.sasb.org/</tp:publisherURL>
+<tp:publisherCountry>US</tp:publisherCountry>
+<tp:publicationDate>2021-03-31</tp:publicationDate>
+<tp:entryPoints>
+<tp:entryPoint>
+<tp:name>The complete SASB taxonomy including document &amp; entity information</tp:name>
+<tp:description>This entry point includes ALL components for the SASB Taxonomy. Related taxonomies are also imported.</tp:description>
+<tp:version>2021-03-31</tp:version>
+<tp:entryPointDocument href="http://www.sasb.org/xbrl/taxonomy/cor/sasb.xsd"/>
+</tp:entryPoint>
+</tp:entryPoints>
+</tp:taxonomyPackage>

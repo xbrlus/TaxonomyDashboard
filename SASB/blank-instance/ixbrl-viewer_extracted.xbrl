@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xbrl
+  xml:lang="en-US"
+  xmlns="http://www.xbrl.org/2003/instance"
+  xmlns:link="http://www.xbrl.org/2003/linkbase"
+  xmlns:nvo="http://novonordisk.com/20201207"
+  xmlns:sasb="http://www.sasb.org/xbrl/taxonomy/cor"
+  xmlns:xbrldi="http://xbrl.org/2006/xbrldi"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+    <link:schemaRef xlink:href="nvo-20201207.xsd" xlink:type="simple"/>
+    
+    <context id="i71c8f613116f4f1b89f6987eeccc967d_D20190101-20191231">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000353278</identifier>
+        </entity>
+        <period>
+            <startDate>2019-01-01</startDate>
+            <endDate>2019-12-31</endDate>
+        </period>
+    </context>
+   <unit id="action">
+        <measure>nvo:action</measure>
+    </unit>
+
+    <unit id="number">
+        <measure>pure</measure>
+    </unit>
+    
+<sasb:CodeOfEthicsGoverningInteractionsWithHealthCareProfessionalsTextBlock
+      contextRef="i71c8f613116f4f1b89f6987eeccc967d_D20190101-20191231"
+      id="id3VybDovL2RvY3MudjEvZG9jOjNmYWY3MmFjZGJkZTQ3MGQ4NmMyZmI5ZjA3NmRkOGRiL3NlYzozZmFmNzJhY2RiZGU0NzBkODZjMmZiOWYwNzZkZDhkYl8zMi9mcmFnOjhkMmFlNjNlMGUwMjQ0MTdiZDUwYzVhMmZmNTA4NGI2L3RhYmxlOjI1NTg1ZTg5ODEzOTRmZmM5MjhmZWRmMmM1OTYzNGIwL3RhYmxlcmFuZ2U6MjU1ODVlODk4MTM5NGZmYzkyOGZlZGYyYzU5NjM0YjBfMjMtNS0xLTEtNzI_f88b2e8a-2360-43f5-ab5e-910caeb8266d">Novo Nordisk’s responsibility to respect la- bour rights applies to our global operations as a global minimum standard of business conduct. In 2019, the Global Labour Code of Conduct was revitalised and reinforced to ensure alignment with Novo Nordisk’s Business Ethics Compliance Framework, which includes respect of human rights. The Code of Conduct describes expected global minimum labour rights requirements for Novo Nordisk employees including the principles concerning fundamental rights in the eight ILO Core Conventions and labour rights as stipulated in the International Bill of Human Rights. Minimum paid maternity leave is increased from 12 to 14 weeks globally and a right to paid paternity leave is introduced. Moreover, guidance to avoid forced and bonded labour/child labour and young workers is better described, the right to social security is affirmed, and life insurance for all employees is introduced. For more information see novonordisk.com.</sasb:CodeOfEthicsGoverningInteractionsWithHealthCareProfessionalsTextBlock>
+</xbrl>

@@ -16,6 +16,8 @@ The items are as follows:
 {$invalid_items.join(",
 ")}"
 
+
+
 /** {T1107} ERROR: Abstract concepts data type  MUST be a string **/
 
 assert s0002 satisfied
@@ -32,8 +34,10 @@ The items are as follows:
 {$invalid_items2.join(",
 ")}"
 
-
 /** {T1108} ERROR: Monetary concept MUST have a balance attribute  **/
+
+
+
 assert s0003 satisfied
 $invalid_items3 =  filter  $valid-concepts where $item.balance == none and $item.data-type ==  xbrli:monetaryItemType;
 
@@ -49,6 +53,7 @@ The items are as follows:
 ")}"
 
 /** {T1125} ERROR: Concepts that are strings MUST have a duration period type.  **/
+
 
 assert s0004 satisfied
 $invalid_items4 = filter  $valid-concepts where $item.period-type != duration and $item.base-type.name == xbrli:stringItemType;

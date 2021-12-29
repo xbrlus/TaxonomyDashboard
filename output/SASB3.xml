@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="utf-8"?>
+<log>
+<entry code="info" level="info">
+ <message>[info] Activation of plug-in XBRL rule processor (xule) successful, version Check version using Tools->Xule->Version on the GUI or --xule-version on the command line. - xule </message>
+ <ref href="xule"/></entry>
+<entry code="info" level="info">
+ <message>[info] Activation of package Legal Entity Identifier Taxonomy, The SASB Taxonomy successful. - /Users/campbellpryde/Documents/GitHub/TaxonomyDashboard/SASB/Draft SASB Taxonomy 2020-12-07.zip </message>
+ <ref href="/Users/campbellpryde/Documents/GitHub/TaxonomyDashboard/SASB/Draft SASB Taxonomy 2020-12-07.zip"/></entry>
+<entry code="info" level="info">
+ <message>[info] Xule version: 3.0.23107 - </message>
+ <ref href=""/></entry>
+<entry code="info" level="info">
+ <message>[info] loaded in 4.18 secs at 2021-01-26T13:53:15 - /Users/campbellpryde/Documents/GitHub/TaxonomyDashboard/SASB/blank-instance/ixbrl-viewer_extracted.xbrl </message>
+ <ref href="/Users/campbellpryde/Documents/GitHub/TaxonomyDashboard/SASB/blank-instance/ixbrl-viewer_extracted.xbrl"/></entry>
+<entry code="enum2te:MissingDomainError" level="error">
+ <message concept="sasb:CoreProductsOrServicesIsSubjectToGovernmentRequiredMonitoringBlockingContentFilteringOrCensoring">[enum2te:MissingDomainError] Item sasb:CoreProductsOrServicesIsSubjectToGovernmentRequiredMonitoringBlockingContentFilteringOrCensoring enumeration type must specify a domain. - http://www.sasb.org/xbrl/taxonomy/cor/sasb.xsd 3719</message>
+ <ref href="http://www.sasb.org/xbrl/taxonomy/cor/sasb.xsd#sasb_CoreProductsOrServicesIsSubjectToGovernmentRequiredMonitoringBlockingContentFilteringOrCensoring" sourceLine="3719">
+  <property name="label" value="Core Products Or Services Is Subject To Government-required Monitoring, Blocking, Content Filtering, Or Censoring">
+   <property name="commentaryGuidance (en-US)" value="Values reported using this element should be elements available in the taxonomies used, including the extension taxonomy. An exa..."/>
+   <property name="documentation (en-US)" value="The countries where core products or services are subject to government-required monitoring, blocking, content filtering, or cen..."/>
+   <property name="label (en-US)" value="Core Products Or Services Is Subject To Government-required Monitoring, Blocking, Content Filtering, Or Censoring"/>
+  </property>
+  <property name="namespace" value="http://www.sasb.org/xbrl/taxonomy/cor"/>
+  <property name="name" value="CoreProductsOrServicesIsSubjectToGovernmentRequiredMonitoringBlockingContentFilteringOrCensoring"/>
+  <property name="QName" value="sasb:CoreProductsOrServicesIsSubjectToGovernmentRequiredMonitoringBlockingContentFilteringOrCensoring"/>
+  <property name="id" value="sasb_CoreProductsOrServicesIsSubjectToGovernmentRequiredMonitoringBlockingContentFilteringOrCensoring"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="enum2:enumerationSetItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="facets" value="pattern">
+   <property name="pattern" value="re.compile('([A-Za-z][-A-Za-z0-9+-.]*:\\S+#[_A-Za-zÀ-ÖØ-öø-ÿĀ-˿Ͱ-ͽͿ-\u1fff\u200c-\u200d⁰-\u218fⰀ-\u2fef、-\ud7ff豈-\ufdcfﷰ-�][_\\-..."/>
+  </property>
+  <property name="references" value="Sustainability Accounting Standards Board (SASB) Sustainability Accounting Standard 2018-10-01 TC-IM-220a.5">
+   <property name="Disclosure Ref" value=" ">
+    <property name="Publisher" value="Sustainability Accounting Standards Board (SASB)"/>
+    <property name="Name" value="Sustainability Accounting Standard"/>
+    <property name="IssueDate" value="2018-10-01"/>
+    <property name="Section" value="TC-IM-220a.5"/>
+   </property>
+  </property>
+ </ref></entry>
+<entry code="enum2te:MissingLinkRoleError" level="error">
+ <message concept="sasb:CoreProductsOrServicesIsSubjectToGovernmentRequiredMonitoringBlockingContentFilteringOrCensoring">[enum2te:MissingLinkRoleError] Item sasb:CoreProductsOrServicesIsSubjectToGovernmentRequiredMonitoringBlockingContentFilteringOrCensoring enumeration type must specify a linkrole. - http://www.sasb.org/xbrl/taxonomy/cor/sasb.xsd 3719</message>
+ <ref href="http://www.sasb.org/xbrl/taxonomy/cor/sasb.xsd#sasb_CoreProductsOrServicesIsSubjectToGovernmentRequiredMonitoringBlockingContentFilteringOrCensoring" sourceLine="3719">
+  <property name="label" value="Core Products Or Services Is Subject To Government-required Monitoring, Blocking, Content Filtering, Or Censoring">
+   <property name="commentaryGuidance (en-US)" value="Values reported using this element should be elements available in the taxonomies used, including the extension taxonomy. An exa..."/>
+   <property name="documentation (en-US)" value="The countries where core products or services are subject to government-required monitoring, blocking, content filtering, or cen..."/>
+   <property name="label (en-US)" value="Core Products Or Services Is Subject To Government-required Monitoring, Blocking, Content Filtering, Or Censoring"/>
+  </property>
+  <property name="namespace" value="http://www.sasb.org/xbrl/taxonomy/cor"/>
+  <property name="name" value="CoreProductsOrServicesIsSubjectToGovernmentRequiredMonitoringBlockingContentFilteringOrCensoring"/>
+  <property name="QName" value="sasb:CoreProductsOrServicesIsSubjectToGovernmentRequiredMonitoringBlockingContentFilteringOrCensoring"/>
+  <property name="id" value="sasb_CoreProductsOrServicesIsSubjectToGovernmentRequiredMonitoringBlockingContentFilteringOrCensoring"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="enum2:enumerationSetItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="facets" value="pattern">
+   <property name="pattern" value="re.compile('([A-Za-z][-A-Za-z0-9+-.]*:\\S+#[_A-Za-zÀ-ÖØ-öø-ÿĀ-˿Ͱ-ͽͿ-\u1fff\u200c-\u200d⁰-\u218fⰀ-\u2fef、-\ud7ff豈-\ufdcfﷰ-�][_\\-..."/>
+  </property>
+  <property name="references" value="Sustainability Accounting Standards Board (SASB) Sustainability Accounting Standard 2018-10-01 TC-IM-220a.5">
+   <property name="Disclosure Ref" value=" ">
+    <property name="Publisher" value="Sustainability Accounting Standards Board (SASB)"/>
+    <property name="Name" value="Sustainability Accounting Standard"/>
+    <property name="IssueDate" value="2018-10-01"/>
+    <property name="Section" value="TC-IM-220a.5"/>
+   </property>
+  </property>
+ </ref></entry>
+<entry code="enum2te:MissingDomainError" level="error">
+ <message concept="sasb:ProductsListedOnTheWorldHealthOrganizationListOfPrequalifiedMedicinalProducts">[enum2te:MissingDomainError] Item sasb:ProductsListedOnTheWorldHealthOrganizationListOfPrequalifiedMedicinalProducts enumeration type must specify a domain. - http://www.sasb.org/xbrl/taxonomy/cor/sasb.xsd 6098</message>
+ <ref href="http://www.sasb.org/xbrl/taxonomy/cor/sasb.xsd#sasb_ProductsListedOnTheWorldHealthOrganizationListOfPrequalifiedMedicinalProducts" sourceLine="6098">
+  <property name="label" value="Products Listed On The World Health Organization List Of Prequalified Medicinal Products">
+   <property name="commentaryGuidance (en-US)" value="Values reported using this element should be elements available in the taxonomies used, including the extension taxonomy. An exa..."/>
+   <property name="documentation (en-US)" value="List of products on the World Health Organization (WHO) List of Prequalified Medicinal Products as part of its Prequalification ..."/>
+   <property name="label (en-US)" value="Products Listed On The World Health Organization List Of Prequalified Medicinal Products"/>
+  </property>
+  <property name="namespace" value="http://www.sasb.org/xbrl/taxonomy/cor"/>
+  <property name="name" value="ProductsListedOnTheWorldHealthOrganizationListOfPrequalifiedMedicinalProducts"/>
+  <property name="QName" value="sasb:ProductsListedOnTheWorldHealthOrganizationListOfPrequalifiedMedicinalProducts"/>
+  <property name="id" value="sasb_ProductsListedOnTheWorldHealthOrganizationListOfPrequalifiedMedicinalProducts"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="enum2:enumerationSetItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="facets" value="pattern">
+   <property name="pattern" value="re.compile('([A-Za-z][-A-Za-z0-9+-.]*:\\S+#[_A-Za-zÀ-ÖØ-öø-ÿĀ-˿Ͱ-ͽͿ-\u1fff\u200c-\u200d⁰-\u218fⰀ-\u2fef、-\ud7ff豈-\ufdcfﷰ-�][_\\-..."/>
+  </property>
+  <property name="references" value="Sustainability Accounting Standards Board (SASB) Sustainability Accounting Standard 2018-10-01 HC-BP-240a.2">
+   <property name="Disclosure Ref" value=" ">
+    <property name="Publisher" value="Sustainability Accounting Standards Board (SASB)"/>
+    <property name="Name" value="Sustainability Accounting Standard"/>
+    <property name="IssueDate" value="2018-10-01"/>
+    <property name="Section" value="HC-BP-240a.2"/>
+   </property>
+  </property>
+ </ref></entry>
+<entry code="enum2te:MissingLinkRoleError" level="error">
+ <message concept="sasb:ProductsListedOnTheWorldHealthOrganizationListOfPrequalifiedMedicinalProducts">[enum2te:MissingLinkRoleError] Item sasb:ProductsListedOnTheWorldHealthOrganizationListOfPrequalifiedMedicinalProducts enumeration type must specify a linkrole. - http://www.sasb.org/xbrl/taxonomy/cor/sasb.xsd 6098</message>
+ <ref href="http://www.sasb.org/xbrl/taxonomy/cor/sasb.xsd#sasb_ProductsListedOnTheWorldHealthOrganizationListOfPrequalifiedMedicinalProducts" sourceLine="6098">
+  <property name="label" value="Products Listed On The World Health Organization List Of Prequalified Medicinal Products">
+   <property name="commentaryGuidance (en-US)" value="Values reported using this element should be elements available in the taxonomies used, including the extension taxonomy. An exa..."/>
+   <property name="documentation (en-US)" value="List of products on the World Health Organization (WHO) List of Prequalified Medicinal Products as part of its Prequalification ..."/>
+   <property name="label (en-US)" value="Products Listed On The World Health Organization List Of Prequalified Medicinal Products"/>
+  </property>
+  <property name="namespace" value="http://www.sasb.org/xbrl/taxonomy/cor"/>
+  <property name="name" value="ProductsListedOnTheWorldHealthOrganizationListOfPrequalifiedMedicinalProducts"/>
+  <property name="QName" value="sasb:ProductsListedOnTheWorldHealthOrganizationListOfPrequalifiedMedicinalProducts"/>
+  <property name="id" value="sasb_ProductsListedOnTheWorldHealthOrganizationListOfPrequalifiedMedicinalProducts"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="enum2:enumerationSetItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="facets" value="pattern">
+   <property name="pattern" value="re.compile('([A-Za-z][-A-Za-z0-9+-.]*:\\S+#[_A-Za-zÀ-ÖØ-öø-ÿĀ-˿Ͱ-ͽͿ-\u1fff\u200c-\u200d⁰-\u218fⰀ-\u2fef、-\ud7ff豈-\ufdcfﷰ-�][_\\-..."/>
+  </property>
+  <property name="references" value="Sustainability Accounting Standards Board (SASB) Sustainability Accounting Standard 2018-10-01 HC-BP-240a.2">
+   <property name="Disclosure Ref" value=" ">
+    <property name="Publisher" value="Sustainability Accounting Standards Board (SASB)"/>
+    <property name="Name" value="Sustainability Accounting Standard"/>
+    <property name="IssueDate" value="2018-10-01"/>
+    <property name="Section" value="HC-BP-240a.2"/>
+   </property>
+  </property>
+ </ref></entry>
+<entry code="enum2te:MissingDomainError" level="error">
+ <message concept="sasb-dei:DomicileOfEntity">[enum2te:MissingDomainError] Item sasb-dei:DomicileOfEntity enumeration type must specify a domain. - http://www.sasb.org/xbrl/taxonomy/cor/sasb-dei.xsd 33</message>
+ <ref href="http://www.sasb.org/xbrl/taxonomy/cor/sasb-dei.xsd#sasb-dei-cor_DomicileOfEntity" sourceLine="33">
+  <property name="label" value="Domicile of entity">
+   <property name="commentaryGuidance (en-US)" value="Values reported using this element should be elements available in the taxonomies used, including the extension taxonomy. An exa..."/>
+   <property name="documentation (en-US)" value="The country in which the entity is domiciled."/>
+   <property name="label (en-US)" value="Domicile of entity"/>
+  </property>
+  <property name="namespace" value="http://www.sasb.org/xbrl/taxonomy/dei"/>
+  <property name="name" value="DomicileOfEntity"/>
+  <property name="QName" value="sasb-dei:DomicileOfEntity"/>
+  <property name="id" value="sasb-dei-cor_DomicileOfEntity"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="enum2:enumerationSetItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="facets" value="pattern">
+   <property name="pattern" value="re.compile('([A-Za-z][-A-Za-z0-9+-.]*:\\S+#[_A-Za-zÀ-ÖØ-öø-ÿĀ-˿Ͱ-ͽͿ-\u1fff\u200c-\u200d⁰-\u218fⰀ-\u2fef、-\ud7ff豈-\ufdcfﷰ-�][_\\-..."/>
+  </property>
+ </ref></entry>
+<entry code="enum2te:MissingLinkRoleError" level="error">
+ <message concept="sasb-dei:DomicileOfEntity">[enum2te:MissingLinkRoleError] Item sasb-dei:DomicileOfEntity enumeration type must specify a linkrole. - http://www.sasb.org/xbrl/taxonomy/cor/sasb-dei.xsd 33</message>
+ <ref href="http://www.sasb.org/xbrl/taxonomy/cor/sasb-dei.xsd#sasb-dei-cor_DomicileOfEntity" sourceLine="33">
+  <property name="label" value="Domicile of entity">
+   <property name="commentaryGuidance (en-US)" value="Values reported using this element should be elements available in the taxonomies used, including the extension taxonomy. An exa..."/>
+   <property name="documentation (en-US)" value="The country in which the entity is domiciled."/>
+   <property name="label (en-US)" value="Domicile of entity"/>
+  </property>
+  <property name="namespace" value="http://www.sasb.org/xbrl/taxonomy/dei"/>
+  <property name="name" value="DomicileOfEntity"/>
+  <property name="QName" value="sasb-dei:DomicileOfEntity"/>
+  <property name="id" value="sasb-dei-cor_DomicileOfEntity"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="enum2:enumerationSetItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="facets" value="pattern">
+   <property name="pattern" value="re.compile('([A-Za-z][-A-Za-z0-9+-.]*:\\S+#[_A-Za-zÀ-ÖØ-öø-ÿĀ-˿Ͱ-ͽͿ-\u1fff\u200c-\u200d⁰-\u218fⰀ-\u2fef、-\ud7ff豈-\ufdcfﷰ-�][_\\-..."/>
+  </property>
+ </ref></entry>
+<entry code="enum2te:MissingDomainError" level="error">
+ <message concept="sasb:ProductBanAnimalProteinProductsAffected">[enum2te:MissingDomainError] Item sasb:ProductBanAnimalProteinProductsAffected enumeration type must specify a domain. - http://www.sasb.org/xbrl/taxonomy/cor/sasb.xsd 5976</message>
+ <ref href="http://www.sasb.org/xbrl/taxonomy/cor/sasb.xsd#sasb_ProductBanAnimalProteinProductsAffected" sourceLine="5976">
+  <property name="label" value="Product Ban, Animal Protein Products Affected">
+   <property name="commentaryGuidance (en-US)" value="Values reported using this element should be elements available in the taxonomies used, including the extension taxonomy. An exa..."/>
+   <property name="documentation (en-US)" value="Animal protein products affected by a particular country or region's ban."/>
+   <property name="label (en-US)" value="Product Ban, Animal Protein Products Affected"/>
+  </property>
+  <property name="namespace" value="http://www.sasb.org/xbrl/taxonomy/cor"/>
+  <property name="name" value="ProductBanAnimalProteinProductsAffected"/>
+  <property name="QName" value="sasb:ProductBanAnimalProteinProductsAffected"/>
+  <property name="id" value="sasb_ProductBanAnimalProteinProductsAffected"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="enum2:enumerationSetItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="facets" value="pattern">
+   <property name="pattern" value="re.compile('([A-Za-z][-A-Za-z0-9+-.]*:\\S+#[_A-Za-zÀ-ÖØ-öø-ÿĀ-˿Ͱ-ͽͿ-\u1fff\u200c-\u200d⁰-\u218fⰀ-\u2fef、-\ud7ff豈-\ufdcfﷰ-�][_\\-..."/>
+  </property>
+  <property name="references" value="Sustainability Accounting Standards Board (SASB) Sustainability Accounting Standard 2018-10-01 FB-MP-250a.4">
+   <property name="Disclosure Ref" value=" ">
+    <property name="Publisher" value="Sustainability Accounting Standards Board (SASB)"/>
+    <property name="Name" value="Sustainability Accounting Standard"/>
+    <property name="IssueDate" value="2018-10-01"/>
+    <property name="Section" value="FB-MP-250a.4"/>
+   </property>
+  </property>
+ </ref></entry>
+<entry code="enum2te:MissingLinkRoleError" level="error">
+ <message concept="sasb:ProductBanAnimalProteinProductsAffected">[enum2te:MissingLinkRoleError] Item sasb:ProductBanAnimalProteinProductsAffected enumeration type must specify a linkrole. - http://www.sasb.org/xbrl/taxonomy/cor/sasb.xsd 5976</message>
+ <ref href="http://www.sasb.org/xbrl/taxonomy/cor/sasb.xsd#sasb_ProductBanAnimalProteinProductsAffected" sourceLine="5976">
+  <property name="label" value="Product Ban, Animal Protein Products Affected">
+   <property name="commentaryGuidance (en-US)" value="Values reported using this element should be elements available in the taxonomies used, including the extension taxonomy. An exa..."/>
+   <property name="documentation (en-US)" value="Animal protein products affected by a particular country or region's ban."/>
+   <property name="label (en-US)" value="Product Ban, Animal Protein Products Affected"/>
+  </property>
+  <property name="namespace" value="http://www.sasb.org/xbrl/taxonomy/cor"/>
+  <property name="name" value="ProductBanAnimalProteinProductsAffected"/>
+  <property name="QName" value="sasb:ProductBanAnimalProteinProductsAffected"/>
+  <property name="id" value="sasb_ProductBanAnimalProteinProductsAffected"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="enum2:enumerationSetItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="facets" value="pattern">
+   <property name="pattern" value="re.compile('([A-Za-z][-A-Za-z0-9+-.]*:\\S+#[_A-Za-zÀ-ÖØ-öø-ÿĀ-˿Ͱ-ͽͿ-\u1fff\u200c-\u200d⁰-\u218fⰀ-\u2fef、-\ud7ff豈-\ufdcfﷰ-�][_\\-..."/>
+  </property>
+  <property name="references" value="Sustainability Accounting Standards Board (SASB) Sustainability Accounting Standard 2018-10-01 FB-MP-250a.4">
+   <property name="Disclosure Ref" value=" ">
+    <property name="Publisher" value="Sustainability Accounting Standards Board (SASB)"/>
+    <property name="Name" value="Sustainability Accounting Standard"/>
+    <property name="IssueDate" value="2018-10-01"/>
+    <property name="Section" value="FB-MP-250a.4"/>
+   </property>
+  </property>
+ </ref></entry>
+<entry code="enum2te:MissingDomainError" level="error">
+ <message concept="sasb-dei:CountryOfIncorporation">[enum2te:MissingDomainError] Item sasb-dei:CountryOfIncorporation enumeration type must specify a domain. - http://www.sasb.org/xbrl/taxonomy/cor/sasb-dei.xsd 34</message>
+ <ref href="http://www.sasb.org/xbrl/taxonomy/cor/sasb-dei.xsd#sasb-dei-cor_CountryOfIncorporation" sourceLine="34">
+  <property name="label" value="Country of incorporation">
+   <property name="commentaryGuidance (en-US)" value="Values reported using this element should be elements available in the taxonomies used, including the extension taxonomy. An exa..."/>
+   <property name="documentation (en-US)" value="The country in which the entity is incorporated."/>
+   <property name="label (en-US)" value="Country of incorporation"/>
+  </property>
+  <property name="namespace" value="http://www.sasb.org/xbrl/taxonomy/dei"/>
+  <property name="name" value="CountryOfIncorporation"/>
+  <property name="QName" value="sasb-dei:CountryOfIncorporation"/>
+  <property name="id" value="sasb-dei-cor_CountryOfIncorporation"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="enum2:enumerationSetItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="facets" value="pattern">
+   <property name="pattern" value="re.compile('([A-Za-z][-A-Za-z0-9+-.]*:\\S+#[_A-Za-zÀ-ÖØ-öø-ÿĀ-˿Ͱ-ͽͿ-\u1fff\u200c-\u200d⁰-\u218fⰀ-\u2fef、-\ud7ff豈-\ufdcfﷰ-�][_\\-..."/>
+  </property>
+ </ref></entry>
+<entry code="enum2te:MissingLinkRoleError" level="error">
+ <message concept="sasb-dei:CountryOfIncorporation">[enum2te:MissingLinkRoleError] Item sasb-dei:CountryOfIncorporation enumeration type must specify a linkrole. - http://www.sasb.org/xbrl/taxonomy/cor/sasb-dei.xsd 34</message>
+ <ref href="http://www.sasb.org/xbrl/taxonomy/cor/sasb-dei.xsd#sasb-dei-cor_CountryOfIncorporation" sourceLine="34">
+  <property name="label" value="Country of incorporation">
+   <property name="commentaryGuidance (en-US)" value="Values reported using this element should be elements available in the taxonomies used, including the extension taxonomy. An exa..."/>
+   <property name="documentation (en-US)" value="The country in which the entity is incorporated."/>
+   <property name="label (en-US)" value="Country of incorporation"/>
+  </property>
+  <property name="namespace" value="http://www.sasb.org/xbrl/taxonomy/dei"/>
+  <property name="name" value="CountryOfIncorporation"/>
+  <property name="QName" value="sasb-dei:CountryOfIncorporation"/>
+  <property name="id" value="sasb-dei-cor_CountryOfIncorporation"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="enum2:enumerationSetItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="facets" value="pattern">
+   <property name="pattern" value="re.compile('([A-Za-z][-A-Za-z0-9+-.]*:\\S+#[_A-Za-zÀ-ÖØ-öø-ÿĀ-˿Ͱ-ͽͿ-\u1fff\u200c-\u200d⁰-\u218fⰀ-\u2fef、-\ud7ff豈-\ufdcfﷰ-�][_\\-..."/>
+  </property>
+ </ref></entry>
+<entry code="enum2te:MissingDomainError" level="error">
+ <message concept="sasb:ProductBanMarketsThatBanImportsOfEntitysProducts">[enum2te:MissingDomainError] Item sasb:ProductBanMarketsThatBanImportsOfEntitysProducts enumeration type must specify a domain. - http://www.sasb.org/xbrl/taxonomy/cor/sasb.xsd 5985</message>
+ <ref href="http://www.sasb.org/xbrl/taxonomy/cor/sasb.xsd#sasb_ProductBanMarketsThatBanImportsOfEntitysProducts" sourceLine="5985">
+  <property name="label" value="Product Ban, Markets That Ban Imports Of Entity's Products">
+   <property name="commentaryGuidance (en-US)" value="Values reported using this element should be elements available in the taxonomies used, including the extension taxonomy. An exa..."/>
+   <property name="documentation (en-US)" value="list of countries and regions that restrict, ban, or have suspended imports of the entity's products due to sanitary and phytosa..."/>
+   <property name="label (en-US)" value="Product Ban, Markets That Ban Imports Of Entity's Products"/>
+  </property>
+  <property name="namespace" value="http://www.sasb.org/xbrl/taxonomy/cor"/>
+  <property name="name" value="ProductBanMarketsThatBanImportsOfEntitysProducts"/>
+  <property name="QName" value="sasb:ProductBanMarketsThatBanImportsOfEntitysProducts"/>
+  <property name="id" value="sasb_ProductBanMarketsThatBanImportsOfEntitysProducts"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="enum2:enumerationSetItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="facets" value="pattern">
+   <property name="pattern" value="re.compile('([A-Za-z][-A-Za-z0-9+-.]*:\\S+#[_A-Za-zÀ-ÖØ-öø-ÿĀ-˿Ͱ-ͽͿ-\u1fff\u200c-\u200d⁰-\u218fⰀ-\u2fef、-\ud7ff豈-\ufdcfﷰ-�][_\\-..."/>
+  </property>
+  <property name="references" value="Sustainability Accounting Standards Board (SASB) Sustainability Accounting Standard 2018-10-01 FB-MP-250a.4">
+   <property name="Disclosure Ref" value=" ">
+    <property name="Publisher" value="Sustainability Accounting Standards Board (SASB)"/>
+    <property name="Name" value="Sustainability Accounting Standard"/>
+    <property name="IssueDate" value="2018-10-01"/>
+    <property name="Section" value="FB-MP-250a.4"/>
+   </property>
+  </property>
+ </ref></entry>
+<entry code="enum2te:MissingLinkRoleError" level="error">
+ <message concept="sasb:ProductBanMarketsThatBanImportsOfEntitysProducts">[enum2te:MissingLinkRoleError] Item sasb:ProductBanMarketsThatBanImportsOfEntitysProducts enumeration type must specify a linkrole. - http://www.sasb.org/xbrl/taxonomy/cor/sasb.xsd 5985</message>
+ <ref href="http://www.sasb.org/xbrl/taxonomy/cor/sasb.xsd#sasb_ProductBanMarketsThatBanImportsOfEntitysProducts" sourceLine="5985">
+  <property name="label" value="Product Ban, Markets That Ban Imports Of Entity's Products">
+   <property name="commentaryGuidance (en-US)" value="Values reported using this element should be elements available in the taxonomies used, including the extension taxonomy. An exa..."/>
+   <property name="documentation (en-US)" value="list of countries and regions that restrict, ban, or have suspended imports of the entity's products due to sanitary and phytosa..."/>
+   <property name="label (en-US)" value="Product Ban, Markets That Ban Imports Of Entity's Products"/>
+  </property>
+  <property name="namespace" value="http://www.sasb.org/xbrl/taxonomy/cor"/>
+  <property name="name" value="ProductBanMarketsThatBanImportsOfEntitysProducts"/>
+  <property name="QName" value="sasb:ProductBanMarketsThatBanImportsOfEntitysProducts"/>
+  <property name="id" value="sasb_ProductBanMarketsThatBanImportsOfEntitysProducts"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="enum2:enumerationSetItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="facets" value="pattern">
+   <property name="pattern" value="re.compile('([A-Za-z][-A-Za-z0-9+-.]*:\\S+#[_A-Za-zÀ-ÖØ-öø-ÿĀ-˿Ͱ-ͽͿ-\u1fff\u200c-\u200d⁰-\u218fⰀ-\u2fef、-\ud7ff豈-\ufdcfﷰ-�][_\\-..."/>
+  </property>
+  <property name="references" value="Sustainability Accounting Standards Board (SASB) Sustainability Accounting Standard 2018-10-01 FB-MP-250a.4">
+   <property name="Disclosure Ref" value=" ">
+    <property name="Publisher" value="Sustainability Accounting Standards Board (SASB)"/>
+    <property name="Name" value="Sustainability Accounting Standard"/>
+    <property name="IssueDate" value="2018-10-01"/>
+    <property name="Section" value="FB-MP-250a.4"/>
+   </property>
+  </property>
+ </ref></entry>
+<entry code="enum2te:MissingDomainError" level="error">
+ <message concept="sasb:ProductsListedInTheFdasMedwatchSafetyAlertsForHumanMedicalProductsDatabase">[enum2te:MissingDomainError] Item sasb:ProductsListedInTheFdasMedwatchSafetyAlertsForHumanMedicalProductsDatabase enumeration type must specify a domain. - http://www.sasb.org/xbrl/taxonomy/cor/sasb.xsd 6095</message>
+ <ref href="http://www.sasb.org/xbrl/taxonomy/cor/sasb.xsd#sasb_ProductsListedInTheFdasMedwatchSafetyAlertsForHumanMedicalProductsDatabase" sourceLine="6095">
+  <property name="label" value="Products Listed In The Fda's Medwatch Safety Alerts For Human Medical Products Database">
+   <property name="commentaryGuidance (en-US)" value="Values reported using this element should be elements available in the taxonomies used, including the extension taxonomy. An exa..."/>
+   <property name="documentation (en-US)" value="List of products listed in the U.S. Food and Drug Administration's (FDA) MedWatch Safety Alerts for Human Medical Products datab..."/>
+   <property name="label (en-US)" value="Products Listed In The Fda's Medwatch Safety Alerts For Human Medical Products Database"/>
+  </property>
+  <property name="namespace" value="http://www.sasb.org/xbrl/taxonomy/cor"/>
+  <property name="name" value="ProductsListedInTheFdasMedwatchSafetyAlertsForHumanMedicalProductsDatabase"/>
+  <property name="QName" value="sasb:ProductsListedInTheFdasMedwatchSafetyAlertsForHumanMedicalProductsDatabase"/>
+  <property name="id" value="sasb_ProductsListedInTheFdasMedwatchSafetyAlertsForHumanMedicalProductsDatabase"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="enum2:enumerationSetItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="facets" value="pattern">
+   <property name="pattern" value="re.compile('([A-Za-z][-A-Za-z0-9+-.]*:\\S+#[_A-Za-zÀ-ÖØ-öø-ÿĀ-˿Ͱ-ͽͿ-\u1fff\u200c-\u200d⁰-\u218fⰀ-\u2fef、-\ud7ff豈-\ufdcfﷰ-�][_\\-..."/>
+  </property>
+  <property name="references" value="Sustainability Accounting Standards Board (SASB) Sustainability Accounting Standard 2018-10-01 HC-BP-250a.1">
+   <property name="Disclosure Ref" value=" ">
+    <property name="Publisher" value="Sustainability Accounting Standards Board (SASB)"/>
+    <property name="Name" value="Sustainability Accounting Standard"/>
+    <property name="IssueDate" value="2018-10-01"/>
+    <property name="Section" value="HC-BP-250a.1"/>
+   </property>
+  </property>
+ </ref></entry>
+<entry code="enum2te:MissingLinkRoleError" level="error">
+ <message concept="sasb:ProductsListedInTheFdasMedwatchSafetyAlertsForHumanMedicalProductsDatabase">[enum2te:MissingLinkRoleError] Item sasb:ProductsListedInTheFdasMedwatchSafetyAlertsForHumanMedicalProductsDatabase enumeration type must specify a linkrole. - http://www.sasb.org/xbrl/taxonomy/cor/sasb.xsd 6095</message>
+ <ref href="http://www.sasb.org/xbrl/taxonomy/cor/sasb.xsd#sasb_ProductsListedInTheFdasMedwatchSafetyAlertsForHumanMedicalProductsDatabase" sourceLine="6095">
+  <property name="label" value="Products Listed In The Fda's Medwatch Safety Alerts For Human Medical Products Database">
+   <property name="commentaryGuidance (en-US)" value="Values reported using this element should be elements available in the taxonomies used, including the extension taxonomy. An exa..."/>
+   <property name="documentation (en-US)" value="List of products listed in the U.S. Food and Drug Administration's (FDA) MedWatch Safety Alerts for Human Medical Products datab..."/>
+   <property name="label (en-US)" value="Products Listed In The Fda's Medwatch Safety Alerts For Human Medical Products Database"/>
+  </property>
+  <property name="namespace" value="http://www.sasb.org/xbrl/taxonomy/cor"/>
+  <property name="name" value="ProductsListedInTheFdasMedwatchSafetyAlertsForHumanMedicalProductsDatabase"/>
+  <property name="QName" value="sasb:ProductsListedInTheFdasMedwatchSafetyAlertsForHumanMedicalProductsDatabase"/>
+  <property name="id" value="sasb_ProductsListedInTheFdasMedwatchSafetyAlertsForHumanMedicalProductsDatabase"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="enum2:enumerationSetItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="facets" value="pattern">
+   <property name="pattern" value="re.compile('([A-Za-z][-A-Za-z0-9+-.]*:\\S+#[_A-Za-zÀ-ÖØ-öø-ÿĀ-˿Ͱ-ͽͿ-\u1fff\u200c-\u200d⁰-\u218fⰀ-\u2fef、-\ud7ff豈-\ufdcfﷰ-�][_\\-..."/>
+  </property>
+  <property name="references" value="Sustainability Accounting Standards Board (SASB) Sustainability Accounting Standard 2018-10-01 HC-BP-250a.1">
+   <property name="Disclosure Ref" value=" ">
+    <property name="Publisher" value="Sustainability Accounting Standards Board (SASB)"/>
+    <property name="Name" value="Sustainability Accounting Standard"/>
+    <property name="IssueDate" value="2018-10-01"/>
+    <property name="Section" value="HC-BP-250a.1"/>
+   </property>
+  </property>
+ </ref></entry>
+<entry code="enum2te:MissingDomainError" level="error">
+ <message concept="sasb:PriorityFoodIngredientsListing">[enum2te:MissingDomainError] Item sasb:PriorityFoodIngredientsListing enumeration type must specify a domain. - http://www.sasb.org/xbrl/taxonomy/cor/sasb.xsd 5930</message>
+ <ref href="http://www.sasb.org/xbrl/taxonomy/cor/sasb.xsd#sasb_PriorityFoodIngredientsListing" sourceLine="5930">
+  <property name="label" value="Priority Food Ingredients, Listing">
+   <property name="commentaryGuidance (en-US)" value="Values reported using this element should be elements available in the taxonomies used, including the extension taxonomy. An exa..."/>
+   <property name="documentation (en-US)" value="List of priority food ingredients"/>
+   <property name="label (en-US)" value="Priority Food Ingredients, Listing"/>
+  </property>
+  <property name="namespace" value="http://www.sasb.org/xbrl/taxonomy/cor"/>
+  <property name="name" value="PriorityFoodIngredientsListing"/>
+  <property name="QName" value="sasb:PriorityFoodIngredientsListing"/>
+  <property name="id" value="sasb_PriorityFoodIngredientsListing"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="enum2:enumerationSetItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="facets" value="pattern">
+   <property name="pattern" value="re.compile('([A-Za-z][-A-Za-z0-9+-.]*:\\S+#[_A-Za-zÀ-ÖØ-öø-ÿĀ-˿Ͱ-ͽͿ-\u1fff\u200c-\u200d⁰-\u218fⰀ-\u2fef、-\ud7ff豈-\ufdcfﷰ-�][_\\-..."/>
+  </property>
+  <property name="references" value="Sustainability Accounting Standards Board (SASB) Sustainability Accounting Standard 2018-10-01 FB-PF-440a.2">
+   <property name="Disclosure Ref" value=" ">
+    <property name="Publisher" value="Sustainability Accounting Standards Board (SASB)"/>
+    <property name="Name" value="Sustainability Accounting Standard"/>
+    <property name="IssueDate" value="2018-10-01"/>
+    <property name="Section" value="FB-PF-440a.2"/>
+   </property>
+  </property>
+ </ref></entry>
+<entry code="enum2te:MissingLinkRoleError" level="error">
+ <message concept="sasb:PriorityFoodIngredientsListing">[enum2te:MissingLinkRoleError] Item sasb:PriorityFoodIngredientsListing enumeration type must specify a linkrole. - http://www.sasb.org/xbrl/taxonomy/cor/sasb.xsd 5930</message>
+ <ref href="http://www.sasb.org/xbrl/taxonomy/cor/sasb.xsd#sasb_PriorityFoodIngredientsListing" sourceLine="5930">
+  <property name="label" value="Priority Food Ingredients, Listing">
+   <property name="commentaryGuidance (en-US)" value="Values reported using this element should be elements available in the taxonomies used, including the extension taxonomy. An exa..."/>
+   <property name="documentation (en-US)" value="List of priority food ingredients"/>
+   <property name="label (en-US)" value="Priority Food Ingredients, Listing"/>
+  </property>
+  <property name="namespace" value="http://www.sasb.org/xbrl/taxonomy/cor"/>
+  <property name="name" value="PriorityFoodIngredientsListing"/>
+  <property name="QName" value="sasb:PriorityFoodIngredientsListing"/>
+  <property name="id" value="sasb_PriorityFoodIngredientsListing"/>
+  <property name="abstract" value="false"/>
+  <property name="type" value="enum2:enumerationSetItemType"/>
+  <property name="subst grp" value="xbrli:item"/>
+  <property name="period type" value="duration"/>
+  <property name="facets" value="pattern">
+   <property name="pattern" value="re.compile('([A-Za-z][-A-Za-z0-9+-.]*:\\S+#[_A-Za-zÀ-ÖØ-öø-ÿĀ-˿Ͱ-ͽͿ-\u1fff\u200c-\u200d⁰-\u218fⰀ-\u2fef、-\ud7ff豈-\ufdcfﷰ-�][_\\-..."/>
+  </property>
+  <property name="references" value="Sustainability Accounting Standards Board (SASB) Sustainability Accounting Standard 2018-10-01 FB-PF-440a.2">
+   <property name="Disclosure Ref" value=" ">
+    <property name="Publisher" value="Sustainability Accounting Standards Board (SASB)"/>
+    <property name="Name" value="Sustainability Accounting Standard"/>
+    <property name="IssueDate" value="2018-10-01"/>
+    <property name="Section" value="FB-PF-440a.2"/>
+   </property>
+  </property>
+ </ref></entry>
+<entry code="" level="info">
+ <message>[] Formula xpath2 grammar initialized in 1.22 secs - </message>
+ <ref href=""/></entry>
+<entry code="exception:XuleProcessingError" level="error">
+ <message error="Rule: None - Table 880 has not been created. Processing id: (880,). Adding node: functionReference (id:889)" instance="ixbrl-viewer_extracted.xbrl">[exception:XuleProcessingError] Instance validation exception: Rule: None - Table 880 has not been created. Processing id: (880,). Adding node: functionReference (id:889), instance: ixbrl-viewer_extracted.xbrl - ixbrl-viewer_extracted.xbrl 
+Traceback (most recent call last):
+  File &quot;/Users/campbellpryde/Arelle/Arelle-master/arelle/Validate.py&quot;, line 113, in validate
+    self.instValidator.validate(self.modelXbrl, self.modelXbrl.modelManager.formulaOptions.typedParameters(self.modelXbrl.prefixedNamespaces))
+  File &quot;/Users/campbellpryde/Arelle/Arelle-master/arelle/ValidateXbrl.py&quot;, line 521, in validate
+    pluginXbrlMethod(self)
+  File &quot;/Users/campbellpryde/Arelle/Arelle-master/arelle/plugin/xule/__init__.py&quot;, line 940, in xuleValidate
+    runXule(_cntlr, options, val.modelXbrl, xule_validator['map_name'])
+  File &quot;/Users/campbellpryde/Arelle/Arelle-master/arelle/plugin/xule/__init__.py&quot;, line 883, in runXule
+    _saved_taxonomies
+  File &quot;/Users/campbellpryde/Arelle/Arelle-master/arelle/plugin/xule/XuleProcessor.py&quot;, line 116, in process_xule
+    evaluate_rule_set(global_context)
+  File &quot;/Users/campbellpryde/Arelle/Arelle-master/arelle/plugin/xule/XuleProcessor.py&quot;, line 198, in evaluate_rule_set
+    evaluate(rule, xule_context)
+  File &quot;/Users/campbellpryde/Arelle/Arelle-master/arelle/plugin/xule/XuleProcessor.py&quot;, line 670, in evaluate
+    value = EVALUATOR[rule_part_name](rule_part, xule_context)
+  File &quot;/Users/campbellpryde/Arelle/Arelle-master/arelle/plugin/xule/XuleProcessor.py&quot;, line 839, in evaluate_assertion
+    xule_value = evaluate(assert_rule['body'], xule_context)
+  File &quot;/Users/campbellpryde/Arelle/Arelle-master/arelle/plugin/xule/XuleProcessor.py&quot;, line 670, in evaluate
+    value = EVALUATOR[rule_part_name](rule_part, xule_context)
+  File &quot;/Users/campbellpryde/Arelle/Arelle-master/arelle/plugin/xule/XuleProcessor.py&quot;, line 1286, in evaluate_block
+    calc_var(var_info, None, xule_context)
+  File &quot;/Users/campbellpryde/Arelle/Arelle-master/arelle/plugin/xule/XuleProcessor.py&quot;, line 1336, in calc_var
+    var_info['value'] = evaluate(var_info['expr'], xule_context)
+  File &quot;/Users/campbellpryde/Arelle/Arelle-master/arelle/plugin/xule/XuleProcessor.py&quot;, line 670, in evaluate
+    value = EVALUATOR[rule_part_name](rule_part, xule_context)
+  File &quot;/Users/campbellpryde/Arelle/Arelle-master/arelle/plugin/xule/XuleProcessor.py&quot;, line 2904, in evaluate_filter
+    collection_value = evaluate(filter_expr['expr'], xule_context)
+  File &quot;/Users/campbellpryde/Arelle/Arelle-master/arelle/plugin/xule/XuleProcessor.py&quot;, line 670, in evaluate
+    value = EVALUATOR[rule_part_name](rule_part, xule_context)
+  File &quot;/Users/campbellpryde/Arelle/Arelle-master/arelle/plugin/xule/XuleProcessor.py&quot;, line 1305, in evaluate_var_ref
+    var_value = calc_var(var_info, var_ref, xule_context)
+  File &quot;/Users/campbellpryde/Arelle/Arelle-master/arelle/plugin/xule/XuleProcessor.py&quot;, line 1354, in calc_var
+    var_value = evaluate(var_info['expr'], xule_context, override_table_id=const_ref['table_id'])
+  File &quot;/Users/campbellpryde/Arelle/Arelle-master/arelle/plugin/xule/XuleProcessor.py&quot;, line 670, in evaluate
+    value = EVALUATOR[rule_part_name](rule_part, xule_context)
+  File &quot;/Users/campbellpryde/Arelle/Arelle-master/arelle/plugin/xule/XuleProcessor.py&quot;, line 1444, in evaluate_constant_assign
+    calc_constant(const_info, const_context)
+  File &quot;/Users/campbellpryde/Arelle/Arelle-master/arelle/plugin/xule/XuleProcessor.py&quot;, line 1388, in calc_constant
+    const_value = evaluate(const_info['expr']['body'], const_context)
+  File &quot;/Users/campbellpryde/Arelle/Arelle-master/arelle/plugin/xule/XuleProcessor.py&quot;, line 670, in evaluate
+    value = EVALUATOR[rule_part_name](rule_part, xule_context)
+  File &quot;/Users/campbellpryde/Arelle/Arelle-master/arelle/plugin/xule/XuleProcessor.py&quot;, line 2934, in evaluate_filter
+    filter_where_result = evaluate(filter_expr['whereExpr'], xule_context)
+  File &quot;/Users/campbellpryde/Arelle/Arelle-master/arelle/plugin/xule/XuleProcessor.py&quot;, line 670, in evaluate
+    value = EVALUATOR[rule_part_name](rule_part, xule_context)
+  File &quot;/Users/campbellpryde/Arelle/Arelle-master/arelle/plugin/xule/XuleProcessor.py&quot;, line 1895, in evaluate_comp
+    right = evaluate(right_expr, xule_context)
+  File &quot;/Users/campbellpryde/Arelle/Arelle-master/arelle/plugin/xule/XuleProcessor.py&quot;, line 633, in evaluate
+    processing_id, values, xule_context)
+  File &quot;/Users/campbellpryde/Arelle/Arelle-master/arelle/plugin/xule/XuleContext.py&quot;, line 967, in add_column
+    raise XuleProcessingError(_(&quot;Table %i has not been created. Processing id: %s. Adding node: %s (id:%s)&quot; % (table_id, table_processing_id, ast_node['exprName'], ast_node['node_id'])), self.xule_context)
+xule.XuleRunTime.XuleProcessingError: Rule: None - Table 880 has not been created. Processing id: (880,). Adding node: functionReference (id:889)</message>
+ <ref href="ixbrl-viewer_extracted.xbrl"/></entry>
+<entry code="info" level="info">
+ <message>[info] validated in 5.22 secs - /Users/campbellpryde/Documents/GitHub/TaxonomyDashboard/SASB/blank-instance/ixbrl-viewer_extracted.xbrl </message>
+ <ref href="/Users/campbellpryde/Documents/GitHub/TaxonomyDashboard/SASB/blank-instance/ixbrl-viewer_extracted.xbrl"/></entry>
+</log>
